@@ -18,7 +18,7 @@ def repurl(fi):
 
 if __name__ == '__main__':
     path = 'content/downloads/notebooks'
-    fi = '2014-08-06-kmt.ipynb'
+    fi = '2014-08-06-samename.ipynb'
     fi1 = join(path, fi)
     repurl(fi1)
 

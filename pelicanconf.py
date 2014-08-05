@@ -6,8 +6,8 @@ import os
 
 AUTHOR = u'WeiCheng Liou'
 
-SITENAME = u"Gilbert Liou's Data Lab"
-SITESUBTITLE = u'Data drives thinking, thinking transforms data.'
+SITENAME = u"Gilbert's Data Lab"
+SITESUBTITLE = u'Data drives thinking, thinking transform the data.'
 # Change in publishconf.py and ignore the WARNING.  This is needed so you
 # can inspect the site using a web-server at locahost.
 SITEURL = ''
