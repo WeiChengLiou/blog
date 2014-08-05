@@ -4,17 +4,17 @@ from __future__ import unicode_literals
 
 import os
 
-AUTHOR = u'Filipe Fernandes'
+AUTHOR = u'WeiCheng Liou'
 
-SITENAME = u'python4oceanographers'
-SITESUBTITLE = u'Turning ripples into waves'
+SITENAME = u"Gilbert Liou's Data Lab"
+SITESUBTITLE = u'Data drives thinking, thinking transforms data.'
 # Change in publishconf.py and ignore the WARNING.  This is needed so you
 # can inspect the site using a web-server at locahost.
 SITEURL = ''
 
 # Times and dates.
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
-TIMEZONE = 'America/Sao_Paulo'
+TIMEZONE = 'Asia/Taipei'
 DEFAULT_LANG = u'en'
 
 # Set the article URL.
@@ -22,9 +22,9 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options.
-uri = 'http://ocefpaf.github.io'
-MENUITEMS = [('Blog', '%s/python4oceanographers' % uri),
-             ('Archives', '%s/python4oceanographers/archives.html' % uri),
+uri = 'http://WeiChengLiou.github.io'
+MENUITEMS = [('Blog', '%s/blog' % uri),
+             ('Archives', '%s/blog/archives.html' % uri),
              ('About', '%s/homepage' % uri),
              ]
 NEWEST_FIRST_ARCHIVES = True
@@ -36,28 +36,24 @@ NEWEST_FIRST_ARCHIVES = True
 #GITHUB_SHOW_USER_LINK = True
 
 # Blogroll.
-LINKS =  (('PyAOS', 'http://pyaos.johnny-lin.com/'),
-          ('EarthPy', 'http://earthpy.org/'),
-          ("Rich Signell's Notebook Blog",
-              'http://rsignell-usgs.github.io/blog/'),
-          ('drclimate', 'http://drclimate.wordpress.com/'),
-          ('Software Carpentry',
-           'http://software-carpentry.org/blog/index.html'),)
+LINKS = (('Taiwan R User Group', 'http://www.meetup.com/Taiwan-R/'),
+         ('Taipei.py', 'http://taipei.python.org.tw/'),)
 
 # Social widget.
 #SOCIAL = (('You can add links in your config file', '#'),
-          #('Another social link', '#'),)
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
 # STATIC_OUT_DIR requires pelican 3.3+.
-STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.png']
+STATIC_PATHS = ['images', 'figures', 'downloads', 'favicon.ico']
 CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
 # Theme and plug-ins.
-THEME = 'pelican-octopress-theme'
-PLUGIN_PATH = 'pelican-plugins'
+path = os.path.join(os.environ.get('HOME'), 'repos/pelican')
+THEME = '%s/pelican-octopress-theme' % path
+PLUGIN_PATH = '%s/pelican-plugins' % path
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal']
@@ -78,11 +74,11 @@ else:
     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 # Sharing
-TWITTER_USER = 'ocefpaf'
-GOOGLE_PLUS_USER = '116220614704100857098'
+TWITTER_USER = 'WeichengLiou'
+GOOGLE_PLUS_USER = '+LiouGilbert'
 GOOGLE_PLUS_ONE = True
 GOOGLE_PLUS_HIDDEN = False
-FACEBOOK_LIKE = True
+FACEBOOK_LIKE = False
 TWITTER_TWEET_BUTTON = True
 TWITTER_LATEST_TWEETS = True
 TWITTER_FOLLOW_BUTTON = True
@@ -91,8 +87,8 @@ TWITTER_SHOW_REPLIES = 'false'
 TWITTER_SHOW_FOLLOWER_COUNT = 'true'
 
 # RSS/Atom feeds
-FEED_DOMAIN = 'http://ocefpaf.github.io/python4oceanographers/'
-FEED_ATOM = 'atom.xml'
+FEED_DOMAIN = ''
+FEED_ATOM = ''
 
 # Search
 SEARCH_BOX = True

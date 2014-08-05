@@ -1,4 +1,4 @@
-python4oceanographers
+Gilbert's Data Lab'
 =====================
 
-Learn python with examples applied to oceanography.
+Data drives thinking, thinking transform data.

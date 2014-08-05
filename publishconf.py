@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://ocefpaf.github.io/python4oceanographers'
+SITEURL = 'http://WeiChengLiou.github.io/blog'
 
 DELETE_OUTPUT_DIRECTORY = True
 
@@ -19,5 +19,5 @@ DELETE_OUTPUT_DIRECTORY = True
 # Uncomment following line for absolute URLs in production:
 #RELATIVE_URLS = False
 
-GOOGLE_ANALYTICS = 'UA-9133259-16'
-DISQUS_SITENAME = 'python4oceanographers'
+GOOGLE_ANALYTICS = 'UA-53516894-1'
+DISQUS_SITENAME = 'weichengliou'
