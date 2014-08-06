@@ -3,8 +3,6 @@
 from os.path import join, exists
 from os import remove
 from datetime import datetime
-from pdb import set_trace
-from subprocess import call
 
 
 def gettags():
@@ -48,10 +46,13 @@ def process(li):
     # <p>
 
     if len(li) > 4 and li[:4] == '    ':
+        # remove code section
         return u''
     elif '![png]' in li:
+        # since png files move into [image], change png url
         return li.replace('[png](', '[png]({filename}/images/')
     else:
+        # replace <p> tag, change 'output/' into github real path
         return repfun(li)
 
 
@@ -62,7 +63,6 @@ def modifymd(path, fi, tags):
               u'slug: {0}'.format(tags['slug']),
               u'tags: {0}'.format(tags['tags'])]
     lis = []
-    #lis.append(u'\n'.join(map(lambda x: x.decode('utf8'), tags)))
     lis.append(u'\n'.join(tagstr))
     lis.append(u'\n')
     cnt = 0
@@ -77,8 +77,6 @@ def modifymd(path, fi, tags):
                     continue
             else:
                 cnt = 0
-            #print cnt, ret
-            #set_trace()
             lis.append(ret)
 
     lis.append(u'\n\n' + getCC())
@@ -105,5 +103,5 @@ def writemd(path, fi):
 if __name__ == '__main__':
     path = 'content'
     fi = 'samename.md'
-    writemd(path, fi)
+    #writemd(path, fi)
 
