@@ -3,6 +3,7 @@
 from os.path import join, exists
 from os import remove
 from datetime import datetime
+from pdb import set_trace
 
 
 def gettags():
@@ -14,8 +15,9 @@ def gettags():
     print 'Please input date(yyyy-mm-dd): [{0:%Y-%m-%d}]'.format(d)
     ret = raw_input()
     try:
-        tags['date'] = datetime.strptime('%Y-%m-%d', ret)
+        tags['date'] = datetime.strptime(ret, '%Y-%m-%d')
     except:
+        set_trace()
         tags['date'] = d
     print 'Please input slug:'
     tags['slug'] = raw_input()
@@ -102,6 +104,6 @@ def writemd(path, fi):
 
 if __name__ == '__main__':
     path = 'content'
-    fi = 'samename.md'
-    #writemd(path, fi)
+    fi = 'kmt.md'
+    writemd(path, fi)
 
