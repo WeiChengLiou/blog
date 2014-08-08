@@ -1,5 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2014-08-07T02:30:00+08:00</updated><entry><title>使用 Pelican 建立 blog</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/" rel="alternate"></link><updated>2014-08-07T02:30:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-07:blog/2014/08/07/buildblog/</id><summary type="html">&lt;p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2014-08-09T01:36:00+08:00</updated><entry><title>集團研究--榮化</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/ronhwa/" rel="alternate"></link><updated>2014-08-09T01:36:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-09:blog/2014/08/09/ronhwa/</id><summary type="html">&lt;p&gt;本文將就李長榮化工的董監事社會網路結構進行探討，資料來源為 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 7 月份資料。&lt;/p&gt;
+&lt;p&gt;首先想知道有哪些公司名稱與"李長榮"有關？&lt;/p&gt;
+&lt;div style="max-height:1000px;max-width:1500px;overflow:auto;"&gt;
+&lt;table border="1" class="dataframe"&gt;
+  &lt;thead&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;p&gt;看起來我們的研究重點應該是統一編號 39054405 的「李長榮化學工業股份有限公司」，他同時也是上市櫃公司。
+但我們相信這三間公司之間應該是有關係的，故我們可以試著藉由社會網絡分析來觀察。&lt;/p&gt;
+&lt;h3&gt;集團成員&lt;/h3&gt;
+&lt;p&gt;我們以李長榮化工為基礎，逐層分析李長榮化工的集團成員（以下簡稱榮化集團），可建構出企業網路生態圖如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;src&lt;/td&gt;&lt;td&gt;dst&lt;/td&gt;&lt;td&gt;cnt&lt;/td&gt;&lt;td&gt;seat&lt;/td&gt;&lt;td&gt;seatratio&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;尚茂電子材料股份有限公司&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;8.33&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;福聚太陽能股份有限公司&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;36.36&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;惠利投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;環球橡膠股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;新能生物科技股份有限公司&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;37.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;李長榮科技股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;42.86&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;惠利投資股份有限公司&lt;/td&gt;&lt;td&gt;水之源企業股份有限公司&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;12.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮科技股份有限公司&lt;/td&gt;&lt;td&gt;劦燦股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;16.67&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/ronhwa.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ronhwa_files/ronhwa_9_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;在本文中，若集團核心成員以個人或法人身份持有被投資公司五成以上的董監席次，則我們稱集團對該被投資公司具有絕對控制權。&lt;/p&gt;
+&lt;p&gt;在本圖中，福聚與惠利實業等四間公司為榮化之法人股東，藍色點代表具絕對控制權之企業，橙色點為關係企業，而紫色點為其他共同投資者。&lt;br&gt;
+在連結的圖中，紅色點為榮化之法人股東，藍色點代表具絕對控制權之企業，綠色點為關係企業，而橘色點為其他共同投資者，越粗的線代表席次比重越高。&lt;/p&gt;
+&lt;p&gt;整體而言，與李長榮化工有關的事業有 13 家公司。&lt;br&gt;
+榮化除了董事長李謀偉以個人身份擔任董事長外，其餘董監事成員主要以福聚與惠利實業這兩間僑外資公司為主，而這兩間公司又分別為註冊在英屬維京群島的公司所持有。透過免稅
+島註冊公司繞道投資台灣企業，其最大好處應該是避稅，其餘優點還有待精通此處竅門之專業人士指點。&lt;/p&gt;
+&lt;p&gt;而榮化集團中具有絕對控制權的公司列表如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;被投資對象&lt;/td&gt;&lt;td&gt;董監席次&lt;/td&gt;&lt;td&gt;持有席次&lt;/td&gt;&lt;td&gt;持有比重&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;惠利投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;環球橡膠股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;新能生物科技股份有限公司&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;50.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮科技股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;其中新能生物科技雖有絕對控制權，但有部份董監事成員非屬榮化集團，這點須在分析核心成員名單時加以區別：&lt;/p&gt;
+&lt;h3&gt;核心人物與投資夥伴&lt;/h3&gt;
+&lt;p&gt;在找出核心關係企業後，我們可進一步觀察該集團的核心人物。對於同名同姓的處理方式，可見
+&lt;a href="http://weichengliou.github.io/blog/blog/2014/08/06/samename/"&gt;如何辨別同名同姓&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;對於李長榮化工的核心成員，我們可列出名單後，繪成社會網絡圖如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/ronhwa_boss.html"&gt;另開新頁&lt;/a&gt;&lt;iframe height="600px" width="100%" src=http://weichengliou.github.io/blog/downloads/data/html/ronhwa_boss.html&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;在本圖中，各公司以董事長作為核心人物，與其他董監事成員相連接。各人物的圓圈大小代表頭銜多寡，頭銜越多者圓圈越大。
+橙色部份代表核心成員，藍色部分代表榮化幕後大老闆成員，綠色代表非核心成員或友好成員。&lt;/p&gt;
+&lt;p&gt;從此圖中我們看到了核心人物以李謀偉、楊賽芬、李明恭、莊訓佳等人為主。
+而李陳蘭、李振芳等人雖非榮化集團核心成員，但他們卻是榮化幕後的大老闆之一，其影響力不可小覷。&lt;/p&gt;
+&lt;p&gt;張西龍、葉寅夫、高育仁等人為友好集團成員，其影響力可從他們的頭銜多寡與連接數得知。
+若將這些人物的重要性畫成散佈圖，或許可以更清楚他們彼此間的影響力大小：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ronhwa_files/ronhwa_18_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;上圖 X 軸為連接數，Y 軸為近距中間值 (closeness centrality)，越右上角表示重要性越高。各圓圈大小代表頭銜多寡；顏色以綠色為核心成員，紅
+色為幕後大股東，藍色為友好成員。為顯示簡潔起見，僅標示相對重要或頭銜數大於五者。&lt;/p&gt;
+&lt;p&gt;我們可以看到核心成員或幕後大老闆大多位在相對重要的位置，但也有部份友好成員，如張西龍，處於相對重要位置。這是因為他們在具有絕對控制權的企業擔任董監事，故拉高了重
+要性，也表示其友好程度相對較高。&lt;/p&gt;
+&lt;p&gt;另外在相對不重要的左下角也有些頭銜數較高的人，如：高育仁、葉寅夫，這些人仍然是友好成員，只是相對比較沒那麼重要而已。但就其具有共同投資關係這點上，其實也遠比其他
+不具共同投資關係的公司還要來得親密多了。&lt;/p&gt;
+&lt;h3&gt;同一群人經營，但不在榮化投資範圍內的公司&lt;/h3&gt;
+&lt;p&gt;就本集團的核心董監事代表而言，這些人是否也有擔任其他事業的董監事代表呢？在初步排除同名同姓的可能後，我們可試以現有模型檢查：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;公司名稱&lt;/td&gt;&lt;td&gt;出現次數&lt;/td&gt;&lt;td&gt;成員名單&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮實業股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;李明恭,李陳蘭,楊賽芬,洪再興,王焜燦,李謀偉&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李城企業股份有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;魏正誠,王焜燦,李謀偉,李陳蘭,楊賽芬&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;紘洋化學股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;王興益,盧俊雄,李陳蘭,李振芳&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;全利能源實業股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;魏正誠,李謀偉,李陳蘭,楊賽芬&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;全利台船務代理有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;李謀偉,李陳蘭&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;納亞股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;李謀偉,楊賽芬&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;惠利船務代理有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;李陳蘭&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;奎克生技光電股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;李謀偉&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;就現有模型與資料推斷，核心成員仍持有李長榮實業等八家事業。關於其與榮化間的關係，合併後以社會網絡分析圖表示如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/ronhwa.far.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ronhwa_files/ronhwa_23_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;在上圖中暗紅色為模型新發現之投資企業，其中有四間公司仍與榮化存在相關的投資關係。另外四間則無，但從董監事成員來看，他們仍然是同一群人所經營的事業。&lt;/p&gt;
+&lt;h3&gt;結語&lt;/h3&gt;
+&lt;p&gt;本文試圖討論榮化集團的轉投資事業與其核心成員，發現榮化其實是大股東們透過海外註冊公司持有。另外我們也藉由法人投資關係查出來幾間與榮化有共同投資關係的友好企業。&lt;/p&gt;
+&lt;p&gt;最後在檢查大股東的其他轉投資事業時，發現八間轉投資事業，其中有四間公司仍與榮化存在間接投資關係。
+可惜的是，因現有資料有限，對於大股東的其餘海外投資事業並不在筆者的掌握範圍之內，但現有資料仍具有可觀之處，可合併其他資料作為參考。&lt;/p&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>黨營事業知多少</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/kmt/" rel="alternate"></link><updated>2014-08-09T01:35:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-09:blog/2014/08/09/kmt/</id><summary type="html">&lt;h2&gt;黨營事業知多少？&lt;/h2&gt;
+&lt;p&gt;本文將就國民黨營事業的社會網路結構進行深入探討，資料來源為 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 7 月份資料。&lt;/p&gt;
+&lt;p&gt;前篇文章提到台灣企業生態圈中的超巨大關係企業集團，其中黨營事業處於該集團核心位置，而黨營事業又主要以中央投資為核心向外延伸。關於國民黨黨產多寡，其實我們亦可從年
+報得知，不一定要如此費心挖掘。但本篇研究重心在於表現黨營事業的投資分佈概況，其核心人物主要以誰為主？有哪些財團企業與黨營事業往來密切？甚至藉由比較核心人物擔任董
+監事的公司，我們還可以找出不屬於中央投資的投資範圍，但仍與國民黨有密切關係的公司。這些公司可能是直屬國民黨，亦有可能是與國民黨往來較為親密的公司。藉由這層董監事
+的親密關係，我們有理由相信這些公司能得到比其他公司更多的資訊交流機會，幫助這些公司進一步擴大經營優勢。&lt;/p&gt;
+&lt;h3&gt;黨營事業成員&lt;/h3&gt;
+&lt;p&gt;國民黨的黨營關係事業成員，以中央投資為核心，層層向外投資。
+在不考慮是否有絕對控制權的情況下，可建構出企業網路生態圖如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/kmt.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_7_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;在本圖中，青色點代表具絕對控制權之企業，橙色點為關係企業，而紫色點為其他共同投資者。&lt;br&gt;
+在連結的圖中，綠色點代表具絕對控制權之企業，橘色點為關係企業，而藍色點為其他共同投資者，越粗的線代表席次比重越高。&lt;/p&gt;
+&lt;p&gt;整體而言，與中央投資有關的事業高達 119 家公司，投資標的橫跨金融、科技、建設與民生消費等行業，甚至包含了台灣證交所。&lt;/p&gt;
+&lt;p&gt;但對中央投資而言，並非每間公司皆擁有絕對控制權。根據&lt;a href="#ref"&gt;林宛瑩、許崇源教授的研究&lt;/a&gt;，控制權的衡量方式可分為盈餘控制權、席次控制權與股份控制權。
+因現有資料並無股份或盈餘等相關資訊，故以席次控制權作為本文的控制權定義。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_10_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;關於投資方式，可分為直接投資與間接投資兩種。以下圖為例，假設 A 公司直接擁有 C 公司 30% 的控制權。而 A 公司又另外透過 50% 持有之 B
+公司間接持有 C 公司 20% 的控制權，則 A 公司對 C 公司擁有 50% 的控制權。&lt;/p&gt;
+&lt;p&gt;關於絕對控制權，此處定義若集團核心成員以個人或法人方式持有某公司的席次控制權超過五成，則稱集團擁有該公司之絕對控制權。&lt;/p&gt;
+&lt;p&gt;根據以上定義，可對中央投資篩選出具有絕對控制權之企業名單。其與中央投資的關係可觀察前面的社會網絡圖。&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;被投資對象&lt;/td&gt;&lt;td&gt;董監席次&lt;/td&gt;&lt;td&gt;持有席次&lt;/td&gt;&lt;td&gt;持有比重&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;裕臺企業股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;臺灣中華日報社股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;齊魯企業股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;欣光華股份有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;網赫資訊科技股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;50.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;裕台開發實業股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;雙園投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;悅昇昌投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中園建設股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;台灣新生報業股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;50.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;齊揚開發股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;豐園建設股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;昱華開發股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;建華投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;啟聖實業股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中央日報社股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;欣和股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;裕園開發股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;裕達開發股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h3&gt;核心人物與投資夥伴&lt;/h3&gt;
+&lt;p&gt;在找出核心關係企業後，我們可進一步觀察誰是這黨營企業集團中的核心人物。但整體的董監事名單存在同名同姓的問題，關於處理同名同姓者的方式，可見下一篇文章。&lt;/p&gt;
+&lt;p&gt;對於黨營事業的核心成員，我們可繪成社會網絡圖如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/kmt_boss.html"&gt;另開新頁&lt;/a&gt;&lt;iframe height="600px" width="100%" src=http://weichengliou.github.io/blog/downloads/data/html/kmt_boss.html&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;在本圖中，各公司以董事長作為核心人物，與其他董監事成員相連接。各人物的圓圈大小代表頭銜多寡，頭銜越多者圓圈越大。橙色部份代表核心成員，藍色代表非核心成員或友好成
+員。&lt;/p&gt;
+&lt;p&gt;從此圖中我們看到了核心人物以徐立德、陳國平、黃章榮、薛立言等人為主，他們代表國民黨出任許多黨營事業董監事或法人代表，其重要性不在話下。
+另外在藍色的非核心成員裡，有人擔任少數黨營企業的董監事，例如呂理卿、方東白等人。
+有些人為與黨營事業共同投資的友好成員，例如徐旭東、何壽川、邱純枝、高育仁、尹衍樑等人。
+這些人本身即已擔任自家集團或關係企業的企業主，因共同投資而與黨營事業結合為利益共同體，理論上應享有更多資訊交流、政策奧援等無形利益。&lt;/p&gt;
+&lt;p&gt;若將這些人物的重要性畫成散佈圖，或許可以更清楚他們彼此間的影響力大小：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_17_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;上圖 X 軸為連接數，Y 軸為近距中間值 (closeness
+centrality)，越右上角表示重要性越高。各圓圈大小代表頭銜多寡；顏色以紅色為核心成員，藍色為友好成員。為顯示簡潔起見，僅標示相對重要成員。&lt;/p&gt;
+&lt;p&gt;我們可以看到核心成員大多位在相對重要的位置。而某些與黨營事業友好的企業大老闆們，多半落在相對比較不重要的一群。&lt;/p&gt;
+&lt;h3&gt;同一群人是否還存在其他投資事業？&lt;/h3&gt;
+&lt;p&gt;就核心成員而言，這些人除了出任中央投資相關投資事業的董監事代表之外，是否也有擔任其他事業的董監事代表呢？在初步排除同名同姓的可能後，我們可試列表如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;公司名稱&lt;/td&gt;&lt;td&gt;出現次數&lt;/td&gt;&lt;td&gt;成員名單&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;欣裕台股份有限公司&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;施汎泉,施明豪,郭土木,黃士庭,葉裕祥,薛立言,曾忠正,林千惠,黃章榮&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;光華投資股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;鄭世芳,黃士庭,薛立言,曾忠正,林千惠,黃章榮&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;裕晟投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;黃章榮,鄭世芳,薛立言,曾忠正&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;龍天投資股份有限公司&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;莊松旺,胡鴻仁,黃雄&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中國廣播股份有限公司&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;黃士庭,鄭世芳,曾忠正&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;廣播人股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;鄭世芳,曾忠正&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;亞太電信股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;薛立言,曾忠正&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中華旅行社股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;黃雄&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;大通建築經理股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;呂理卿&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中央文物供應社股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;陳國平&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;國際創業投資股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;鄭世芳&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;文炳印刷科技股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;楊忠耕&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;悅悅股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;黃士庭&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;勤生投資股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;徐立德&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;灃水營造工程股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;陳國平&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;國際第三創業投資股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;陳國平&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;世界生技創業投資股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;林千惠&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;皇冠實業股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;徐立德&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;彙亞工程設計股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;郭振邦&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;以上的公司名單依出現次數多寡排列，我們可以找出非屬中央投資的投資範圍，但是由同一群人經營之企業。自然這些企業亦享有與中央投資同等的資訊優勢，其出現次數越多表示與
+黨營事業的關係越密切。
+結合中央投資下的關係企業名單，我們可繪出企業網絡圖協助觀察如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/kmt.far.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_21_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;在本圖中暗紅色點為新發現之企業。因本文觀察研究主要以尚在營業中的企業為主。某些未出現的公司，如中央文物供應社或灃水營造工程等，目前公司狀態為已解散或停業故不表示
+出來。&lt;/p&gt;
+&lt;p&gt;我們可以看到除了中央投資外，同一群人也另外持有欣裕台（完全持有）、光華投資（完全持有）、裕晟投資（完全持有）甚至是亞太電信（部份持有）。利用網絡分析圖可以幫助我
+們更容易觀察到這些公司彼此的轉投資關係。&lt;/p&gt;
+&lt;h3&gt;結語&lt;/h3&gt;
+&lt;p&gt;本文試圖探討黨營事業的結構，找出中央投資的關係企業與核心企業。利用核心企業的董監事名單，可以找出黨營事業的核心人物與友好企業夥伴。另外甚至可以依此找出不屬於中央
+投資的投資範圍內的企業名單。協助我們更清楚整體黨營事業成員。類似方法也可用於觀察以家族為核心的財團成員。黨營事業形成自有其歷史背景，但時至今日其規模仍與財團相當
+，其與財團互為利益共同體這點，絕非一朝一夕便可消除。&lt;/p&gt;
+&lt;p&gt;所以單方面地相信政府或政黨會為人民服務是不夠的，政府官員、政黨代表也是人，也會面臨利益糾葛、天人交戰的時候。我們需要更透明的政治與經濟環境，透過全民共同監督，以
+降低黑箱政治、政府與財團利益交換的可能性。&lt;/p&gt;
+&lt;h3&gt;參考文獻&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a id="ref"&gt;&lt;/a&gt; 林宛瑩；許崇源，2008.06，〈台灣集團企業之控股型態與公司治理衡量指標之探討〉，《交大管理學報》，Vol.28,
+No.1，pp.269-312.(TSSCI)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>使用 Pelican 建立 blog</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/" rel="alternate"></link><updated>2014-08-07T02:30:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-07:blog/2014/08/07/buildblog/</id><summary type="html">&lt;p&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;這篇要介紹如何使用 pelican 建立 blog。 Pelican 是用 python 搭建的 blog 系統，在整合 IPython notebook 這部份頗受好評。 所以也不少人用 IPython notebook 寫完報告或教學後，直接用 Pelican 建立的 blog 發表文章。&lt;/p&gt;
 &lt;p&gt;基本上雖然在第一 po 有略為提到如何建立 blog， 但事實上我還是為了一些技術問題抓掉不少頭髮。 還好問題全部都解決了，所以在這邊作個紀錄。&lt;/p&gt;
