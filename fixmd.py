@@ -17,7 +17,6 @@ def gettags():
     try:
         tags['date'] = datetime.strptime(ret, '%Y-%m-%d')
     except:
-        set_trace()
         tags['date'] = d
     print 'Please input slug:'
     tags['slug'] = raw_input()
@@ -104,6 +103,6 @@ def writemd(path, fi):
 
 if __name__ == '__main__':
     path = 'content'
-    fi = 'kmt.md'
+    fi = 'ronhwa.md'
     writemd(path, fi)
 
