@@ -3,6 +3,7 @@ date: 2014-08-07 02:30
 comments: true
 slug: buildblog
 tags: python, pelican
+category: python
 
 {% notebook 2014-08-07-buildblog.ipynb cells[:] %}
 

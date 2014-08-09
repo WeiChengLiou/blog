@@ -3,6 +3,7 @@ date: 2014-08-06 23:43
 comments: true
 slug: twcom
 tags: 台灣公司關係圖
+category: 台灣公司關係圖
 
 
 ## 從董監事名單觀察法人投資關係

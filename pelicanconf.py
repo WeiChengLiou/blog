@@ -23,9 +23,10 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options.
 uri = 'http://WeiChengLiou.github.io'
+uri = 'http://localhost:8080'
 MENUITEMS = [('Blog', '%s/blog' % uri),
              ('Archives', '%s/blog/archives.html' % uri),
-             ('About', '%s/homepage' % uri),
+             # ('About', '%s/about' % uri),
              ]
 NEWEST_FIRST_ARCHIVES = True
 
@@ -40,8 +41,9 @@ LINKS = (('Taiwan R User Group', 'http://www.meetup.com/Taiwan-R/'),
          ('Taipei.py', 'http://taipei.python.org.tw/'),)
 
 # Social widget.
-#SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
+#SOCIAL = (('Twitter', 'https://twitter.com/GilbertLiou'),
+#          ('Linkedin', 'http://tw.linkedin.com/pub/wei-cheng-liou/57/526/348/'),
+#          )
 
 DEFAULT_PAGINATION = 10
 
@@ -87,8 +89,8 @@ TWITTER_SHOW_REPLIES = 'false'
 TWITTER_SHOW_FOLLOWER_COUNT = 'true'
 
 # RSS/Atom feeds
-FEED_DOMAIN = ''
-FEED_ATOM = ''
+FEED_DOMAIN = SITEURL
+FEED_ATOM = 'atom.xml'
 
 # Search
 SEARCH_BOX = True
