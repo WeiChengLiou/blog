@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>使用 Pelican 建立 blog</title>
+  <title>Gilbert's Data Lab</title>
   <meta name="author" content="WeiCheng Liou">
 
   <link href="http://localhost:8080/atom.xml" type="application/atom+xml" rel="alternate"
@@ -1791,103 +1791,95 @@ jQuery(document).ready(function($) {
 </ul></nav>
   <div id="main">
     <div id="content">
-<div>
-  <article class="hentry" role="article">
+<div class="blog-index">
+  		<article>
 <header>
-      <h1 class="entry-title">使用 Pelican 建立 blog</h1>
-      <p class="meta"><time datetime="2014-08-07T02:30:00" pubdate> 8月 07, 2014</time></p>
+      <h1 class="entry-title">
+        <a href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/ronhwa/">集團研究--榮化</a>
+      </h1>
+      <p class="meta"><time datetime="2014-08-09T01:55:00" pubdate> 8月 09, 2014</time></p>
 </header>
 
-  <div class="entry-content"><p>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>這篇要介紹如何使用 pelican 建立 blog。 Pelican 是用 python 搭建的 blog 系統，在整合 IPython notebook 這部份頗受好評。 所以也不少人用 IPython notebook 寫完報告或教學後，直接用 Pelican 建立的 blog 發表文章。</p>
-<p>基本上雖然在第一 po 有略為提到如何建立 blog， 但事實上我還是為了一些技術問題抓掉不少頭髮。 還好問題全部都解決了，所以在這邊作個紀錄。</p>
-<p>我使用的作業環境是 ubuntu 14.04 LTS, Python 2.7.8，參考資料來源為：</p>
-<ul>
-<li><a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/">Building this blog</a></li>
-<li><a href="https://pelican.readthedocs.org/en/3.4.0/index.html">Pelican documents</a></li>
-<li><a href="http://yassi.github.io/yassi_pelican_output/pelican-on-github-pages-heroku-and-nginx.html">Plican on github pages, heroku, and nginx</a></li>
-</ul>
-<p>建立部落格大概有幾個步驟要作</p>
-<h3 id="安裝套件">安裝套件</h3>
-<p>目前看到的部落格都會建議用 virtualenv 安裝所需套件，不過我個人是用 Pyenv，比 virtualenv 方便很多。 關於 Pyenv 的安裝方式，可以參考 <a href="http://blog.codylab.com/python-pyenv/">這篇文章</a>。</p>
-<p>假設已經安裝好 Pyenv 後，首先新增資料夾，以及新增一個 virtualenv</p>
-<pre><code>mkdir pelican
-cd pelican
-pyenv virtualenv 2.7.8 pelican
-pyenv local pelican</code></pre>
-<p>接下來是安裝套件，先把 <a href="http://WeiChengLiou.github.io/blog/downloads/requirements.txt">requirements.txt</a> 儲存到目前的資料夾，鍵入以下指令安裝套件</p>
-<pre><code>pip install -r requirements.txt</code></pre>
-<p>這樣就可以確保大家的版本相同了！</p>
-<h3 id="git-clone">git clone</h3>
-<p>接著安裝 theme 跟 plugins：</p>
-<pre><code>git clone https://github.com/jakevdp/pelican-octopress-theme.git
-git clone https://github.com/getpelican/pelican-plugins.git</code></pre>
-<p>theme 目前是引用 <a href="http://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/">jakevdp</a> 的設定， 因為該作者有針對 Ipython notebook 的顯示作調整，直接拿現成的來用比較方便。 而且我也蠻喜歡這風格的。 如果想換其他佈景主題的話，請參考這邊的<a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/">建議</a>。</p>
-<p>其實如果熟悉 pelican 的話，是可以選擇自己用 pelican-quickstart 一步步建立 blog 的。 但這邊我選擇拿前人的設定來改：</p>
-<pre><code>git clone https://github.com/ocefpaf/python4oceanographers</code></pre>
-<p>接著移到 python4oceanographers 目錄下， 將 pelicanconf.py 檔案裡的 THEME 跟 PLUGIN_PATH 修改成你放置 pelican-octopress-theme 跟 pelican-plugins 的路徑：</p>
-<pre><code>path = os.path.join(os.environ.get(&#39;HOME&#39;), &#39;pelican&#39;)
-THEME = &#39;%s/pelican-octopress-theme&#39; % path
-PLUGIN_PATH = &#39;%s/pelican-plugins&#39; % path</code></pre>
-<h3 id="localhost-測試">localhost 測試</h3>
-<p>接著可以先試著編譯，作第一次 local 端測試了。編譯後的檔案會放在 output 資料夾中，所以要切換至 output 資料夾設定 server。</p>
-<pre><code>make html
-cd output
-python -m SimpleHTTPServer 8080</code></pre>
-<p>接著開啟瀏覽器，到 http://localhost:8080 看看結果如何。如果順利的話，這時應該可以看到 blog 了。</p>
-<h3 id="修改設定">修改設定</h3>
-<p>接下來開啟 pelicanconf.py ，修改自己想要的設定。 這邊簡單介紹幾個必改的設定</p>
-<pre><code>AUTHOR 作者
-SITENAME 站名
-SITESUBTITLE 站名副標題
-uri GitHub Pages 站名，格式為 http://帳號.github.io
-LINKS 友站連結
-TWITTER_USER 你的 Twitter 帳號
-GOOGLEPLUS_USER 你的 Google+ 帳號</code></pre>
-<p>以上改完後再重新編譯後試試，應該這時站名之類的應該都改過來了。</p>
-<h3 id="發表文章">發表文章</h3>
-<p>文章統一儲存在 content 資料夾裡，或是自己改 pelicanconf.py 裡面設定。 可以用 reStructured Text 或 Markdown 格式書寫，我個人比較偏好 Markdown，所以以 markdown 語法說明。</p>
-<p>每篇文章都是一個獨立檔案，檔名格式為 yyyy-mm-dd-blogging.md。 前面是日期，後面是文章識別名稱。 以本篇文章為例，文章開頭有以下 tag：</p>
-<pre><code>title: 如何利用 pelican 建立 blog
-date: 2014-08-07 00:30
-comments: true
-slug: buildblog
-tags: python, pelican</code></pre>
-<p>slug 是唯一的，可以不寫. tags 可寫可不寫。</p>
-<p>後面文章內容的部份就看個人發揮了。 關於 markdown 格式寫法，可以參考 <a href="http://zh.wikipedia.org/wiki/Markdown">wiki</a>。 若是想直接把 IPython notebook 貼過來的人，先把 ipynb 檔案拷貝至 content/downloads/notebooks ， md 檔最後加上以下這行：</p>
-<pre><code>{% notebook blogging.ipynb cells[1:] %}</code></pre>
-<p>所以往後發表文章的時候，可以先在 local 端編譯測試，看看格式有沒有跑掉之類的，確定可以了再上線。 上線前記得先把 content 資料夾裡面前作者的文章砍光，資料夾別跟著砍了，留下自己的文章就好。</p>
-<h3 id="github-上線">GitHub 上線</h3>
-<p>當你寫好文章準備上線了，找個可以放置 blog 的地方也是一門學問。 這邊建議直接丟 GitHub，好處是完全免費，只是檔案要被看光光 （但其實這個站也是拿人家現成的來改，就算完全 open 也是應該的吧）。 或者你也可以考慮放到 Heroku 去，設定方式請看參考資料。</p>
-<p>在 GitHub 上線前，要先把 GitHub remote 目錄改一改。 我的方式是先去 GitHub 開一個 repository，假定名稱為 blog 好了。 然後修改 python4oceanographers 資料夾名稱為 blog，接著修改 GitHub remote 設定為 blog：</p>
-<pre><code>git remote remove origin
-git remote add origin https://github.com/帳號/blog.git
-git push -u origin master</code></pre>
-<p>接下來就是利用 GitHub Pages 把 blog 推上線， GitHub 的實作方式是建立一個新的 branch 叫做 gh-pages。 原則上只要把 output 資料夾的內容放到 gh-pages 這個 branch 就行了。 但實際上很不容易， 還好 Pelican 都幫你搞定了，只要鍵入 <code>make github</code> ，Pelican 就會幫你編譯，然後上傳到 gh-pages。 也不需要切換 branch。<br />但要注意的是，編譯的內容是以 master 為基礎的，所以要先 git push master 後，才能 <code>make github</code>。</p>
-<h3 id="設定-google-analytics-disqus">設定 Google Analytics, Disqus</h3>
-<p>上線後可以去註冊 <a href="http://www.google.com/intl/zh-TW/analytics/">Google Analytics</a> 跟 <a href="https://disqus.com/">Disqus</a> 服務。 Google Analytics 可以幫忙作網站流量分析，而 Disqus 是網站留言管理系統。 註冊過後會得到一個代碼，再把這些代碼寫到 publishconf.py 裡相對應的欄位去，記得把 SITEURL 改成自己在 GitHub 的網址。 這樣應該就可以了。</p>
-</div></p></div>
-    <footer>
-<p class="meta">
-  <span class="byline author vcard">
-    Posted by <span class="fn">WeiCheng Liou</span>
-  </span>
-<time datetime="2014-08-07T02:30:00" pubdate> 8月 07, 2014</time>  <span class="categories">
-    <a class="category" href="http://WeiChengLiou.github.io/blog/tag/python.html">python</a>
-    <a class="category" href="http://WeiChengLiou.github.io/blog/tag/pelican.html">pelican</a>
-  </span>
-</p><div class="sharing">
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/" data-via="WeichengLiou" data-counturl="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/" >Tweet</a>
-  <div class="g-plusone" data-size="medium"></div>
-</div>    </footer>
-  </article>
+  <div class="entry-content"><p>本文將就李長榮化工的董監事社會網路結構進行探討，資料來源為 <a href="http://gcis.nat.g0v.tw/">台灣公司關係圖</a> 7 月份資料。</p>
+<p>首先想知道有哪些公司名稱與"李長榮"有關？</p>
+<table><tr><td>id</td><td>name</td></tr><tr><td>39054405</td><td>李長榮化學工業股份有限公司</td></tr><tr><td>20563007</td><td>李長榮實業股份有限公司</td></tr><tr><td>97173920</td><td>李長榮科技股份有限公司</td></tr></table>
 
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div>
-  </section>
-</div>
+<p>看起來我們的研究重點應該是統一編號 39054405 的「李長榮化學工業股份有限公司」，他同時也是上市櫃公司。
+但我們相信這三間公司之間應該是有關係的，故我們可以試著藉由社會網絡分析來觀察。</p>
+<h3>集團成員</h3>
+<p>我們以李長榮化工為基礎，逐層分析李長榮化工的集團成員（以下簡稱榮化集團），可建構出企業網路生態圖如下：</p>
+<table><tr><td>src</td><td>dst</td><td>cnt</td><td>seat</td><td>seatratio</td></tr><tr><td>李長榮化學工業股份有限公司</td><td>尚茂電子材料股份有限公司</td><td>12</td><td>1</td><td>8.33</td></tr><tr><td>李長榮化學工業股份有限公司</td><td>福聚太陽能股份有限公司</td><td>11</td><td>4</td><td>36.36</td></tr><tr><td>李長榮化學工業股份有限公司</td><td>惠利投資股份有限公司</td><td>4</td><td>4</td><td>100 ...</td></tr></table></div>
+  <footer>
+    <a rel="full-article" href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/ronhwa/">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/kmtnew/">黨營事業知多少</a>
+      </h1>
+      <p class="meta"><time datetime="2014-08-09T01:35:00" pubdate> 8月 09, 2014</time></p>
+</header>
+
+  <div class="entry-content"><h2>黨營事業知多少？</h2>
+<p>本文將就國民黨營事業的社會網路結構進行深入探討，資料來源為 <a href="http://gcis.nat.g0v.tw/">台灣公司關係圖</a> 7 月份資料。</p>
+<p>前篇文章提到台灣企業生態圈中的超巨大關係企業集團，其中黨營事業處於該集團核心位置，而黨營事業又主要以中央投資為核心向外延伸。關於國民黨黨產多寡，其實我們亦可從年
+報得知，不一定要如此費心挖掘。但本篇研究重心在於表現黨營事業的投資分佈概況，其核心人物主要以誰為主？有哪些財團企業與黨營事業往來密切？甚至藉由比較核心人物擔任董
+監事的公司，我們還可以找出不屬於中央投資的投資範圍，但仍與國民黨有密切關係的公司。這些公司可能是直屬國民黨，亦有可能是與國民黨往來較為親密的公司。藉由這層董監事
+的親密關係，我們有理由相信這些公司能得到比其他公司更多的資訊交流機會，幫助這些公司進一步擴大經營優勢。</p>
+<h3>黨營事業成員</h3>
+<p>國民黨的黨營關係事業成員，以中央投資為核心，層層向外投資。
+在不考慮是否有絕對控制權的情況下，可建構出企業網路生態圖如下：</p>
+<p><a href="http://weichengliou.github.io/blog/downloads/data/html/kmt.html">另開新頁</a></p>
+<p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_7_1.png" /></p>
+<p>在本圖中，青色點代表具絕對控制權之企業，橙色點為關係企業，而紫色點為其他共同投資者。<br>
+在連結的圖中，綠色點代表具絕對控制權之企業，橘色點為關係企業，而藍色點為其他共同投資者，越粗的線代表席次比重越高。</p>
+<p>整體而言，與中央投資有關的事業高達 119 家公司，投資標的橫跨金融、科技、建設與民生消費等行業，甚至包含了台灣證交所 ...</p></div>
+  <footer>
+    <a rel="full-article" href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/kmtnew/">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/samename/">如何分辨同名同姓</a>
+      </h1>
+      <p class="meta"><time datetime="2014-08-06T23:45:00" pubdate> 8月 06, 2014</time></p>
+</header>
+
+  <div class="entry-content"><h2>如何辨別同名同姓的董監事？</h2>
+<p>本文將說明在 <a href="http://gcis.nat.g0v.tw/">台灣公司關係圖</a> 的董監事資料中存在同名同姓的問題。董監事名單不像公司一樣有統一編號可供查詢，
+所以在比對不同公司董監事資料時，不可避免地會遇到同名同姓的問題。本文根據法人代表資料並結合不同公司間的相同董監事名單，協助分類同名同姓者。並以此分類結果作為尋找
+家族企業的基準。這篇文章僅為學術研究，模型正確性尚無有效評估方法，故分類結果僅供參考，不代表任何立場。</p>
+<p>以下將先描述同名同姓可能的問題及影響，接下來作分類規則說明，最後是初步分析分類結果。</p>
+<h2>同名同姓有多少？</h2>
+<p>關於同名同姓者這件事，應該要先從董監事姓名大排行談起。以下為最常出現的董監事姓名前 25 名：</p>
+<table><tr><td>姓名</td><td>個數</td></tr><tr><td>陳淑芬</td><td>284</td></tr><tr><td>陳建宏</td><td>270</td></tr><tr><td>陳俊宏</td><td>246</td></tr><tr><td>陳美玲</td><td>243</td></tr><tr><td>林淑惠</td><td>240</td></tr><tr><td>陳怡君</td><td>239</td></tr><tr><td>陳淑惠</td><td>238</td></tr><tr><td>陳淑貞</td><td>237</td></tr><tr><td>陳美惠</td><td>230</td></tr><tr><td>陳麗華</td><td>214</td></tr><tr><td>陳淑娟</td><td>203</td></tr><tr><td>林志明</td><td>195 ...</td></tr></table></div>
+  <footer>
+    <a rel="full-article" href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/samename/">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
+        <a href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/twcom/">台灣公司關係圖</a>
+      </h1>
+      <p class="meta"><time datetime="2014-08-06T23:43:00" pubdate> 8月 06, 2014</time></p>
+</header>
+
+  <div class="entry-content"><h2>從董監事名單觀察法人投資關係</h2>
+<p>台灣的企業種類分佈相當廣泛，有政府經營的國營企業、廣大的中小企業，家族企業為背景的財團，還有黨營事業，這些不同的市場參與者組成了現今的企業生態圈。但對於檯面上的
+企業財團之間存在怎樣的競合關係，我們卻始終無法一覽全貌。近年來社會網絡分析 (Social Network Analysis）相當盛行，藉著觀察法人投資關係我們
+可以更清楚政府、財團甚至黨營事業組成一個大群體。這群體的成員組成有誰？他們的規模究竟有多大？該如何界定他們的影響力？這些都將在下文逐一分析討論。</p>
+<p>本研究資料來源為 <a href="http://gcis.nat.g0v.tw/">台灣公司關係圖 http://gcis.nat.g0v.tw/</a> 7 月份資料，整體樣本數為 1,447,188 家公司。由於資料來源並不含時間序列的變數，無法觀察不同時點的公司存活家數變化，故僅考慮營運中的企業。台灣整體營運中的企業數 (不含分公司) 約 619,154 家。其中有董監事名單或被列入董監事名單的公司約有 42,043 家，這些約佔整體營運中的企業 ...</p></div>
+  <footer>
+    <a rel="full-article" href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/twcom/">Read On &crarr;</a>
+  </footer>
+  		</article>
+<div class="pagination">
+
+  <br />
+</div></div>
 <aside class="sidebar">
   <section>
     <h1>Recent Posts</h1>
@@ -1897,9 +1889,6 @@ git push -u origin master</code></pre>
       </li>
       <li class="post">
           <a href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/kmtnew/">黨營事業知多少</a>
-      </li>
-      <li class="post">
-          <a href="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/">使用 Pelican 建立 blog</a>
       </li>
       <li class="post">
           <a href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/samename/">如何分辨同名同姓</a>
@@ -1962,9 +1951,6 @@ git push -u origin master</code></pre>
 </script>
 	<script type="text/javascript">
 	  var disqus_shortname = 'weichengliou';
-          var disqus_identifier = '/blog/2014/08/07/buildblog/';
-          var disqus_url = 'http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/';
-          var disqus_title = '使用 Pelican 建立 blog';
 	  (function() {
 	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 	    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
