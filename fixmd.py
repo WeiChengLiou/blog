@@ -103,6 +103,6 @@ def writemd(path, fi):
 
 if __name__ == '__main__':
     path = 'content'
-    fi = 'ronhwa.md'
+    fi = 'kmt.md'
     writemd(path, fi)
 
