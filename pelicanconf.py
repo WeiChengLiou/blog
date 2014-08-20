@@ -10,7 +10,7 @@ SITENAME = u"Gilbert's Data Lab"
 SITESUBTITLE = u'Data drives thinking, thinking transforms data.'
 # Change in publishconf.py and ignore the WARNING.  This is needed so you
 # can inspect the site using a web-server at locahost.
-SITEURL = 'http://localhost:8080'
+SITEURL = ''
 
 # Times and dates.
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
@@ -23,7 +23,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 # Title menu options.
 uri = 'http://WeiChengLiou.github.io'
-uri = 'http://localhost:8080'
+# uri = 'http://localhost:8081'
 MENUITEMS = [('Blog', '%s/blog' % uri),
              ('Archives', '%s/blog/archives.html' % uri),
              # ('About', '%s/about' % uri),
