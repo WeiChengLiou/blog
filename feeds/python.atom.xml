@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/python.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2014-08-07T02:30:00+08:00</updated><entry><title>使用 Pelican 建立 blog</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/" rel="alternate"></link><updated>2014-08-07T02:30:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-07:blog/2014/08/07/buildblog/</id><summary type="html">&lt;p&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;
+&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;這篇要介紹如何使用 pelican 建立 blog。 Pelican 是用 python 搭建的 blog 系統，在整合 IPython notebook 這部份頗受好評。 所以也不少人用 IPython notebook 寫完報告或教學後，直接用 Pelican 建立的 blog 發表文章。&lt;/p&gt;
-&lt;p&gt;基本上雖然在第一 po 有略為提到如何建立 blog， 但事實上我還是為了一些技術問題抓掉不少頭髮。 還好問題全部都解決了，所以在這邊作個紀錄。&lt;/p&gt;
+&lt;p&gt;這篇要介紹如何使用 pelican 建立 blog。
+Pelican 是用 python 搭建的 blog 系統，在整合 IPython notebook 這部份頗受好評。
+所以也不少人用 IPython notebook 寫完報告或教學後，直接用 Pelican 建立的 blog 發表文章。&lt;/p&gt;
+&lt;p&gt;基本上雖然在第一 po 有略為提到如何建立 blog，
+但事實上我還是為了一些技術問題抓掉不少頭髮。
+還好問題全部都解決了，所以在這邊作個紀錄。&lt;/p&gt;
 &lt;p&gt;我使用的作業環境是 ubuntu 14.04 LTS, Python 2.7.8，參考資料來源為：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;Building this blog&lt;/a&gt;&lt;/li&gt;
@@ -10,62 +18,92 @@
 &lt;li&gt;&lt;a href="http://yassi.github.io/yassi_pelican_output/pelican-on-github-pages-heroku-and-nginx.html"&gt;Plican on github pages, heroku, and nginx&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;建立部落格大概有幾個步驟要作&lt;/p&gt;
-&lt;h3 id="安裝套件"&gt;安裝套件&lt;/h3&gt;
-&lt;p&gt;目前看到的部落格都會建議用 virtualenv 安裝所需套件，不過我個人是用 Pyenv，比 virtualenv 方便很多。 關於 Pyenv 的安裝方式，可以參考 &lt;a href="http://blog.codylab.com/python-pyenv/"&gt;這篇文章&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id="-"&gt;安裝套件&lt;/h3&gt;
+&lt;p&gt;目前看到的部落格都會建議用 virtualenv 安裝所需套件，不過我個人是用 Pyenv，比 virtualenv 方便很多。
+關於 Pyenv 的安裝方式，可以參考 &lt;a href="http://blog.codylab.com/python-pyenv/"&gt;這篇文章&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;假設已經安裝好 Pyenv 後，首先新增資料夾，以及新增一個 virtualenv&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;mkdir pelican
 cd pelican
 pyenv virtualenv 2.7.8 pelican
-pyenv local pelican&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;接下來是安裝套件，先把 &lt;a href="http://WeiChengLiou.github.io/blog/downloads/requirements.txt"&gt;requirements.txt&lt;/a&gt; 儲存到目前的資料夾，鍵入以下指令安裝套件&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;pip install -r requirements.txt&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;這樣就可以確保大家的版本相同了！&lt;/p&gt;
+pyenv local pelican
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接下來是安裝套件，先把 &lt;a href="http://WeiChengLiou.github.io/blog/downloads/requirements.txt"&gt;requirements.txt&lt;/a&gt; 儲存到目前的資料夾，鍵入以下指令安裝套件&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pip install -r requirements.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這樣就可以確保大家的版本相同了！&lt;/p&gt;
 &lt;h3 id="git-clone"&gt;git clone&lt;/h3&gt;
 &lt;p&gt;接著安裝 theme 跟 plugins：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/jakevdp/pelican-octopress-theme.git
-git clone https://github.com/getpelican/pelican-plugins.git&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;theme 目前是引用 &lt;a href="http://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/"&gt;jakevdp&lt;/a&gt; 的設定， 因為該作者有針對 Ipython notebook 的顯示作調整，直接拿現成的來用比較方便。 而且我也蠻喜歡這風格的。 如果想換其他佈景主題的話，請參考這邊的&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;建議&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;其實如果熟悉 pelican 的話，是可以選擇自己用 pelican-quickstart 一步步建立 blog 的。 但這邊我選擇拿前人的設定來改：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/ocefpaf/python4oceanographers&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;接著移到 python4oceanographers 目錄下， 將 pelicanconf.py 檔案裡的 THEME 跟 PLUGIN_PATH 修改成你放置 pelican-octopress-theme 跟 pelican-plugins 的路徑：&lt;/p&gt;
+git clone https://github.com/getpelican/pelican-plugins.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;theme 目前是引用 &lt;a href="http://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/"&gt;jakevdp&lt;/a&gt; 的設定，
+因為該作者有針對 Ipython notebook 的顯示作調整，直接拿現成的來用比較方便。
+而且我也蠻喜歡這風格的。
+如果想換其他佈景主題的話，請參考這邊的&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;建議&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;其實如果熟悉 pelican 的話，是可以選擇自己用 pelican-quickstart 一步步建立 blog 的。
+但這邊我選擇拿前人的設定來改：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ocefpaf/python4oceanographers
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接著移到 python4oceanographers 目錄下，
+將 pelicanconf.py 檔案裡的 THEME 跟 PLUGIN_PATH 修改成你放置 pelican-octopress-theme 跟 pelican-plugins 的路徑：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;path = os.path.join(os.environ.get(&amp;#39;HOME&amp;#39;), &amp;#39;pelican&amp;#39;)
 THEME = &amp;#39;%s/pelican-octopress-theme&amp;#39; % path
-PLUGIN_PATH = &amp;#39;%s/pelican-plugins&amp;#39; % path&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id="localhost-測試"&gt;localhost 測試&lt;/h3&gt;
+PLUGIN_PATH = &amp;#39;%s/pelican-plugins&amp;#39; % path
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="localhost-"&gt;localhost 測試&lt;/h3&gt;
 &lt;p&gt;接著可以先試著編譯，作第一次 local 端測試了。編譯後的檔案會放在 output 資料夾中，所以要切換至 output 資料夾設定 server。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;make html
 cd output
-python -m SimpleHTTPServer 8080&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;接著開啟瀏覽器，到 http://localhost:8080 看看結果如何。如果順利的話，這時應該可以看到 blog 了。&lt;/p&gt;
-&lt;h3 id="修改設定"&gt;修改設定&lt;/h3&gt;
-&lt;p&gt;接下來開啟 pelicanconf.py ，修改自己想要的設定。 這邊簡單介紹幾個必改的設定&lt;/p&gt;
+python -m SimpleHTTPServer 8080
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接著開啟瀏覽器，到 &lt;a href="http://localhost:8080"&gt;http://localhost:8080&lt;/a&gt; 看看結果如何。如果順利的話，這時應該可以看到 blog 了。&lt;/p&gt;
+&lt;h3 id="-"&gt;修改設定&lt;/h3&gt;
+&lt;p&gt;接下來開啟 pelicanconf.py ，修改自己想要的設定。
+這邊簡單介紹幾個必改的設定&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;AUTHOR 作者
 SITENAME 站名
 SITESUBTITLE 站名副標題
 uri GitHub Pages 站名，格式為 http://帳號.github.io
 LINKS 友站連結
 TWITTER_USER 你的 Twitter 帳號
-GOOGLEPLUS_USER 你的 Google+ 帳號&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;以上改完後再重新編譯後試試，應該這時站名之類的應該都改過來了。&lt;/p&gt;
-&lt;h3 id="發表文章"&gt;發表文章&lt;/h3&gt;
-&lt;p&gt;文章統一儲存在 content 資料夾裡，或是自己改 pelicanconf.py 裡面設定。 可以用 reStructured Text 或 Markdown 格式書寫，我個人比較偏好 Markdown，所以以 markdown 語法說明。&lt;/p&gt;
-&lt;p&gt;每篇文章都是一個獨立檔案，檔名格式為 yyyy-mm-dd-blogging.md。 前面是日期，後面是文章識別名稱。 以本篇文章為例，文章開頭有以下 tag：&lt;/p&gt;
+GOOGLEPLUS_USER 你的 Google+ 帳號
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;以上改完後再重新編譯後試試，應該這時站名之類的應該都改過來了。&lt;/p&gt;
+&lt;h3 id="-"&gt;發表文章&lt;/h3&gt;
+&lt;p&gt;文章統一儲存在 content 資料夾裡，或是自己改 pelicanconf.py 裡面設定。
+可以用 reStructured Text 或 Markdown 格式書寫，我個人比較偏好 Markdown，所以以 markdown 語法說明。&lt;/p&gt;
+&lt;p&gt;每篇文章都是一個獨立檔案，檔名格式為 yyyy-mm-dd-blogging.md。
+前面是日期，後面是文章識別名稱。
+以本篇文章為例，文章開頭有以下 tag：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;title: 如何利用 pelican 建立 blog
 date: 2014-08-07 00:30
 comments: true
 slug: buildblog
-tags: python, pelican&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;slug 是唯一的，可以不寫. tags 可寫可不寫。&lt;/p&gt;
-&lt;p&gt;後面文章內容的部份就看個人發揮了。 關於 markdown 格式寫法，可以參考 &lt;a href="http://zh.wikipedia.org/wiki/Markdown"&gt;wiki&lt;/a&gt;。 若是想直接把 IPython notebook 貼過來的人，先把 ipynb 檔案拷貝至 content/downloads/notebooks ， md 檔最後加上以下這行：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{% notebook blogging.ipynb cells[1:] %}&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;所以往後發表文章的時候，可以先在 local 端編譯測試，看看格式有沒有跑掉之類的，確定可以了再上線。 上線前記得先把 content 資料夾裡面前作者的文章砍光，資料夾別跟著砍了，留下自己的文章就好。&lt;/p&gt;
-&lt;h3 id="github-上線"&gt;GitHub 上線&lt;/h3&gt;
-&lt;p&gt;當你寫好文章準備上線了，找個可以放置 blog 的地方也是一門學問。 這邊建議直接丟 GitHub，好處是完全免費，只是檔案要被看光光 （但其實這個站也是拿人家現成的來改，就算完全 open 也是應該的吧）。 或者你也可以考慮放到 Heroku 去，設定方式請看參考資料。&lt;/p&gt;
-&lt;p&gt;在 GitHub 上線前，要先把 GitHub remote 目錄改一改。 我的方式是先去 GitHub 開一個 repository，假定名稱為 blog 好了。 然後修改 python4oceanographers 資料夾名稱為 blog，接著修改 GitHub remote 設定為 blog：&lt;/p&gt;
+tags: python, pelican
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;slug 是唯一的，可以不寫.
+tags 可寫可不寫。&lt;/p&gt;
+&lt;p&gt;後面文章內容的部份就看個人發揮了。
+關於 markdown 格式寫法，可以參考 &lt;a href="http://zh.wikipedia.org/wiki/Markdown"&gt;wiki&lt;/a&gt;。
+若是想直接把 IPython notebook 貼過來的人，先把 ipynb 檔案拷貝至 content/downloads/notebooks ，
+md 檔最後加上以下這行：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{% notebook blogging.ipynb cells[1:] %}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;所以往後發表文章的時候，可以先在 local 端編譯測試，看看格式有沒有跑掉之類的，確定可以了再上線。
+上線前記得先把 content 資料夾裡面前作者的文章砍光，資料夾別跟著砍了，留下自己的文章就好。&lt;/p&gt;
+&lt;h3 id="github-"&gt;GitHub 上線&lt;/h3&gt;
+&lt;p&gt;當你寫好文章準備上線了，找個可以放置 blog 的地方也是一門學問。
+這邊建議直接丟 GitHub，好處是完全免費，只是檔案要被看光光
+（但其實這個站也是拿人家現成的來改，就算完全 open 也是應該的吧）。
+或者你也可以考慮放到 Heroku 去，設定方式請看參考資料。&lt;/p&gt;
+&lt;p&gt;在 GitHub 上線前，要先把 GitHub remote 目錄改一改。
+我的方式是先去 GitHub 開一個 repository，假定名稱為 blog 好了。
+然後修改 python4oceanographers 資料夾名稱為 blog，接著修改 GitHub remote 設定為 blog：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git remote remove origin
 git remote add origin https://github.com/帳號/blog.git
-git push -u origin master&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;接下來就是利用 GitHub Pages 把 blog 推上線， GitHub 的實作方式是建立一個新的 branch 叫做 gh-pages。 原則上只要把 output 資料夾的內容放到 gh-pages 這個 branch 就行了。 但實際上很不容易， 還好 Pelican 都幫你搞定了，只要鍵入 &lt;code&gt;make github&lt;/code&gt; ，Pelican 就會幫你編譯，然後上傳到 gh-pages。 也不需要切換 branch。&lt;br /&gt;但要注意的是，編譯的內容是以 master 為基礎的，所以要先 git push master 後，才能 &lt;code&gt;make github&lt;/code&gt;。&lt;/p&gt;
-&lt;h3 id="設定-google-analytics-disqus"&gt;設定 Google Analytics, Disqus&lt;/h3&gt;
-&lt;p&gt;上線後可以去註冊 &lt;a href="http://www.google.com/intl/zh-TW/analytics/"&gt;Google Analytics&lt;/a&gt; 跟 &lt;a href="https://disqus.com/"&gt;Disqus&lt;/a&gt; 服務。 Google Analytics 可以幫忙作網站流量分析，而 Disqus 是網站留言管理系統。 註冊過後會得到一個代碼，再把這些代碼寫到 publishconf.py 裡相對應的欄位去，記得把 SITEURL 改成自己在 GitHub 的網址。 這樣應該就可以了。&lt;/p&gt;
+git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接下來就是利用 GitHub Pages 把 blog 推上線，
+GitHub 的實作方式是建立一個新的 branch 叫做 gh-pages。
+原則上只要把 output 資料夾的內容放到 gh-pages 這個 branch 就行了。
+但實際上很不容易，
+還好 Pelican 都幫你搞定了，只要鍵入 &lt;code&gt;make github&lt;/code&gt; ，Pelican 就會幫你編譯，然後上傳到 gh-pages。
+也不需要切換 branch。&lt;br&gt;但要注意的是，編譯的內容是以 master 為基礎的，所以要先 git push master 後，才能 &lt;code&gt;make github&lt;/code&gt;。&lt;/p&gt;
+&lt;h3 id="-google-analytics-disqus"&gt;設定 Google Analytics, Disqus&lt;/h3&gt;
+&lt;p&gt;上線後可以去註冊 &lt;a href="http://www.google.com/intl/zh-TW/analytics/"&gt;Google Analytics&lt;/a&gt; 跟 &lt;a href="https://disqus.com/"&gt;Disqus&lt;/a&gt; 服務。
+Google Analytics 可以幫忙作網站流量分析，而 Disqus 是網站留言管理系統。
+註冊過後會得到一個代碼，再把這些代碼寫到 publishconf.py 裡相對應的欄位去，記得把 SITEURL 改成自己在 GitHub 的網址。
+這樣應該就可以了。&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;</summary><category term="python"></category><category term="pelican"></category></entry></feed>
