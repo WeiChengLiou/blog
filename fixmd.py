@@ -103,6 +103,6 @@ def writemd(path, fi):
 
 if __name__ == '__main__':
     path = 'content'
-    fi = 'kmt.md'
+    fi = 'grouping.md'
     writemd(path, fi)
 
