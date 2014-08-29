@@ -10,7 +10,7 @@ SITENAME = u"Gilbert's Data Lab"
 SITESUBTITLE = u'Data drives thinking, thinking transforms data.'
 # Change in publishconf.py and ignore the WARNING.  This is needed so you
 # can inspect the site using a web-server at locahost.
-SITEURL = 'http://localhost:8080'
+SITEURL = ''
 
 # Times and dates.
 DEFAULT_DATE_FORMAT = '%b %d, %Y'
