@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>使用 Pelican 建立 blog</title>
+  <title>集團間研究</title>
   <meta name="author" content="WeiCheng Liou">
 
   <link href="/atom.xml" type="application/atom+xml" rel="alternate"
@@ -1794,91 +1794,118 @@ jQuery(document).ready(function($) {
 <div>
   <article class="hentry" role="article">
 <header>
-      <h1 class="entry-title">使用 Pelican 建立 blog</h1>
-      <p class="meta"><time datetime="2014-08-07T02:30:00" pubdate> 8月 07, 2014</time></p>
+      <h1 class="entry-title">集團間研究</h1>
+      <p class="meta"><time datetime="2014-08-29T08:29:00" pubdate> 8月 29, 2014</time></p>
 </header>
 
-  <div class="entry-content"><p>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>這篇要介紹如何使用 pelican 建立 blog。 Pelican 是用 python 搭建的 blog 系統，在整合 IPython notebook 這部份頗受好評。 所以也不少人用 IPython notebook 寫完報告或教學後，直接用 Pelican 建立的 blog 發表文章。</p>
-<p>基本上雖然在第一 po 有略為提到如何建立 blog， 但事實上我還是為了一些技術問題抓掉不少頭髮。 還好問題全部都解決了，所以在這邊作個紀錄。</p>
-<p>我使用的作業環境是 ubuntu 14.04 LTS, Python 2.7.8，參考資料來源為：</p>
-<ul>
-<li><a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/">Building this blog</a></li>
-<li><a href="https://pelican.readthedocs.org/en/3.4.0/index.html">Pelican documents</a></li>
-<li><a href="http://yassi.github.io/yassi_pelican_output/pelican-on-github-pages-heroku-and-nginx.html">Plican on github pages, heroku, and nginx</a></li>
-</ul>
-<p>建立部落格大概有幾個步驟要作</p>
-<h3 id="安裝套件">安裝套件</h3>
-<p>目前看到的部落格都會建議用 virtualenv 安裝所需套件，不過我個人是用 Pyenv，比 virtualenv 方便很多。 關於 Pyenv 的安裝方式，可以參考 <a href="http://blog.codylab.com/python-pyenv/">這篇文章</a>。</p>
-<p>假設已經安裝好 Pyenv 後，首先新增資料夾，以及新增一個 virtualenv</p>
-<pre><code>mkdir pelican
-cd pelican
-pyenv virtualenv 2.7.8 pelican
-pyenv local pelican</code></pre>
-<p>接下來是安裝套件，先把 <a href="http://WeiChengLiou.github.io/blog/downloads/requirements.txt">requirements.txt</a> 儲存到目前的資料夾，鍵入以下指令安裝套件</p>
-<pre><code>pip install -r requirements.txt</code></pre>
-<p>這樣就可以確保大家的版本相同了！</p>
-<h3 id="git-clone">git clone</h3>
-<p>接著安裝 theme 跟 plugins：</p>
-<pre><code>git clone https://github.com/jakevdp/pelican-octopress-theme.git
-git clone https://github.com/getpelican/pelican-plugins.git</code></pre>
-<p>theme 目前是引用 <a href="http://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/">jakevdp</a> 的設定， 因為該作者有針對 Ipython notebook 的顯示作調整，直接拿現成的來用比較方便。 而且我也蠻喜歡這風格的。 如果想換其他佈景主題的話，請參考這邊的<a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/">建議</a>。</p>
-<p>其實如果熟悉 pelican 的話，是可以選擇自己用 pelican-quickstart 一步步建立 blog 的。 但這邊我選擇拿前人的設定來改：</p>
-<pre><code>git clone https://github.com/ocefpaf/python4oceanographers</code></pre>
-<p>接著移到 python4oceanographers 目錄下， 將 pelicanconf.py 檔案裡的 THEME 跟 PLUGIN_PATH 修改成你放置 pelican-octopress-theme 跟 pelican-plugins 的路徑：</p>
-<pre><code>path = os.path.join(os.environ.get(&#39;HOME&#39;), &#39;pelican&#39;)
-THEME = &#39;%s/pelican-octopress-theme&#39; % path
-PLUGIN_PATH = &#39;%s/pelican-plugins&#39; % path</code></pre>
-<h3 id="localhost-測試">localhost 測試</h3>
-<p>接著可以先試著編譯，作第一次 local 端測試了。編譯後的檔案會放在 output 資料夾中，所以要切換至 output 資料夾設定 server。</p>
-<pre><code>make html
-cd output
-python -m SimpleHTTPServer 8080</code></pre>
-<p>接著開啟瀏覽器，到 http://localhost:8080 看看結果如何。如果順利的話，這時應該可以看到 blog 了。</p>
-<h3 id="修改設定">修改設定</h3>
-<p>接下來開啟 pelicanconf.py ，修改自己想要的設定。 這邊簡單介紹幾個必改的設定</p>
-<pre><code>AUTHOR 作者
-SITENAME 站名
-SITESUBTITLE 站名副標題
-uri GitHub Pages 站名，格式為 http://帳號.github.io
-LINKS 友站連結
-TWITTER_USER 你的 Twitter 帳號
-GOOGLEPLUS_USER 你的 Google+ 帳號</code></pre>
-<p>以上改完後再重新編譯後試試，應該這時站名之類的應該都改過來了。</p>
-<h3 id="發表文章">發表文章</h3>
-<p>文章統一儲存在 content 資料夾裡，或是自己改 pelicanconf.py 裡面設定。 可以用 reStructured Text 或 Markdown 格式書寫，我個人比較偏好 Markdown，所以以 markdown 語法說明。</p>
-<p>每篇文章都是一個獨立檔案，檔名格式為 yyyy-mm-dd-blogging.md。 前面是日期，後面是文章識別名稱。 以本篇文章為例，文章開頭有以下 tag：</p>
-<pre><code>title: 如何利用 pelican 建立 blog
-date: 2014-08-07 00:30
-comments: true
-slug: buildblog
-tags: python, pelican</code></pre>
-<p>slug 是唯一的，可以不寫. tags 可寫可不寫。</p>
-<p>後面文章內容的部份就看個人發揮了。 關於 markdown 格式寫法，可以參考 <a href="http://zh.wikipedia.org/wiki/Markdown">wiki</a>。 若是想直接把 IPython notebook 貼過來的人，先把 ipynb 檔案拷貝至 content/downloads/notebooks ， md 檔最後加上以下這行：</p>
-<pre><code>{% notebook blogging.ipynb cells[1:] %}</code></pre>
-<p>所以往後發表文章的時候，可以先在 local 端編譯測試，看看格式有沒有跑掉之類的，確定可以了再上線。 上線前記得先把 content 資料夾裡面前作者的文章砍光，資料夾別跟著砍了，留下自己的文章就好。</p>
-<h3 id="github-上線">GitHub 上線</h3>
-<p>當你寫好文章準備上線了，找個可以放置 blog 的地方也是一門學問。 這邊建議直接丟 GitHub，好處是完全免費，只是檔案要被看光光 （但其實這個站也是拿人家現成的來改，就算完全 open 也是應該的吧）。 或者你也可以考慮放到 Heroku 去，設定方式請看參考資料。</p>
-<p>在 GitHub 上線前，要先把 GitHub remote 目錄改一改。 我的方式是先去 GitHub 開一個 repository，假定名稱為 blog 好了。 然後修改 python4oceanographers 資料夾名稱為 blog，接著修改 GitHub remote 設定為 blog：</p>
-<pre><code>git remote remove origin
-git remote add origin https://github.com/帳號/blog.git
-git push -u origin master</code></pre>
-<p>接下來就是利用 GitHub Pages 把 blog 推上線， GitHub 的實作方式是建立一個新的 branch 叫做 gh-pages。 原則上只要把 output 資料夾的內容放到 gh-pages 這個 branch 就行了。 但實際上很不容易， 還好 Pelican 都幫你搞定了，只要鍵入 <code>make github</code> ，Pelican 就會幫你編譯，然後上傳到 gh-pages。 也不需要切換 branch。<br />但要注意的是，編譯的內容是以 master 為基礎的，所以要先 git push master 後，才能 <code>make github</code>。</p>
-<h3 id="設定-google-analytics-disqus">設定 Google Analytics, Disqus</h3>
-<p>上線後可以去註冊 <a href="http://www.google.com/intl/zh-TW/analytics/">Google Analytics</a> 跟 <a href="https://disqus.com/">Disqus</a> 服務。 Google Analytics 可以幫忙作網站流量分析，而 Disqus 是網站留言管理系統。 註冊過後會得到一個代碼，再把這些代碼寫到 publishconf.py 裡相對應的欄位去，記得把 SITEURL 改成自己在 GitHub 的網址。 這樣應該就可以了。</p>
-</div></p></div>
+  <div class="entry-content"><p><strong>「台灣究竟存在多少集團？」</strong><br>
+這是我第一次接觸到台灣公司關係圖資料時第一個浮現的問題，所以有了這一系列文章出現。</p>
+<p>從第一篇文章中，我們從法人投資關係中發現了一個橫跨國營事業、黨營事業與財團的超大型集團，並試圖從不同角度觀察該集團的主要成員。但即使在這一個大型集團中，仍然可以
+辨識出一些主要的家族集團與少數次要的集團。那麼這些集團大致上有哪些成員？不同集團間有怎樣的合作關係？如<a href="http://socio
+logy.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf">中研院社會所李宗榮老師的研究</a> 中，各個家族財團除了發展家族事業之外，也會與其他家族共同
+合作投資新事業，擴大經營版圖。那麼是否有辦法辨識出這些策略聯盟的企業，甚至是從這些策略聯盟企業發掘不同集團間的親密程度？</p>
+<p>首先必須要承認的是分類集團並不容易，因為有以下難題必須面對：</p>
+<ol>
+<li>集團投資可分為法人投資與自然人投資兩種，其中自然人投資面臨同名同姓的問題，所以多少具有猜測成份。</li>
+<li>某些公司董監事名單由多家公司的法人代表組成，此因其為不同集團共同成立的策略聯盟，故同時為多個集團成員。</li>
+<li>又有某些公司，雖然董監事名單存在兩間以上公司，但其實均屬同一集團，並不保證能完全辨識出來。</li>
+<li>某些大集團，如新光集團，其投資母公司由多家投資公司或財團法人組成。各家投資公司或有彼此交叉持股集團子公司，或有與其他集團合資成立公司，不保證能完全確定核心
+集團成員。</li>
+</ol>
+<p>即使如此，我還是想盡可能從資料中描繪出集團的概貌，畫出更"立體"的台灣企業生態圈。因為資料的限制，在認定集團成員上仍然存在些許模糊地帶，故本文所稱的集團研究，姑
+且稱之為「泛」集團研究可能更為貼切。</p>
+<p>本文資料來源為 <a href="http://gcis.nat.g0v.tw/">台灣公司關係圖</a> 6 月份資料。</p>
+<h3>分類方式說明</h3>
+<p>面對集團分類問題，我們試圖計畫分類步驟如下：</p>
+<ol>
+<li>確定公司名稱與統編</li>
+<li>觀察該公司股東結構，判定其是否為某集團核心企業。</li>
+<li>觀察該公司投資企業名單，判定其是否為某集團核心企業。</li>
+<li>依董監事名單找出其他相關企業（策略聯盟不一定要找關係企業），逐步分類集團核心與非核心企業。</li>
+</ol>
+<p>在對所有企業進行初步分類後，所有集團的關係企業可分為 是/非董監事關係企業 與 是/非核心企業 共四種。
+最理想的狀況是：所有集團的非董監事關係核心企業不重疊，但事實並非如此。例如：</p>
+<p>1.
+對於某些公司自己既是集團母公司，又同時為其他集團核心公司成員者。通常是因為董監事是以個人身份投資多間公司，故核心企業可能會重複記入，所以我們將這些企業合併一起。
+2. 兩集團合資成立某公司 A ，各擁有該公司半數董監事席次，故該公司同時為兩集團的核心成員。
+3. 某些公司如亞洲水泥自身為集團母公司，其股東裡有應柴秀珍基金會成員。但亞洲水泥是遠東集團核心成員，應柴秀珍基金會卻被歸類為遠東集團的投資夥伴，這點在判定仁昌
+投資這種董監事人數較少的公司時，就會從核心成員變成非核心成員。
+3. 本文前段述及之集團認定問題</p>
+<p>故作進一步分類時，我們除了檢查重複的核心成員時，也應同時檢查雙方的董監事成員是否相近。
+關於決定成員是否相近，我們定義集團 A, B 間的核心企業重複比例如下：</p>
+<p>若核心企業重複比例越高，表示其中核心企業較少的集團越有可能是另一集團的一份子。同理亦可計算董監事重複比例。</p>
+<p>考慮手邊擁有的資料，我們採用保守的方法合併"可能"相似的集團：<strong>若核心企業重複比例或董監事重複比例超過五成則視為同一個集團。</strong>
+這步驟會重複數次，因為兩集團合併後的較大集團可能會新發現其他高相似度的集團。
+這集團分類並不完全精準，因為分類過程中有考慮董監事個人，但我們並不能完全確定董監事分類方法正確無誤。
+依李宗榮老師對上市櫃五百大公司的研究結果，規模越大的公司就越少同名同姓董監事。
+故對於大集團之間的比較來說，仍可獲得可以參考的結果。</p>
+<h3>集團規模分佈</h3>
+<p>依上述步驟分類集團後，我們可觀察各集團核心企業數量與董監事人數分佈如下：</p>
+<table><tr><td></td><td>董監事人數</td><td>總企業家數</td><td>核心企業家數</td></tr><tr><td>count</td><td>7923.0</td><td>7923.0</td><td>7923.0</td></tr><tr><td>mean</td><td>7.83200807775</td><td>6.48554840338</td><td>3.82241575161</td></tr><tr><td>std</td><td>10.9679791608</td><td>11.8677338699</td><td>5.65474667245</td></tr><tr><td>min</td><td>1.0</td><td>2.0</td><td>1.0</td></tr><tr><td>25%</td><td>4.0</td><td>2.0</td><td>2.0</td></tr><tr><td>50%</td><td>5.0</td><td>3.0</td><td>2.0</td></tr><tr><td>75%</td><td>9.0</td><td>6.0</td><td>4.0</td></tr><tr><td>max</td><td>516.0</td><td>259.0</td><td>154.0</td></tr></table>
+
+<p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/grouping_files/grouping_7_0.png" /></p>
+<p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/grouping_files/grouping_8_0.png" /></p>
+<p>由上圖可知共分類出八千多個集團，半數以上的集團董監事人數超過五人，核心企業家數不超過兩間。</p>
+<p>但我們更好奇的是大集團的規模，考量到集團間有可能進行各種策略聯盟，若以具有絕對控制權的企業家數來衡量集團規模會更顯得實際，經排名後前 25 名列表如下：</p>
+<table><tr><td>排名</td><td>代表企業</td><td>總企業家數</td><td>核心企業家數</td></tr><tr><td>1</td><td>新光合成纖維股份有限公司</td><td>254</td><td>154</td></tr><tr><td>2</td><td>南聯國際貿易股份有限公司</td><td>256</td><td>137</td></tr><tr><td>3</td><td>寶島投資開發股份有限公司</td><td>115</td><td>111</td></tr><tr><td>4</td><td>亞洲水泥股份有限公司</td><td>146</td><td>101</td></tr><tr><td>5</td><td>永豐餘投資控股股份有限公司</td><td>169</td><td>88</td></tr><tr><td>6</td><td>兆豐國際商業銀行股份有限公司</td><td>259</td><td>69</td></tr><tr><td>7</td><td>聯華實業股份有限公司</td><td>129</td><td>65</td></tr><tr><td>8</td><td>耐斯企業股份有限公司</td><td>113</td><td>65</td></tr><tr><td>9</td><td>臺灣水泥股份有限公司</td><td>177</td><td>61</td></tr><tr><td>10</td><td>仲冠投資股份有限公司</td><td>115</td><td>60</td></tr><tr><td>11</td><td>能率投資股份有限公司</td><td>103</td><td>58</td></tr><tr><td>12</td><td>堉群實業股份有限公司</td><td>65</td><td>57</td></tr><tr><td>13</td><td>東元電機股份有限公司</td><td>111</td><td>56</td></tr><tr><td>14</td><td>燁聯鋼鐵股份有限公司</td><td>67</td><td>56</td></tr><tr><td>15</td><td>凱撒大飯店股份有限公司</td><td>55</td><td>53</td></tr><tr><td>16</td><td>慶豐環宇股份有限公司</td><td>54</td><td>52</td></tr><tr><td>17</td><td>力麗企業股份有限公司</td><td>59</td><td>52</td></tr><tr><td>18</td><td>味丹企業股份有限公司</td><td>66</td><td>52</td></tr><tr><td>19</td><td>中華工程股份有限公司</td><td>63</td><td>51</td></tr><tr><td>20</td><td>國產實業建設股份有限公司</td><td>80</td><td>51</td></tr><tr><td>21</td><td>年代網際事業股份有限公司</td><td>65</td><td>50</td></tr><tr><td>22</td><td>富邦綜合證券股份有限公司</td><td>113</td><td>50</td></tr><tr><td>23</td><td>金寶電子工業股份有限公司</td><td>143</td><td>49</td></tr><tr><td>24</td><td>潤泰創新國際股份有限公司</td><td>60</td><td>48</td></tr><tr><td>25</td><td>中央投資股份有限公司</td><td>224</td><td>48</td></tr></table>
+
+<p>前一百大排名：<a href="http://weichengliou.github.io/blog/downloads/data/html/big100.html">HTML</a>, <a href="http://weichengliou.github.io/blog/downloads/data/csv/big100.csv">CSV</a></p>
+<p>為了幫助識別，本文的代表企業以集團內連接數最多的企業作為集團代表企業。</p>
+<p>我們發現到僅前 4 名的核心企業家數在一百家以上，其中最大者為新光集團，台南幫統一集團次之。</p>
+<p>而過去觀察直接投資公司家數第一名的兆豐銀，在考慮核心企業家數後落到第四名。但其總投資企業家數 259 家為所有集團中最多者。
+財政部為兆豐金控主要大股東，在加入財政部主導投資的其他官股銀行，如：第一金、合庫、土銀等次集團後，泛兆豐銀集團實質上乃是一官股銀行集團。
+以銀行或投資公司為主體的集團，如泛兆豐集團，雖然投資企業家數多，但核心企業僅 69 家約佔四分之一左右。
+相反地，其他如統一、新光、遠東等集團的核心企業數均有一百家以上，代表這些集團的關係企業有半數以上掌握絕對控制權，這些差異也可以顯示出集團經營偏好。</p>
+<p>但是集團分類的用處不僅於此，我們還可從集團間的策略聯盟比較，觀察不同集團間的親密程度。</p>
+<h3>策略聯盟</h3>
+<p>我們試從前一百大集團分析集團間的關係企業交集。以泛兆豐集團為例，與其最親密的集團如下：</p>
+<table><tr><td>代表企業</td><td>重複企業家數</td></tr><tr><td>中央投資股份有限公司</td><td>61</td></tr><tr><td>亞洲水泥股份有限公司</td><td>52</td></tr><tr><td>永豐餘投資控股股份有限公司</td><td>21</td></tr><tr><td>和泰汽車股份有限公司</td><td>16</td></tr><tr><td>元大創業投資股份有限公司</td><td>14</td></tr><tr><td>華南商業銀行股份有限公司</td><td>11</td></tr><tr><td>耐斯企業股份有限公司</td><td>10</td></tr><tr><td>台灣聚合化學品股份有限公司</td><td>10</td></tr><tr><td>富邦綜合證券股份有限公司</td><td>7</td></tr><tr><td>中國鋼鐵股份有限公司</td><td>7</td></tr><tr><td>長春人造樹脂廠股份有限公司</td><td>7</td></tr><tr><td>金寶電子工業股份有限公司</td><td>7</td></tr><tr><td>聯華實業股份有限公司</td><td>6</td></tr><tr><td>仲冠投資股份有限公司</td><td>6</td></tr><tr><td>明怡投資股份有限公司</td><td>5</td></tr><tr><td>和展投資有限公司</td><td>5</td></tr><tr><td>新光合成纖維股份有限公司</td><td>5</td></tr><tr><td>宏碁股份有限公司</td><td>4</td></tr><tr><td>長榮國際股份有限公司</td><td>4</td></tr><tr><td>臺灣水泥股份有限公司</td><td>4</td></tr></table>
+
+<p>由上表可以觀察得到與泛兆豐集團最親密的是以中央投資集團，其次為亞洲水泥集團。另外也可看到與兆豐銀較親密的集團，多半以銀行或投資公司為代表企業的同性質集團為主。這
+點可能與這類集團特性以轉投資為主有關。</p>
+<p>因金融業產業特性使然，不論是投資公司或銀行業，均會多方尋求投資機會但未必介入實際經營。所以表現出來的就是關係企業多但核心企業少。雖然某些大集團如亞洲水泥集團，其
+轉投資事業也是包山包海，但多半以實際經營為主，故核心企業多。這點就與以金融或投資公司為主體的集團不同。</p>
+<p>對於前一百大集團間的共同投資公司家數，我們可以試用階層式分群法 (Hierarchical Clustering) 表示如下：</p>
+<p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/grouping_files/grouping_18_0.png" /></p>
+<p>由圖中可以觀察到有某些集團的關係特別親密，也有某些集團（如寶島投資開發）跟其他集團幾乎沒有共同投資關係。</p>
+<p>若想同時觀察所有集團間的連結，我們可以試圖用網絡分析圖來表示。</p>
+<p>首先將集團間共同投資的企業數以 5 家為級距分組，5 家以下忽略。接著以核心企業數表示各集團大小，試圖繪出社會網絡圖出來：</p>
+<p><a href="http://weichengliou.github.io/blog/downloads/data/html/grpconn.html">另開新頁</a><iframe height="600px" width="100%" src=http://weichengliou.github.io/blog/downloads/data/html/grpconn.html></iframe></p>
+<p>由圖可看到某些大型集團間存在高度密切的共同投資關係，這些集團彼此形成了比較高密度的聚合體，因此我們可以相信說這些集團間的行動或許會是比較一致的，資訊也會更容易在
+這些集團的高層間流通。而其他多數集團僅保持集團內的共同投資行為，不只規模較小，與其他集團的合作關係也較不明顯。</p>
+<h3>結語</h3>
+<p>我們試著用一些簡單的方式去分類集團，並根據這些分類後的結果去觀察大型集團間的合作行為。在大型集團間彼此共同合作關係應屬常態，但究竟是因先合作才有規模，還是先有規
+模才有合作，就好比雞生蛋或蛋生雞的問題一樣難解，但鐵定是共生共榮的。正如十根筷子折不斷的道理一般，集團的力量一定大於單一企業，而這個由國營事業、黨營事業以及大型
+集團形成的菁英核心圈，其凝聚力又絕對遠勝其他單一集團。</p>
+<p>因此在觀察政府的施政方向時，應注意政府是否常以「拼經濟」為名為企業大開方便之門？重大建設公開招標後，是否對層層發包最後壓榨底層勞工不聞不問？是否為了企業工廠運作
+順利而犧牲了山川空氣水？</p>
+<p>筆者要談的是，與社會公平正義比較起來，制度與結構問題才是我們更應該去注意的地方。只要制度與經濟結構不變，就算換人執政也是難有作為。人不一定會變壞，但制度或結構上
+的缺陷卻會讓在位者有機會結黨營私，所以才需要組織更多公民意識來共同監督政府施政，民主並不是只有投票而已，公民意見的交流、匯總與執行也應該是民主的一部份。</p>
+<h3>參考文獻</h3>
+<p><a href="http://soci
+ology.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf">李宗榮，2007，〈在國家與家族之間：企業控制與臺灣大型企業間網絡再探〉，《台灣社會學》，第13卷，頁173-242。(TSSCI)</a></p>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title">Gilbert's Data Lab</span> by <a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL">WeiCheng Liou</a> is
+licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
+Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source">http://WeiChengLiou.github.io/</a>.</p></div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
     Posted by <span class="fn">WeiCheng Liou</span>
   </span>
-<time datetime="2014-08-07T02:30:00" pubdate> 8月 07, 2014</time>  <span class="categories">
-    <a class="category" href="http://WeiChengLiou.github.io/blog/tag/python.html">python</a>
-    <a class="category" href="http://WeiChengLiou.github.io/blog/tag/pelican.html">pelican</a>
+<time datetime="2014-08-29T08:29:00" pubdate> 8月 29, 2014</time>  <span class="categories">
+    <a class="category" href="http://WeiChengLiou.github.io/blog/tag/tai-wan-gong-si-guan-xi-tu.html">台灣公司關係圖</a>
   </span>
 </p><div class="sharing">
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/" data-via="WeichengLiou" data-counturl="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://WeiChengLiou.github.io/blog/blog/2014/08/29/grouping/" data-via="WeichengLiou" data-counturl="http://WeiChengLiou.github.io/blog/blog/2014/08/29/grouping/" >Tweet</a>
   <div class="g-plusone" data-size="medium"></div>
 </div>    </footer>
   </article>
@@ -1962,9 +1989,9 @@ git push -u origin master</code></pre>
 </script>
 	<script type="text/javascript">
 	  var disqus_shortname = 'weichengliou';
-          var disqus_identifier = '/blog/2014/08/07/buildblog/';
-          var disqus_url = 'http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/';
-          var disqus_title = '使用 Pelican 建立 blog';
+          var disqus_identifier = '/blog/2014/08/29/grouping/';
+          var disqus_url = 'http://WeiChengLiou.github.io/blog/blog/2014/08/29/grouping/';
+          var disqus_title = '集團間研究';
 	  (function() {
 	    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
 	    dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';

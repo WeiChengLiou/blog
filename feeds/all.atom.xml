@@ -1,5 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2014-08-21T15:00:00+08:00</updated><entry><title>關於台灣公司關係圖</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/21/twcom_about/" rel="alternate"></link><updated>2014-08-21T15:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-21:blog/2014/08/21/twcom_about/</id><summary type="html">&lt;p&gt;關於本站台灣公司關係圖系列的文章，其實是因緣際會拿到 &lt;a href="https://twitter.com/ronnywang"&gt;RonnyWang&lt;/a&gt; 抓的資料，剛好自己又對集團研究很感興趣，所以就一頭栽進去了。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2014-08-29T08:29:00+08:00</updated><entry><title>集團間研究</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/29/grouping/" rel="alternate"></link><updated>2014-08-29T08:29:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-29:blog/2014/08/29/grouping/</id><summary type="html">&lt;p&gt;&lt;strong&gt;「台灣究竟存在多少集團？」&lt;/strong&gt;&lt;br&gt;
+這是我第一次接觸到台灣公司關係圖資料時第一個浮現的問題，所以有了這一系列文章出現。&lt;/p&gt;
+&lt;p&gt;從第一篇文章中，我們從法人投資關係中發現了一個橫跨國營事業、黨營事業與財團的超大型集團，並試圖從不同角度觀察該集團的主要成員。但即使在這一個大型集團中，仍然可以
+辨識出一些主要的家族集團與少數次要的集團。那麼這些集團大致上有哪些成員？不同集團間有怎樣的合作關係？如&lt;a href="http://socio
+logy.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf"&gt;中研院社會所李宗榮老師的研究&lt;/a&gt; 中，各個家族財團除了發展家族事業之外，也會與其他家族共同
+合作投資新事業，擴大經營版圖。那麼是否有辦法辨識出這些策略聯盟的企業，甚至是從這些策略聯盟企業發掘不同集團間的親密程度？&lt;/p&gt;
+&lt;p&gt;首先必須要承認的是分類集團並不容易，因為有以下難題必須面對：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;集團投資可分為法人投資與自然人投資兩種，其中自然人投資面臨同名同姓的問題，所以多少具有猜測成份。&lt;/li&gt;
+&lt;li&gt;某些公司董監事名單由多家公司的法人代表組成，此因其為不同集團共同成立的策略聯盟，故同時為多個集團成員。&lt;/li&gt;
+&lt;li&gt;又有某些公司，雖然董監事名單存在兩間以上公司，但其實均屬同一集團，並不保證能完全辨識出來。&lt;/li&gt;
+&lt;li&gt;某些大集團，如新光集團，其投資母公司由多家投資公司或財團法人組成。各家投資公司或有彼此交叉持股集團子公司，或有與其他集團合資成立公司，不保證能完全確定核心
+集團成員。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;即使如此，我還是想盡可能從資料中描繪出集團的概貌，畫出更"立體"的台灣企業生態圈。因為資料的限制，在認定集團成員上仍然存在些許模糊地帶，故本文所稱的集團研究，姑
+且稱之為「泛」集團研究可能更為貼切。&lt;/p&gt;
+&lt;p&gt;本文資料來源為 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 6 月份資料。&lt;/p&gt;
+&lt;h3&gt;分類方式說明&lt;/h3&gt;
+&lt;p&gt;面對集團分類問題，我們試圖計畫分類步驟如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;確定公司名稱與統編&lt;/li&gt;
+&lt;li&gt;觀察該公司股東結構，判定其是否為某集團核心企業。&lt;/li&gt;
+&lt;li&gt;觀察該公司投資企業名單，判定其是否為某集團核心企業。&lt;/li&gt;
+&lt;li&gt;依董監事名單找出其他相關企業（策略聯盟不一定要找關係企業），逐步分類集團核心與非核心企業。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在對所有企業進行初步分類後，所有集團的關係企業可分為 是/非董監事關係企業 與 是/非核心企業 共四種。
+最理想的狀況是：所有集團的非董監事關係核心企業不重疊，但事實並非如此。例如：&lt;/p&gt;
+&lt;p&gt;1.
+對於某些公司自己既是集團母公司，又同時為其他集團核心公司成員者。通常是因為董監事是以個人身份投資多間公司，故核心企業可能會重複記入，所以我們將這些企業合併一起。
+2. 兩集團合資成立某公司 A ，各擁有該公司半數董監事席次，故該公司同時為兩集團的核心成員。
+3. 某些公司如亞洲水泥自身為集團母公司，其股東裡有應柴秀珍基金會成員。但亞洲水泥是遠東集團核心成員，應柴秀珍基金會卻被歸類為遠東集團的投資夥伴，這點在判定仁昌
+投資這種董監事人數較少的公司時，就會從核心成員變成非核心成員。
+3. 本文前段述及之集團認定問題&lt;/p&gt;
+&lt;p&gt;故作進一步分類時，我們除了檢查重複的核心成員時，也應同時檢查雙方的董監事成員是否相近。
+關於決定成員是否相近，我們定義集團 A, B 間的核心企業重複比例如下：&lt;/p&gt;
+&lt;p&gt;若核心企業重複比例越高，表示其中核心企業較少的集團越有可能是另一集團的一份子。同理亦可計算董監事重複比例。&lt;/p&gt;
+&lt;p&gt;考慮手邊擁有的資料，我們採用保守的方法合併"可能"相似的集團：&lt;strong&gt;若核心企業重複比例或董監事重複比例超過五成則視為同一個集團。&lt;/strong&gt;
+這步驟會重複數次，因為兩集團合併後的較大集團可能會新發現其他高相似度的集團。
+這集團分類並不完全精準，因為分類過程中有考慮董監事個人，但我們並不能完全確定董監事分類方法正確無誤。
+依李宗榮老師對上市櫃五百大公司的研究結果，規模越大的公司就越少同名同姓董監事。
+故對於大集團之間的比較來說，仍可獲得可以參考的結果。&lt;/p&gt;
+&lt;h3&gt;集團規模分佈&lt;/h3&gt;
+&lt;p&gt;依上述步驟分類集團後，我們可觀察各集團核心企業數量與董監事人數分佈如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;董監事人數&lt;/td&gt;&lt;td&gt;總企業家數&lt;/td&gt;&lt;td&gt;核心企業家數&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;count&lt;/td&gt;&lt;td&gt;7923.0&lt;/td&gt;&lt;td&gt;7923.0&lt;/td&gt;&lt;td&gt;7923.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;mean&lt;/td&gt;&lt;td&gt;7.83200807775&lt;/td&gt;&lt;td&gt;6.48554840338&lt;/td&gt;&lt;td&gt;3.82241575161&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;std&lt;/td&gt;&lt;td&gt;10.9679791608&lt;/td&gt;&lt;td&gt;11.8677338699&lt;/td&gt;&lt;td&gt;5.65474667245&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;min&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;25%&lt;/td&gt;&lt;td&gt;4.0&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;50%&lt;/td&gt;&lt;td&gt;5.0&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;75%&lt;/td&gt;&lt;td&gt;9.0&lt;/td&gt;&lt;td&gt;6.0&lt;/td&gt;&lt;td&gt;4.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;max&lt;/td&gt;&lt;td&gt;516.0&lt;/td&gt;&lt;td&gt;259.0&lt;/td&gt;&lt;td&gt;154.0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/grouping_files/grouping_7_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/grouping_files/grouping_8_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由上圖可知共分類出八千多個集團，半數以上的集團董監事人數超過五人，核心企業家數不超過兩間。&lt;/p&gt;
+&lt;p&gt;但我們更好奇的是大集團的規模，考量到集團間有可能進行各種策略聯盟，若以具有絕對控制權的企業家數來衡量集團規模會更顯得實際，經排名後前 25 名列表如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;排名&lt;/td&gt;&lt;td&gt;代表企業&lt;/td&gt;&lt;td&gt;總企業家數&lt;/td&gt;&lt;td&gt;核心企業家數&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;新光合成纖維股份有限公司&lt;/td&gt;&lt;td&gt;254&lt;/td&gt;&lt;td&gt;154&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;南聯國際貿易股份有限公司&lt;/td&gt;&lt;td&gt;256&lt;/td&gt;&lt;td&gt;137&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;寶島投資開發股份有限公司&lt;/td&gt;&lt;td&gt;115&lt;/td&gt;&lt;td&gt;111&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;亞洲水泥股份有限公司&lt;/td&gt;&lt;td&gt;146&lt;/td&gt;&lt;td&gt;101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;永豐餘投資控股股份有限公司&lt;/td&gt;&lt;td&gt;169&lt;/td&gt;&lt;td&gt;88&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;兆豐國際商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;259&lt;/td&gt;&lt;td&gt;69&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;聯華實業股份有限公司&lt;/td&gt;&lt;td&gt;129&lt;/td&gt;&lt;td&gt;65&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;耐斯企業股份有限公司&lt;/td&gt;&lt;td&gt;113&lt;/td&gt;&lt;td&gt;65&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;臺灣水泥股份有限公司&lt;/td&gt;&lt;td&gt;177&lt;/td&gt;&lt;td&gt;61&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;仲冠投資股份有限公司&lt;/td&gt;&lt;td&gt;115&lt;/td&gt;&lt;td&gt;60&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;能率投資股份有限公司&lt;/td&gt;&lt;td&gt;103&lt;/td&gt;&lt;td&gt;58&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;堉群實業股份有限公司&lt;/td&gt;&lt;td&gt;65&lt;/td&gt;&lt;td&gt;57&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;東元電機股份有限公司&lt;/td&gt;&lt;td&gt;111&lt;/td&gt;&lt;td&gt;56&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;燁聯鋼鐵股份有限公司&lt;/td&gt;&lt;td&gt;67&lt;/td&gt;&lt;td&gt;56&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;凱撒大飯店股份有限公司&lt;/td&gt;&lt;td&gt;55&lt;/td&gt;&lt;td&gt;53&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;16&lt;/td&gt;&lt;td&gt;慶豐環宇股份有限公司&lt;/td&gt;&lt;td&gt;54&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;力麗企業股份有限公司&lt;/td&gt;&lt;td&gt;59&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;味丹企業股份有限公司&lt;/td&gt;&lt;td&gt;66&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;19&lt;/td&gt;&lt;td&gt;中華工程股份有限公司&lt;/td&gt;&lt;td&gt;63&lt;/td&gt;&lt;td&gt;51&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;國產實業建設股份有限公司&lt;/td&gt;&lt;td&gt;80&lt;/td&gt;&lt;td&gt;51&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;21&lt;/td&gt;&lt;td&gt;年代網際事業股份有限公司&lt;/td&gt;&lt;td&gt;65&lt;/td&gt;&lt;td&gt;50&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;22&lt;/td&gt;&lt;td&gt;富邦綜合證券股份有限公司&lt;/td&gt;&lt;td&gt;113&lt;/td&gt;&lt;td&gt;50&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;23&lt;/td&gt;&lt;td&gt;金寶電子工業股份有限公司&lt;/td&gt;&lt;td&gt;143&lt;/td&gt;&lt;td&gt;49&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;24&lt;/td&gt;&lt;td&gt;潤泰創新國際股份有限公司&lt;/td&gt;&lt;td&gt;60&lt;/td&gt;&lt;td&gt;48&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;中央投資股份有限公司&lt;/td&gt;&lt;td&gt;224&lt;/td&gt;&lt;td&gt;48&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;前一百大排名：&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/big100.html"&gt;HTML&lt;/a&gt;, &lt;a href="http://weichengliou.github.io/blog/downloads/data/csv/big100.csv"&gt;CSV&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;為了幫助識別，本文的代表企業以集團內連接數最多的企業作為集團代表企業。&lt;/p&gt;
+&lt;p&gt;我們發現到僅前 4 名的核心企業家數在一百家以上，其中最大者為新光集團，台南幫統一集團次之。&lt;/p&gt;
+&lt;p&gt;而過去觀察直接投資公司家數第一名的兆豐銀，在考慮核心企業家數後落到第四名。但其總投資企業家數 259 家為所有集團中最多者。
+財政部為兆豐金控主要大股東，在加入財政部主導投資的其他官股銀行，如：第一金、合庫、土銀等次集團後，泛兆豐銀集團實質上乃是一官股銀行集團。
+以銀行或投資公司為主體的集團，如泛兆豐集團，雖然投資企業家數多，但核心企業僅 69 家約佔四分之一左右。
+相反地，其他如統一、新光、遠東等集團的核心企業數均有一百家以上，代表這些集團的關係企業有半數以上掌握絕對控制權，這些差異也可以顯示出集團經營偏好。&lt;/p&gt;
+&lt;p&gt;但是集團分類的用處不僅於此，我們還可從集團間的策略聯盟比較，觀察不同集團間的親密程度。&lt;/p&gt;
+&lt;h3&gt;策略聯盟&lt;/h3&gt;
+&lt;p&gt;我們試從前一百大集團分析集團間的關係企業交集。以泛兆豐集團為例，與其最親密的集團如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;代表企業&lt;/td&gt;&lt;td&gt;重複企業家數&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中央投資股份有限公司&lt;/td&gt;&lt;td&gt;61&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;亞洲水泥股份有限公司&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;永豐餘投資控股股份有限公司&lt;/td&gt;&lt;td&gt;21&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;和泰汽車股份有限公司&lt;/td&gt;&lt;td&gt;16&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;元大創業投資股份有限公司&lt;/td&gt;&lt;td&gt;14&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;華南商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;耐斯企業股份有限公司&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;台灣聚合化學品股份有限公司&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;富邦綜合證券股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中國鋼鐵股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;長春人造樹脂廠股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;金寶電子工業股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;聯華實業股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;仲冠投資股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;明怡投資股份有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;和展投資有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;新光合成纖維股份有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;宏碁股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;長榮國際股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;臺灣水泥股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;由上表可以觀察得到與泛兆豐集團最親密的是以中央投資集團，其次為亞洲水泥集團。另外也可看到與兆豐銀較親密的集團，多半以銀行或投資公司為代表企業的同性質集團為主。這
+點可能與這類集團特性以轉投資為主有關。&lt;/p&gt;
+&lt;p&gt;因金融業產業特性使然，不論是投資公司或銀行業，均會多方尋求投資機會但未必介入實際經營。所以表現出來的就是關係企業多但核心企業少。雖然某些大集團如亞洲水泥集團，其
+轉投資事業也是包山包海，但多半以實際經營為主，故核心企業多。這點就與以金融或投資公司為主體的集團不同。&lt;/p&gt;
+&lt;p&gt;對於前一百大集團間的共同投資公司家數，我們可以試用階層式分群法 (Hierarchical Clustering) 表示如下：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/grouping_files/grouping_18_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖中可以觀察到有某些集團的關係特別親密，也有某些集團（如寶島投資開發）跟其他集團幾乎沒有共同投資關係。&lt;/p&gt;
+&lt;p&gt;若想同時觀察所有集團間的連結，我們可以試圖用網絡分析圖來表示。&lt;/p&gt;
+&lt;p&gt;首先將集團間共同投資的企業數以 5 家為級距分組，5 家以下忽略。接著以核心企業數表示各集團大小，試圖繪出社會網絡圖出來：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/grpconn.html"&gt;另開新頁&lt;/a&gt;&lt;iframe height="600px" width="100%" src=http://weichengliou.github.io/blog/downloads/data/html/grpconn.html&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;由圖可看到某些大型集團間存在高度密切的共同投資關係，這些集團彼此形成了比較高密度的聚合體，因此我們可以相信說這些集團間的行動或許會是比較一致的，資訊也會更容易在
+這些集團的高層間流通。而其他多數集團僅保持集團內的共同投資行為，不只規模較小，與其他集團的合作關係也較不明顯。&lt;/p&gt;
+&lt;h3&gt;結語&lt;/h3&gt;
+&lt;p&gt;我們試著用一些簡單的方式去分類集團，並根據這些分類後的結果去觀察大型集團間的合作行為。在大型集團間彼此共同合作關係應屬常態，但究竟是因先合作才有規模，還是先有規
+模才有合作，就好比雞生蛋或蛋生雞的問題一樣難解，但鐵定是共生共榮的。正如十根筷子折不斷的道理一般，集團的力量一定大於單一企業，而這個由國營事業、黨營事業以及大型
+集團形成的菁英核心圈，其凝聚力又絕對遠勝其他單一集團。&lt;/p&gt;
+&lt;p&gt;因此在觀察政府的施政方向時，應注意政府是否常以「拼經濟」為名為企業大開方便之門？重大建設公開招標後，是否對層層發包最後壓榨底層勞工不聞不問？是否為了企業工廠運作
+順利而犧牲了山川空氣水？&lt;/p&gt;
+&lt;p&gt;筆者要談的是，與社會公平正義比較起來，制度與結構問題才是我們更應該去注意的地方。只要制度與經濟結構不變，就算換人執政也是難有作為。人不一定會變壞，但制度或結構上
+的缺陷卻會讓在位者有機會結黨營私，所以才需要組織更多公民意識來共同監督政府施政，民主並不是只有投票而已，公民意見的交流、匯總與執行也應該是民主的一部份。&lt;/p&gt;
+&lt;h3&gt;參考文獻&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://soci
+ology.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf"&gt;李宗榮，2007，〈在國家與家族之間：企業控制與臺灣大型企業間網絡再探〉，《台灣社會學》，第13卷，頁173-242。(TSSCI)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>關於台灣公司關係圖</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/21/twcom_about/" rel="alternate"></link><updated>2014-08-21T15:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-21:blog/2014/08/21/twcom_about/</id><summary type="html">&lt;p&gt;關於本站台灣公司關係圖系列的文章，其實是因緣際會拿到 &lt;a href="https://twitter.com/ronnywang"&gt;RonnyWang&lt;/a&gt; 抓的資料，剛好自己又對集團研究很感興趣，所以就一頭栽進去了。
 對於黨營事業的研究，只是因為剛好在分析過程中，發現黨營事業的規模竟然也可與其他財團相比。
 在跟中研院社會所李宗榮老師討論過後，才知道以前就有不少學者為文指出黨營事業的問題，就決定來寫篇文章作 update。
 但會引起這麼多人關注，實在出乎意料之外。&lt;/p&gt;
@@ -146,17 +243,9 @@ href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
 Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
 xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
 rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>使用 Pelican 建立 blog</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/" rel="alternate"></link><updated>2014-08-07T02:30:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-07:blog/2014/08/07/buildblog/</id><summary type="html">&lt;p&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;這篇要介紹如何使用 pelican 建立 blog。
-Pelican 是用 python 搭建的 blog 系統，在整合 IPython notebook 這部份頗受好評。
-所以也不少人用 IPython notebook 寫完報告或教學後，直接用 Pelican 建立的 blog 發表文章。&lt;/p&gt;
-&lt;p&gt;基本上雖然在第一 po 有略為提到如何建立 blog，
-但事實上我還是為了一些技術問題抓掉不少頭髮。
-還好問題全部都解決了，所以在這邊作個紀錄。&lt;/p&gt;
+&lt;p&gt;這篇要介紹如何使用 pelican 建立 blog。 Pelican 是用 python 搭建的 blog 系統，在整合 IPython notebook 這部份頗受好評。 所以也不少人用 IPython notebook 寫完報告或教學後，直接用 Pelican 建立的 blog 發表文章。&lt;/p&gt;
+&lt;p&gt;基本上雖然在第一 po 有略為提到如何建立 blog， 但事實上我還是為了一些技術問題抓掉不少頭髮。 還好問題全部都解決了，所以在這邊作個紀錄。&lt;/p&gt;
 &lt;p&gt;我使用的作業環境是 ubuntu 14.04 LTS, Python 2.7.8，參考資料來源為：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;Building this blog&lt;/a&gt;&lt;/li&gt;
@@ -164,94 +253,64 @@ Pelican 是用 python 搭建的 blog 系統，在整合 IPython notebook 這部�
 &lt;li&gt;&lt;a href="http://yassi.github.io/yassi_pelican_output/pelican-on-github-pages-heroku-and-nginx.html"&gt;Plican on github pages, heroku, and nginx&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;建立部落格大概有幾個步驟要作&lt;/p&gt;
-&lt;h3 id="-"&gt;安裝套件&lt;/h3&gt;
-&lt;p&gt;目前看到的部落格都會建議用 virtualenv 安裝所需套件，不過我個人是用 Pyenv，比 virtualenv 方便很多。
-關於 Pyenv 的安裝方式，可以參考 &lt;a href="http://blog.codylab.com/python-pyenv/"&gt;這篇文章&lt;/a&gt;。&lt;/p&gt;
+&lt;h3 id="安裝套件"&gt;安裝套件&lt;/h3&gt;
+&lt;p&gt;目前看到的部落格都會建議用 virtualenv 安裝所需套件，不過我個人是用 Pyenv，比 virtualenv 方便很多。 關於 Pyenv 的安裝方式，可以參考 &lt;a href="http://blog.codylab.com/python-pyenv/"&gt;這篇文章&lt;/a&gt;。&lt;/p&gt;
 &lt;p&gt;假設已經安裝好 Pyenv 後，首先新增資料夾，以及新增一個 virtualenv&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;mkdir pelican
 cd pelican
 pyenv virtualenv 2.7.8 pelican
-pyenv local pelican
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接下來是安裝套件，先把 &lt;a href="http://WeiChengLiou.github.io/blog/downloads/requirements.txt"&gt;requirements.txt&lt;/a&gt; 儲存到目前的資料夾，鍵入以下指令安裝套件&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;pip install -r requirements.txt
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;這樣就可以確保大家的版本相同了！&lt;/p&gt;
+pyenv local pelican&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;接下來是安裝套件，先把 &lt;a href="http://WeiChengLiou.github.io/blog/downloads/requirements.txt"&gt;requirements.txt&lt;/a&gt; 儲存到目前的資料夾，鍵入以下指令安裝套件&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pip install -r requirements.txt&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;這樣就可以確保大家的版本相同了！&lt;/p&gt;
 &lt;h3 id="git-clone"&gt;git clone&lt;/h3&gt;
 &lt;p&gt;接著安裝 theme 跟 plugins：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git clone https://github.com/jakevdp/pelican-octopress-theme.git
-git clone https://github.com/getpelican/pelican-plugins.git
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;theme 目前是引用 &lt;a href="http://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/"&gt;jakevdp&lt;/a&gt; 的設定，
-因為該作者有針對 Ipython notebook 的顯示作調整，直接拿現成的來用比較方便。
-而且我也蠻喜歡這風格的。
-如果想換其他佈景主題的話，請參考這邊的&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;建議&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;其實如果熟悉 pelican 的話，是可以選擇自己用 pelican-quickstart 一步步建立 blog 的。
-但這邊我選擇拿前人的設定來改：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/ocefpaf/python4oceanographers
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接著移到 python4oceanographers 目錄下，
-將 pelicanconf.py 檔案裡的 THEME 跟 PLUGIN_PATH 修改成你放置 pelican-octopress-theme 跟 pelican-plugins 的路徑：&lt;/p&gt;
+git clone https://github.com/getpelican/pelican-plugins.git&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;theme 目前是引用 &lt;a href="http://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/"&gt;jakevdp&lt;/a&gt; 的設定， 因為該作者有針對 Ipython notebook 的顯示作調整，直接拿現成的來用比較方便。 而且我也蠻喜歡這風格的。 如果想換其他佈景主題的話，請參考這邊的&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;建議&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;其實如果熟悉 pelican 的話，是可以選擇自己用 pelican-quickstart 一步步建立 blog 的。 但這邊我選擇拿前人的設定來改：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ocefpaf/python4oceanographers&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;接著移到 python4oceanographers 目錄下， 將 pelicanconf.py 檔案裡的 THEME 跟 PLUGIN_PATH 修改成你放置 pelican-octopress-theme 跟 pelican-plugins 的路徑：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;path = os.path.join(os.environ.get(&amp;#39;HOME&amp;#39;), &amp;#39;pelican&amp;#39;)
 THEME = &amp;#39;%s/pelican-octopress-theme&amp;#39; % path
-PLUGIN_PATH = &amp;#39;%s/pelican-plugins&amp;#39; % path
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="localhost-"&gt;localhost 測試&lt;/h3&gt;
+PLUGIN_PATH = &amp;#39;%s/pelican-plugins&amp;#39; % path&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="localhost-測試"&gt;localhost 測試&lt;/h3&gt;
 &lt;p&gt;接著可以先試著編譯，作第一次 local 端測試了。編譯後的檔案會放在 output 資料夾中，所以要切換至 output 資料夾設定 server。&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;make html
 cd output
-python -m SimpleHTTPServer 8080
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接著開啟瀏覽器，到 &lt;a href="http://localhost:8080"&gt;http://localhost:8080&lt;/a&gt; 看看結果如何。如果順利的話，這時應該可以看到 blog 了。&lt;/p&gt;
-&lt;h3 id="-"&gt;修改設定&lt;/h3&gt;
-&lt;p&gt;接下來開啟 pelicanconf.py ，修改自己想要的設定。
-這邊簡單介紹幾個必改的設定&lt;/p&gt;
+python -m SimpleHTTPServer 8080&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;接著開啟瀏覽器，到 http://localhost:8080 看看結果如何。如果順利的話，這時應該可以看到 blog 了。&lt;/p&gt;
+&lt;h3 id="修改設定"&gt;修改設定&lt;/h3&gt;
+&lt;p&gt;接下來開啟 pelicanconf.py ，修改自己想要的設定。 這邊簡單介紹幾個必改的設定&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;AUTHOR 作者
 SITENAME 站名
 SITESUBTITLE 站名副標題
 uri GitHub Pages 站名，格式為 http://帳號.github.io
 LINKS 友站連結
 TWITTER_USER 你的 Twitter 帳號
-GOOGLEPLUS_USER 你的 Google+ 帳號
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;以上改完後再重新編譯後試試，應該這時站名之類的應該都改過來了。&lt;/p&gt;
-&lt;h3 id="-"&gt;發表文章&lt;/h3&gt;
-&lt;p&gt;文章統一儲存在 content 資料夾裡，或是自己改 pelicanconf.py 裡面設定。
-可以用 reStructured Text 或 Markdown 格式書寫，我個人比較偏好 Markdown，所以以 markdown 語法說明。&lt;/p&gt;
-&lt;p&gt;每篇文章都是一個獨立檔案，檔名格式為 yyyy-mm-dd-blogging.md。
-前面是日期，後面是文章識別名稱。
-以本篇文章為例，文章開頭有以下 tag：&lt;/p&gt;
+GOOGLEPLUS_USER 你的 Google+ 帳號&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以上改完後再重新編譯後試試，應該這時站名之類的應該都改過來了。&lt;/p&gt;
+&lt;h3 id="發表文章"&gt;發表文章&lt;/h3&gt;
+&lt;p&gt;文章統一儲存在 content 資料夾裡，或是自己改 pelicanconf.py 裡面設定。 可以用 reStructured Text 或 Markdown 格式書寫，我個人比較偏好 Markdown，所以以 markdown 語法說明。&lt;/p&gt;
+&lt;p&gt;每篇文章都是一個獨立檔案，檔名格式為 yyyy-mm-dd-blogging.md。 前面是日期，後面是文章識別名稱。 以本篇文章為例，文章開頭有以下 tag：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;title: 如何利用 pelican 建立 blog
 date: 2014-08-07 00:30
 comments: true
 slug: buildblog
-tags: python, pelican
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;slug 是唯一的，可以不寫.
-tags 可寫可不寫。&lt;/p&gt;
-&lt;p&gt;後面文章內容的部份就看個人發揮了。
-關於 markdown 格式寫法，可以參考 &lt;a href="http://zh.wikipedia.org/wiki/Markdown"&gt;wiki&lt;/a&gt;。
-若是想直接把 IPython notebook 貼過來的人，先把 ipynb 檔案拷貝至 content/downloads/notebooks ，
-md 檔最後加上以下這行：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;{% notebook blogging.ipynb cells[1:] %}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;所以往後發表文章的時候，可以先在 local 端編譯測試，看看格式有沒有跑掉之類的，確定可以了再上線。
-上線前記得先把 content 資料夾裡面前作者的文章砍光，資料夾別跟著砍了，留下自己的文章就好。&lt;/p&gt;
-&lt;h3 id="github-"&gt;GitHub 上線&lt;/h3&gt;
-&lt;p&gt;當你寫好文章準備上線了，找個可以放置 blog 的地方也是一門學問。
-這邊建議直接丟 GitHub，好處是完全免費，只是檔案要被看光光
-（但其實這個站也是拿人家現成的來改，就算完全 open 也是應該的吧）。
-或者你也可以考慮放到 Heroku 去，設定方式請看參考資料。&lt;/p&gt;
-&lt;p&gt;在 GitHub 上線前，要先把 GitHub remote 目錄改一改。
-我的方式是先去 GitHub 開一個 repository，假定名稱為 blog 好了。
-然後修改 python4oceanographers 資料夾名稱為 blog，接著修改 GitHub remote 設定為 blog：&lt;/p&gt;
+tags: python, pelican&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;slug 是唯一的，可以不寫. tags 可寫可不寫。&lt;/p&gt;
+&lt;p&gt;後面文章內容的部份就看個人發揮了。 關於 markdown 格式寫法，可以參考 &lt;a href="http://zh.wikipedia.org/wiki/Markdown"&gt;wiki&lt;/a&gt;。 若是想直接把 IPython notebook 貼過來的人，先把 ipynb 檔案拷貝至 content/downloads/notebooks ， md 檔最後加上以下這行：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{% notebook blogging.ipynb cells[1:] %}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;所以往後發表文章的時候，可以先在 local 端編譯測試，看看格式有沒有跑掉之類的，確定可以了再上線。 上線前記得先把 content 資料夾裡面前作者的文章砍光，資料夾別跟著砍了，留下自己的文章就好。&lt;/p&gt;
+&lt;h3 id="github-上線"&gt;GitHub 上線&lt;/h3&gt;
+&lt;p&gt;當你寫好文章準備上線了，找個可以放置 blog 的地方也是一門學問。 這邊建議直接丟 GitHub，好處是完全免費，只是檔案要被看光光 （但其實這個站也是拿人家現成的來改，就算完全 open 也是應該的吧）。 或者你也可以考慮放到 Heroku 去，設定方式請看參考資料。&lt;/p&gt;
+&lt;p&gt;在 GitHub 上線前，要先把 GitHub remote 目錄改一改。 我的方式是先去 GitHub 開一個 repository，假定名稱為 blog 好了。 然後修改 python4oceanographers 資料夾名稱為 blog，接著修改 GitHub remote 設定為 blog：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git remote remove origin
 git remote add origin https://github.com/帳號/blog.git
-git push -u origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;接下來就是利用 GitHub Pages 把 blog 推上線，
-GitHub 的實作方式是建立一個新的 branch 叫做 gh-pages。
-原則上只要把 output 資料夾的內容放到 gh-pages 這個 branch 就行了。
-但實際上很不容易，
-還好 Pelican 都幫你搞定了，只要鍵入 &lt;code&gt;make github&lt;/code&gt; ，Pelican 就會幫你編譯，然後上傳到 gh-pages。
-也不需要切換 branch。&lt;br&gt;但要注意的是，編譯的內容是以 master 為基礎的，所以要先 git push master 後，才能 &lt;code&gt;make github&lt;/code&gt;。&lt;/p&gt;
-&lt;h3 id="-google-analytics-disqus"&gt;設定 Google Analytics, Disqus&lt;/h3&gt;
-&lt;p&gt;上線後可以去註冊 &lt;a href="http://www.google.com/intl/zh-TW/analytics/"&gt;Google Analytics&lt;/a&gt; 跟 &lt;a href="https://disqus.com/"&gt;Disqus&lt;/a&gt; 服務。
-Google Analytics 可以幫忙作網站流量分析，而 Disqus 是網站留言管理系統。
-註冊過後會得到一個代碼，再把這些代碼寫到 publishconf.py 裡相對應的欄位去，記得把 SITEURL 改成自己在 GitHub 的網址。
-這樣應該就可以了。&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+git push -u origin master&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;接下來就是利用 GitHub Pages 把 blog 推上線， GitHub 的實作方式是建立一個新的 branch 叫做 gh-pages。 原則上只要把 output 資料夾的內容放到 gh-pages 這個 branch 就行了。 但實際上很不容易， 還好 Pelican 都幫你搞定了，只要鍵入 &lt;code&gt;make github&lt;/code&gt; ，Pelican 就會幫你編譯，然後上傳到 gh-pages。 也不需要切換 branch。&lt;br /&gt;但要注意的是，編譯的內容是以 master 為基礎的，所以要先 git push master 後，才能 &lt;code&gt;make github&lt;/code&gt;。&lt;/p&gt;
+&lt;h3 id="設定-google-analytics-disqus"&gt;設定 Google Analytics, Disqus&lt;/h3&gt;
+&lt;p&gt;上線後可以去註冊 &lt;a href="http://www.google.com/intl/zh-TW/analytics/"&gt;Google Analytics&lt;/a&gt; 跟 &lt;a href="https://disqus.com/"&gt;Disqus&lt;/a&gt; 服務。 Google Analytics 可以幫忙作網站流量分析，而 Disqus 是網站留言管理系統。 註冊過後會得到一個代碼，再把這些代碼寫到 publishconf.py 裡相對應的欄位去，記得把 SITEURL 改成自己在 GitHub 的網址。 這樣應該就可以了。&lt;/p&gt;
 &lt;/div&gt;&lt;/p&gt;</summary><category term="python"></category><category term="pelican"></category></entry><entry><title>如何分辨同名同姓</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/samename/" rel="alternate"></link><updated>2014-08-06T23:45:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-06:blog/2014/08/06/samename/</id><summary type="html">&lt;h2&gt;如何辨別同名同姓的董監事？&lt;/h2&gt;
 &lt;p&gt;本文將說明在 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 的董監事資料中存在同名同姓的問題。董監事名單不像公司一樣有統一編號可供查詢，
 所以在比對不同公司董監事資料時，不可避免地會遇到同名同姓的問題。本文根據法人代表資料並結合不同公司間的相同董監事名單，協助分類同名同姓者。並以此分類結果作為尋找
@@ -430,27 +489,17 @@ href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
 Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
 xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
 rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>第一 po</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/03/first/" rel="alternate"></link><updated>2014-08-03T10:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-03:blog/2014/08/03/first/</id><summary type="html">&lt;p&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
-&lt;/div&gt;
-&lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;p&gt;這是我第一次利用 Pelican 架 blog。感謝老天，只花一個早上就把雛型建置起來了。我主要是參考 &lt;a href="http://www.southampton.ac.uk/~fangohr/blog/blogging-with-the-ipython-notebook.html"&gt;Blogging with the IPython Notebook&lt;/a&gt; 與 &lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;Building this blog&lt;/a&gt; 這兩篇文章。簡單來說，&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;Building this blog&lt;/a&gt; 這篇文章作者把整個 blog 都放到 GitHub 去了，文內說明僅需要先安裝必備的套件（作者建議搭配 virtualenv 使用，但我是用 pyenv），從 GitHub clone 他的 blog 之後，稍作修改即可使用。
-跟 GitHub 結合的最大好處是備份與版本控制，我自己最近作的一個專案就是利用 BitBucket 來幫忙作版本控制，這樣就不用帶著隨身碟跑來跑去了。&lt;/p&gt;
-&lt;p&gt;Pelican 的最大好處是：他可以跟 IPython notebook 作很好的結合，這點對於作資料分析的人而言非常好用。
-現在 IPython notebook 越作越強大了，還可以跟 Google doc 結合。
-用 IPython Notebook 作分析報告或教案，然後配合 GitHub 作版本控制、教案分享與展示，這樣實在非常完美。&lt;/p&gt;
+&lt;p&gt;這是我第一次利用 Pelican 架 blog。感謝老天，只花一個早上就把雛型建置起來了。我主要是參考 &lt;a href="http://www.southampton.ac.uk/~fangohr/blog/blogging-with-the-ipython-notebook.html"&gt;Blogging with the IPython Notebook&lt;/a&gt; 與 &lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;Building this blog&lt;/a&gt; 這兩篇文章。簡單來說，&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;Building this blog&lt;/a&gt; 這篇文章作者把整個 blog 都放到 GitHub 去了，文內說明僅需要先安裝必備的套件（作者建議搭配 virtualenv 使用，但我是用 pyenv），從 GitHub clone 他的 blog 之後，稍作修改即可使用。 跟 GitHub 結合的最大好處是備份與版本控制，我自己最近作的一個專案就是利用 BitBucket 來幫忙作版本控制，這樣就不用帶著隨身碟跑來跑去了。&lt;/p&gt;
+&lt;p&gt;Pelican 的最大好處是：他可以跟 IPython notebook 作很好的結合，這點對於作資料分析的人而言非常好用。 現在 IPython notebook 越作越強大了，還可以跟 Google doc 結合。 用 IPython Notebook 作分析報告或教案，然後配合 GitHub 作版本控制、教案分享與展示，這樣實在非常完美。&lt;/p&gt;
 &lt;p&gt;本篇文章是在 IPython notebook 上面完成的，接下來會作些測試，以確認一些常用的功能是否能正常使用。&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
+&lt;div class="cell border-box-sizing code_cell vbox"&gt;
+&lt;div class="input hbox"&gt;
 &lt;div class="prompt input_prompt"&gt;
 In&amp;nbsp;[2]:
 &lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
+&lt;div class="input_area box-flex1"&gt;
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span class="n"&gt;font&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;AR PL KaitiM Big5&amp;#39;&lt;/span&gt;
 &lt;span class="n"&gt;mpl&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;rcParams&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;font.sans-serif&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;font&lt;/span&gt;
 &lt;span class="n"&gt;mpl&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;rc&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;font&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;family&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;sans-serif&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; 
@@ -462,28 +511,27 @@ In&amp;nbsp;[2]:
 
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
+&lt;div class="vbox output_wrapper"&gt;
+&lt;div class="output vbox"&gt;
 
 
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;
+&lt;div class="hbox output_area"&gt;&lt;div class="prompt output_prompt"&gt;
     Out[2]:&lt;/div&gt;
+&lt;div class="box-flex1 output_subarea output_pyout"&gt;
 
 
-&lt;div class="output_text output_subarea output_pyout"&gt;
 &lt;pre&gt;
 &amp;lt;matplotlib.text.Text at 0x7fd89f415f50&amp;gt;
 &lt;/pre&gt;
-&lt;/div&gt;
 
 &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;div class="output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="hbox output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="box-flex1 output_subarea output_display_data"&gt;
 
 
-&lt;div class="output_png output_subarea "&gt;
 &lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXYAAAEICAYAAABLdt/UAAAABHNCSVQICAgIfAhkiAAAAAlwSFlz
 AAALEgAACxIB0t1+/AAAIABJREFUeJzt3Xl8VOXZ//FPIMi+CrKIsgQEkU1lU1EGRIQiggvWqhXr
 RvWx1WpVHp/Xr4b61LbyuIsoWrUqKi7UlUUKRhFFkSWACpFdQUEQK/uW8/vjmmMmySSZ5cycWb7v
@@ -679,23 +727,21 @@ Y5qTva9HD2y+w/HA0cDTZO9rUQTUDd7eCrQNfkH2vRZXAU8BhViP/R7gp+Bz2fZaQOmY2RmYj3UO
 I/5bScbg6QbgVOBI7I1kehKumUouxAJaN+wX+BtssCgbX49VWC61L5YjnIi9Ltn4WhQBg4FG2Mfq
 B4GTyc7XYh32d1IHOA24Gwti2fRaXIAVVawFZlI+ZmZ7HBURERERERERERERERERERERERERERER
 ERGRZPn/Y9OPIdyZINoAAAAASUVORK5CYII=
-"
-&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
+"&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell vbox"&gt;
+&lt;div class="input hbox"&gt;
 &lt;div class="prompt input_prompt"&gt;
 In&amp;nbsp;[3]:
 &lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
+&lt;div class="input_area box-flex1"&gt;
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;markdown&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;markdown&lt;/span&gt;
 
 &lt;span class="n"&gt;html_url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;http://weichengliou.github.io/blog/downloads/data/html/kmt_boss.html&amp;#39;&lt;/span&gt;
@@ -706,57 +752,51 @@ In&amp;nbsp;[3]:
 
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
+&lt;div class="vbox output_wrapper"&gt;
+&lt;div class="output vbox"&gt;
 
 
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;
+&lt;div class="hbox output_area"&gt;&lt;div class="prompt output_prompt"&gt;
     Out[3]:&lt;/div&gt;
+&lt;div class="box-flex1 output_subarea output_pyout"&gt;
 
-&lt;div class="output_html rendered_html output_subarea output_pyout"&gt;
+&lt;div class="output_html rendered_html"&gt;
 &lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/kmt_boss.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;&lt;iframe height="600px" width="100%" src=http://weichengliou.github.io/blog/downloads/data/html/kmt_boss.html&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;
-
-&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;
-&lt;div class="cell border-box-sizing text_cell rendered"&gt;
-&lt;div class="prompt input_prompt"&gt;
 &lt;/div&gt;
-&lt;div class="inner_cell"&gt;
+
+&lt;/div&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;基本上可以畫圖、可以顯示中文（但是需要設定字體），可以設定超連結。&lt;/p&gt;
 &lt;p&gt;大致上可以開始寫文章了！&lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="cell border-box-sizing code_cell rendered"&gt;
-&lt;div class="input"&gt;
+&lt;div class="cell border-box-sizing code_cell vbox"&gt;
+&lt;div class="input hbox"&gt;
 &lt;div class="prompt input_prompt"&gt;
 In&amp;nbsp;[4]:
 &lt;/div&gt;
-&lt;div class="inner_cell"&gt;
-    &lt;div class="input_area"&gt;
+&lt;div class="input_area box-flex1"&gt;
 &lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span class="n"&gt;HTML&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
 
-&lt;div class="output_wrapper"&gt;
-&lt;div class="output"&gt;
+&lt;div class="vbox output_wrapper"&gt;
+&lt;div class="output vbox"&gt;
 
 
-&lt;div class="output_area"&gt;&lt;div class="prompt output_prompt"&gt;
+&lt;div class="hbox output_area"&gt;&lt;div class="prompt output_prompt"&gt;
     Out[4]:&lt;/div&gt;
+&lt;div class="box-flex1 output_subarea output_pyout"&gt;
 
-&lt;div class="output_html rendered_html output_subarea output_pyout"&gt;
+&lt;div class="output_html rendered_html"&gt;
 
 &lt;small&gt;
 &lt;p&gt; This post was written as an IPython notebook.  It is available for
@@ -778,6 +818,7 @@ rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.
  
 &lt;/div&gt;
 
+&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;/div&gt;
