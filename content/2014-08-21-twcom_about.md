@@ -2,6 +2,7 @@ Title: 關於台灣公司關係圖
 date:  2014-08-21 15:00
 comments: true
 slug: twcom_about
+category: 台灣公司關係圖
 
 關於本站台灣公司關係圖系列的文章，其實是因緣際會拿到 [RonnyWang](https://twitter.com/ronnywang) 抓的資料，剛好自己又對集團研究很感興趣，所以就一頭栽進去了。
 對於黨營事業的研究，只是因為剛好在分析過程中，發現黨營事業的規模竟然也可與其他財團相比。
