@@ -1,20 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2014-09-01T07:00:00+08:00</updated><entry><title>台灣公司關係圖後續計畫</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/09/01/twcom_todo/" rel="alternate"></link><updated>2014-09-01T07:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-09-01:blog/2014/09/01/twcom_todo/</id><summary type="html">&lt;p&gt;在參加資料科學愛好者年會暨第十次黑客松之後，要先寫下後續計畫提醒自己盡快完成&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2014-09-01T07:00:00+08:00</updated><entry><title>台灣公司關係圖後續計畫</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/09/01/twcom_todo/" rel="alternate"></link><updated>2014-09-01T07:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-09-01:blog/2014/09/01/twcom_todo/</id><summary type="html">&lt;p&gt;在參加資料科學愛好者年會暨第十次黑客松之後，要先寫下後續計畫提醒自己盡快完成。&lt;/p&gt;
+&lt;p&gt;寫在開頭之前，有些感想先提一下，我是資料分析的愛好者，也是 Taiwan R User Group 長期參與者。
+受到 g0v 村長感召（躺在病床上還不忘寫程式真是太讚了）而決定投入開放資料的分析研究。
+作這個一邊是興趣一邊當練功，雖然無償但我作得爽。
+參加過資料科學愛好者年會後，我發現其實也有許多人在不同的領域作類似的傻事（笑）。
+以下是 g0v 黑客松成果發表時想說但來不及說的事：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;開放原始碼：我是資料科學愛好者， &lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 長期成員。作這研究我一邊是興趣一邊當練功。我希望能推動更多資料分析的同好一起投入 Open Data 的資料分析。但我程式碼寫很醜，所以得先把程式碼作些整理後再放到 Github，也歡迎更多同好一起來提供建議、改善模型。&lt;/p&gt;
+&lt;p&gt;開放原始碼：這個一開始就想做了，但我程式碼寫很醜，所以得先把程式碼作些整理後再放到 Github，也歡迎更多同好指教。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;資料庫上線：這個我會學學怎麼把資料庫丟到 AWS 去，供作以後網站查詢使用。&lt;/p&gt;
+&lt;p&gt;資料庫上線：我要先研究怎麼把資料庫丟到 AWS 去，供作以後網站查詢使用。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;整合現有台灣公司關係圖網站：我玩過一陣子 Flask 跟 Bootstrap，但發現要把所有技能點滿不容易...Orz。 這個要再請 g0v 的眾高手幫忙了。&lt;/p&gt;
+&lt;p&gt;整合現有台灣公司關係圖網站：我玩過一陣子 Flask 跟 Bootstrap，但發現要把前後端所有技能點滿很難...Orz。 要請 g0v 的眾高手幫忙了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;整合其他外部資料：以後陸續加上&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;關於集團分類的部份我自覺還可以作到更好，
 所以之後還會逐漸改善模型，
-甚至進一步思考要合併哪些更有趣的資料進來。
-以後若想到什麼有趣的議題也會在這邊繼續寫下去。&lt;/p&gt;
+以後若想到什麼有趣的議題也會在這 blog 繼續寫下去。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 討論不少跟資料分析、機器學習甚至雲端運算等相關議題，
 我也會在 &lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 分享心得（日期待後續公佈），
 歡迎對這方面有興趣的同好，每週一來 &lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 的 ML/DM Monday 看看，一同分享所知所學。&lt;/p&gt;
@@ -102,6 +109,13 @@ logy.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf"&gt;中研院社會所李宗�
 順利而犧牲了山川空氣水？&lt;/p&gt;
 &lt;p&gt;筆者要談的是，與社會公平正義比較起來，制度與結構問題才是我們更應該去注意的地方。只要制度與經濟結構不變，就算換人執政也是難有作為。人不一定會變壞，但制度或結構上
 的缺陷卻會讓在位者有機會結黨營私，所以才需要組織更多公民意識來共同監督政府施政，民主並不是只有投票而已，公民意見的交流、匯總與執行也應該是民主的一部份。&lt;/p&gt;
+&lt;p&gt;2014-09-11 後記：&lt;/p&gt;
+&lt;p&gt;這樣的集團分類方法也許也許也許會有人不認同，我也相信一定還有改善空間。
+所以之後還會有後續的修正方法出現，待整理過程式碼後也將開放給各位參考。
+關於大型集團間的網絡結構，過去已有相關文獻與研究說明（見參考文獻），
+不論是親屬關係或共同投資關係，在在都可見到大家族/大集團間產生連結的例子。
+這可能是個自然現象，但是在與其他因子的連結上（例如企業營收、市佔等）仍值得更多後續研究探討。
+之後小弟還會繼續就集團議題探討下去，有任何意見也請歡迎指教，謝謝。&lt;/p&gt;
 &lt;h3&gt;參考文獻&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://soci
 ology.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf"&gt;李宗榮，2007，〈在國家與家族之間：企業控制與臺灣大型企業間網絡再探〉，《台灣社會學》，第13卷，頁173-242。(TSSCI)&lt;/a&gt;&lt;/p&gt;
