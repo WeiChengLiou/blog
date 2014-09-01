@@ -7,7 +7,7 @@ category: 台灣公司關係圖
 
 在參加資料科學愛好者年會暨第十次黑客松之後，要先寫下後續計畫提醒自己盡快完成。
 
-寫在開頭之前，有些感想先提一下，我是資料分析的愛好者，也是 Taiwan R User Group 長期參與者。
+寫在開頭之前，有些感想先提一下，我是資料分析的愛好者，也是 [Taiwan R User Group](https://www.facebook.com/Tw.R.User) 長期參與者。
 受到 g0v 村長感召（躺在病床上還不忘寫程式真是太讚了）而決定投入開放資料的分析研究。
 作這個一邊是興趣一邊當練功，雖然無償但我作得爽。
 參加過資料科學愛好者年會後，我發現其實也有許多人在不同的領域作類似的傻事（笑）。
@@ -26,8 +26,8 @@ category: 台灣公司關係圖
 所以之後還會逐漸改善模型，
 以後若想到什麼有趣的議題也會在這 blog 繼續寫下去。
 
-[Taiwan R User Group](https://www.facebook.com/Tw.R.User) 討論不少跟資料分析、機器學習甚至雲端運算等相關議題，
-我也會在 [Taiwan R User Group](https://www.facebook.com/Tw.R.User) 分享心得（日期待後續公佈），
-歡迎對這方面有興趣的同好，每週一來 [Taiwan R User Group](https://www.facebook.com/Tw.R.User) 的 ML/DM Monday 看看，一同分享所知所學。
+Taiwan R User Group 討論不少跟資料分析、機器學習甚至雲端運算等相關議題，
+我也會在 Taiwan R User Group 分享心得（日期待後續公佈），
+歡迎對這方面有興趣的同好，每週一來 Taiwan R User Group 的 ML/DM Monday 看看，一同分享所知所學。
 
 謝謝。
