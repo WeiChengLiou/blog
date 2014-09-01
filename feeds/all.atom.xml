@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2014-09-01T07:00:00+08:00</updated><entry><title>台灣公司關係圖後續計畫</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/09/01/twcom_todo/" rel="alternate"></link><updated>2014-09-01T07:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-09-01:blog/2014/09/01/twcom_todo/</id><summary type="html">&lt;p&gt;在參加資料科學愛好者年會暨第十次黑客松之後，要先寫下後續計畫提醒自己盡快完成。&lt;/p&gt;
-&lt;p&gt;寫在開頭之前，有些感想先提一下，我是資料分析的愛好者，也是 Taiwan R User Group 長期參與者。
+&lt;p&gt;寫在開頭之前，有些感想先提一下，我是資料分析的愛好者，也是 &lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 長期參與者。
 受到 g0v 村長感召（躺在病床上還不忘寫程式真是太讚了）而決定投入開放資料的分析研究。
 作這個一邊是興趣一邊當練功，雖然無償但我作得爽。
 參加過資料科學愛好者年會後，我發現其實也有許多人在不同的領域作類似的傻事（笑）。
@@ -22,9 +22,9 @@
 &lt;p&gt;關於集團分類的部份我自覺還可以作到更好，
 所以之後還會逐漸改善模型，
 以後若想到什麼有趣的議題也會在這 blog 繼續寫下去。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 討論不少跟資料分析、機器學習甚至雲端運算等相關議題，
-我也會在 &lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 分享心得（日期待後續公佈），
-歡迎對這方面有興趣的同好，每週一來 &lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 的 ML/DM Monday 看看，一同分享所知所學。&lt;/p&gt;
+&lt;p&gt;Taiwan R User Group 討論不少跟資料分析、機器學習甚至雲端運算等相關議題，
+我也會在 Taiwan R User Group 分享心得（日期待後續公佈），
+歡迎對這方面有興趣的同好，每週一來 Taiwan R User Group 的 ML/DM Monday 看看，一同分享所知所學。&lt;/p&gt;
 &lt;p&gt;謝謝。&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>集團間研究</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/29/grouping/" rel="alternate"></link><updated>2014-08-29T08:29:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-29:blog/2014/08/29/grouping/</id><summary type="html">&lt;p&gt;&lt;strong&gt;「台灣究竟存在多少集團？」&lt;/strong&gt;&lt;br&gt;
 這是我第一次接觸到台灣公司關係圖資料時第一個浮現的問題，所以有了這一系列文章出現。&lt;/p&gt;
 &lt;p&gt;從第一篇文章中，我們從法人投資關係中發現了一個橫跨國營事業、黨營事業與財團的超大型集團，並試圖從不同角度觀察該集團的主要成員。但即使在這一個大型集團中，仍然可以
