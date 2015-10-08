@@ -1,5 +1,463 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/tai-wan-gong-si-guan-xi-tu.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2014-09-01T07:00:00+08:00</updated><entry><title>台灣公司關係圖後續計畫</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/09/01/twcom_todo/" rel="alternate"></link><updated>2014-09-01T07:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-09-01:blog/2014/09/01/twcom_todo/</id><summary type="html">&lt;p&gt;在參加資料科學愛好者年會暨第十次黑客松之後，要先寫下後續計畫提醒自己盡快完成。&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/tai-wan-gong-si-guan-xi-tu.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2015-10-08T14:00:00+08:00</updated><entry><title>新創企業的貴人-投資公司</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/" rel="alternate"></link><updated>2015-10-08T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-08:blog/blog/2015/10/08/ivstSNA/</id><summary type="html">&lt;p&gt;本文討論新上市櫃公司的法人股東角色，法人股東主要有以下幾種：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;國外法人&lt;/li&gt;
+&lt;li&gt;國內上市櫃公司&lt;/li&gt;
+&lt;li&gt;國內投資/創投公司&lt;/li&gt;
+&lt;li&gt;金融業&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;根據前文我們了解臺灣的企業投資網絡中，
+存在一個由各大財團、金融業、黨營事業等合成的主要群體。
+既然在長期下持續維持此結構，
+那麼有志於在臺灣上市櫃的企業應如何尋找創投資金？&lt;/p&gt;
+&lt;p&gt;好的創投資金可以有多種定義，如：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;提供法律、財務、技術等協助&lt;/li&gt;
+&lt;li&gt;提供相關資源拓展公司業務&lt;/li&gt;
+&lt;li&gt;對公司營運現況提供建議&lt;/li&gt;
+&lt;li&gt;協助公司上市櫃&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;鑑於前三點不易觀察，
+故我們試圖從第四點來討論好的創投公司。
+從歷年的新上市櫃公司的董監資料，
+我們可以從法人股東資訊得知該公司獲得哪些公司投資。
+分析資料來自於 1996-2014 間新上市櫃公司資訊，
+根據各公司上市櫃當年 12 月的董監名單進行統計。&lt;/p&gt;
+&lt;p&gt;以下分析將就幾個層面依序討論新上市櫃公司的優勢：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;歷年新上市櫃公司概況&lt;/li&gt;
+&lt;li&gt;法人董監事是否存在優勢？&lt;/li&gt;
+&lt;li&gt;主要群體的法人董監事是否存在優勢？&lt;/li&gt;
+&lt;li&gt;是否存在優秀的投資公司？&lt;/li&gt;
+&lt;li&gt;法人董監之間有何合作關係？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;歷年新上市櫃公司概況&lt;/h2&gt;
+&lt;p&gt;歷年的新上市櫃公司家數分佈如下：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/yrNewList.png" /&gt;&lt;/p&gt;
+&lt;p&gt;而新上市櫃公司的產業分佈如下：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/indNewList.png" /&gt;&lt;/p&gt;
+&lt;p&gt;主要以電子相關產業為主。&lt;/p&gt;
+&lt;h2&gt;法人董監事是否存在優勢？&lt;/h2&gt;
+&lt;p&gt;根據每年新上市櫃公司與興櫃公司的法人董監事資訊，
+我們想了解新上市櫃公司的法人董監事比重是否明顯較高。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/InstRatio.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖中可見平均約有七成四左右的新上市櫃公司有法人董監事，
+在興櫃公司之間其比率更高。
+故對於有志於在臺灣上市櫃的新創企業而言，
+法人股東還是可以為公司帶來些許優勢。&lt;/p&gt;
+&lt;h2&gt;主要群體的法人董監事是否存在優勢？&lt;/h2&gt;
+&lt;p&gt;那麼主要群體的法人董監事是否有優勢呢？
+這點可以觀察新上市櫃公司在上市櫃當年，是否身處主要群體之內：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/MaxGrpRatio.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖中可以看到在新上市櫃公司當中，
+身處主要群體的公司佔整體比重平均低於五成。
+2002 年之前還曾在五成以上，但這比率逐年降至三成以下。
+由此可見是否有主要群體的法人董監事參與，
+這件事似乎並不會為公司帶來優勢。&lt;/p&gt;
+&lt;p&gt;而從歷年興櫃公司法人董監事觀察亦知，
+身處主要群體的興櫃公司比重平均也不超過五成，
+而且這比重也正逐年下降當中。&lt;/p&gt;
+&lt;p&gt;相較於主要群體成員佔所有公司比重持續超過八成而言，
+這些公司在新上市櫃公司與興櫃公司的比重明顯低很多。&lt;/p&gt;
+&lt;p&gt;那麼相較於所有有法人董監事的新上市櫃公司，
+來自於主要群體的公司有多少？
+下圖為歷年新上市櫃公司中，主要群體在不同比較基準下的比例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;主要群體的公司數 / 有法人董監事的公司&lt;/li&gt;
+&lt;li&gt;主要群體的公司數 / 所有新上市櫃公司&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/MaxGrpRatio.NewIvst.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖中可見，
+即使在有法人董監事的公司當中，
+主要群體比重也不見得明顯較高。
+這與前文當中，主要群體連接數佔整體八成以上相比明顯較低。&lt;/p&gt;
+&lt;h2&gt;是否存在優秀的投資公司？&lt;/h2&gt;
+&lt;p&gt;假設我們定義所謂的投資成功為：
+出現在新上市櫃公司當年底的法人董監事名單上。
+則根據各法人董監事成功次數多寡繪成直方圖如下表：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/cntNewList.png" /&gt;&lt;/p&gt;
+&lt;p&gt;多數投資公司僅成功一次，
+但有少數公司可成功一次以上，
+我們試圖將成功次數在五次以上者列出如下：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;投資公司&lt;/th&gt;
+&lt;th&gt;成功次數&lt;/th&gt;
+&lt;th&gt;是否為主要集團&lt;/th&gt;
+&lt;th&gt;主要股東或代表集團&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/11147207"&gt;開發&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;開發金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/03720209"&gt;交銀&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;兆豐金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/03557311"&gt;臺銀&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;財政部&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/05008092"&gt;光華投資&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;國民黨&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/03705903"&gt;兆豐商銀&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;兆豐金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/nan"&gt;行政院開發基&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;行政院&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/96975508"&gt;中盈投資&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;中鋼&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/03064421"&gt;中央投資&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;國民黨&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/nan"&gt;中華開發創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;開發金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/47217677"&gt;聯電&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;聯電&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/84442466"&gt;中亞創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;開發金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/22522685"&gt;Ｄ和通創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;台隆工業&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/23226655"&gt;中歐創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;開發金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/79460007"&gt;華榮&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;華榮電線電纜&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/nan"&gt;台元創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;裕隆、台元紡織&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/86383174"&gt;和通創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;台隆工業&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/nan"&gt;財政部&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;財政部&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/30414175"&gt;中鋼&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;中鋼&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/nan"&gt;富鼎創業投資&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;信邦電、台肥、永豐證、義隆電、元富證、優群、崇越...&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/03742301"&gt;華銀&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;華南金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/35412204"&gt;華新&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;華新麗華&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/22099218"&gt;華邦電&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;華新麗華&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/23534317"&gt;普訊創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;台達電、英業達、致茂、義美&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/47230290"&gt;宏電&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;宏碁&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;看起來成功次數較多者，多與國內主要財團與銀行有關。
+但其中有趣的是，國民黨的黨營事業--中央投資與光華投資也名列前五名之內。
+配合排行居於前位的兆豐金與開發金等集團，
+我們似乎可以想像得到：藉著過去黨國資本主義的裙帶關係與潛規則運作，
+國民黨的黨營事業似乎比一般法人機構更容易獲得投資新上市櫃公司的機會。
+實際上黨營事業 (中央投資、光華投資) 的成功次數也多半集中在 2000 年以前，
+2000 年政黨輪替以後成功次數已大幅減少。
+以近五年的情況統計，下圖為近五年新上市櫃公司的董監事法人統計：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/cntdicNewList_5y.png" /&gt;&lt;/p&gt;
+&lt;p&gt;根據過去五年成功案例統計可發現，
+開發工銀、兆豐金、國發基金與國營事業依舊維持一定的成功次數。
+但如今開發工銀已非黨營事業，而兆豐金背後最大股東是財政部。
+過去黨營事業結構龐大，但隨著國民黨逐一出脫手中黨營事業 (Ex: 復華金、開發金、建華銀行等)，投資新上市櫃公司的影響力似乎也日漸式微。&lt;/p&gt;
+&lt;h2&gt;投資公司成功率分析&lt;/h2&gt;
+&lt;p&gt;從上節結果來看，這統計似乎告訴我們：
+要想獲得較高的上市櫃機會，還是要與銀行、黨營事業或大財團在一起比較靠譜。
+但這邊存在兩點需要釐清：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;根據前節的統計結果顯示，新上市櫃公司中主要群體的比重並不比非主要群體高，
+故主要群體的法人董監事不存在特殊優勢。&lt;/li&gt;
+&lt;li&gt;某些公司 (如：開發工銀、兆豐商銀) 擔任法人董監事的公司數較多，當然成功次數也高。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;為了探討成功次數與成功率之間的關係，
+我們試著把縮小樣本至興櫃公司 (2002 年以後方成立興櫃市場)，
+統計各公司擔任興櫃公司之法人董監事數與成功上市櫃數之比。
+為了便於觀察成功率變化，
+在此我們僅取曾任三間以上興櫃公司者進行觀察統計，
+詳細統計結果請見&lt;a href="http://weichengliou.github.io/blog/downloads/NewIvstHit.html"&gt;連結&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/Reg.NewIvst.Ratio.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖中可見這些公司投資興櫃公司的成功率多半在五成以上 (不論是否為主要群體)，
+與前節統計七成以上新上市櫃公司皆有法人董監代表結果一致。
+但問題是：前幾名公司看起來像是屬主要群體成員，
+為何成功率反而高？這點要從法人董監之間的合作關係看起。&lt;/p&gt;
+&lt;h2&gt;法人董監間合作關係分析&lt;/h2&gt;
+&lt;p&gt;成功次數高的公司之間是否存在合作關係？&lt;/p&gt;
+&lt;p&gt;下圖為根據新上市櫃公司的董監事法人股東資訊，重新製作了投資公司間的合作關係圖 (省略兩間以下的合作關係)。
+兩家公司間的連線代表共同投資某新上市櫃公司，圓圈越大表示成功數越多，紅色圓圈表示成功五次以上。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/connNewList.png" /&gt;&lt;/p&gt;
+&lt;p&gt;下圖為根據近五年資料所作的合作關係圖，紅色圓圈表示成功三次以上：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/connNewList_5y.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由上圖觀察到幾個現象：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;長期以來不少新上市櫃公司皆與以開發金、兆豐金為核心的大投資集團有關。&lt;/li&gt;
+&lt;li&gt;近五年主要集團現象不如過去明顯，但還是可以看到兩個投資集團實為一個 (開發工銀與中華開發創投實為同一集團)。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;從每年底興櫃公司的法人股東公司數統計，也可以看到投資公司的合作模式正在轉變當中。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/cowoPatn.Reg.png" /&gt;&lt;/p&gt;
+&lt;p&gt;多數公司的法人董監在兩間公司以下，且無任何法人董監的公司比例逐年下降中，與前節具有法人董監之興櫃公司的比重逐漸升高結論相同。
+唯一擁有十二位法人董監股東的興櫃公司為高鐵 (2633)。&lt;/p&gt;
+&lt;p&gt;對於投資公司間的合作關係變化，這邊也準備了 GIF 協助觀察，可以觀察歷年投資於新上市櫃公司與興櫃公司的投資公司們彼此的合作關係變化。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/animated.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;文末附上國民黨出脫黨營事業簡表，供讀者參觀對照。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;2001: 
+    - 金控法通過
+    - 開發工銀與菁英證券合組為開發金
+
+2002:
+    - 復華證金與復華證券合組為復華金控
+    - 大華證券併入開發金
+    - 交通商銀與國際綜合證券合組為兆豐金
+    - 兆豐金先後合併中國輸出入銀行、中興票券、倍利國際證券、中國國際商業銀行、中國產險、中央國際證券投信
+    - 華信商業銀行、建弘證券與金華信銀證券合組為建華金
+
+2005:
+    - 建華金合併台北國際商銀
+
+2006:
+    - 建華金改名為永豐金
+    - 元大證併入復華金，改名為元大金
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>台灣上市櫃公司網絡變化史</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/08/twcom_tej/" rel="alternate"></link><updated>2015-10-08T12:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-08:blog/blog/2015/10/08/twcom_tej/</id><summary type="html">&lt;p&gt;本文旨在應用臺灣上市櫃公司歷史公開資訊，
+探討 1998-2014 年間上市櫃公司的企業投資網路。
+資料來源以臺灣經濟新報 (TEJ) 資料庫為主，
+但 &lt;a href="http://www.mops.com.tw"&gt;公開資訊觀測站&lt;/a&gt; 亦可找到相關資訊。&lt;/p&gt;
+&lt;p&gt;從經濟部的營利事業登記資料可以得知，
+眼下各大財團、國營企業、金融機構與黨營事業彼此交叉投資形成一個主要群體，
+某種程度上可視為黨國資本主義時代下遺留的產物。
+那麼這種企業間的投資網路，在過去具有什麼特徵？這些年來又產生那些變化？
+乃至於我最想問的一個問題是：這種企業間的投資網絡對我們具有何種意義？&lt;/p&gt;
+&lt;p&gt;要想回答這些問題，需仰賴臺灣上市櫃公司與公開發行公司的公開資訊。
+為了因應證交所的資訊要求，這些公司需定期揭露轉投資公司、對中國投資、董監事與大股東持股資訊，
+而這些資訊成了我們建構不同時期企業投資網絡的最大資料來源。&lt;/p&gt;
+&lt;p&gt;在分析前先講結論：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;每年上市櫃公司家數逐年遞增。&lt;/li&gt;
+&lt;li&gt;整體產業分佈以電子業為主。&lt;/li&gt;
+&lt;li&gt;主要集團間共同或交叉投資，形成大群體現象一直存在。&lt;/li&gt;
+&lt;li&gt;主要群體的公司數佔整體比重逐年上升，但密度逐年下降。 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;基本分析&lt;/h2&gt;
+&lt;p&gt;上市櫃公司家數與產業分佈可以下圖表示：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/indNewList.png" /&gt;&lt;/p&gt;
+&lt;p&gt;那麼就投資關係而言，這些年究竟出現多少公司？&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yrNode.png" /&gt;&lt;/p&gt;
+&lt;p&gt;主要資料來源大多來自於公司財報裡的長期投資項目。&lt;/p&gt;
+&lt;p&gt;長期投資項目並不僅止於國內，也包含國外的股權投資或百分百持股子公司。
+2011 年以後，因為證交所要求於合併財報中揭露集團轉投資之故，
+故一般投資人更有機會了解各集團整體轉投資概況。&lt;/p&gt;
+&lt;p&gt;董監事法人代表資訊乃指各上市櫃公司董監事名單中的法人代表資訊，
+這部份資訊較長期投資資訊少。&lt;/p&gt;
+&lt;p&gt;最後是轉投資中國的資訊，
+這部份資料自 1999 年開始陸續公佈越來越多資訊，
+主要為各上市櫃公司在中國轉投資設立的工廠或子公司資訊。&lt;/p&gt;
+&lt;p&gt;若是將各公司間投資關係合併起來看，
+依不同資料來源可以看到這些連結的數量變化。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yrEdge.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由於對中國投資的部份，多半以在當地設廠或設立子公司為主，交叉投資的部份較少。
+為了簡化分析，後續分析將以長期投資與董監事法人代表資訊為主。&lt;/p&gt;
+&lt;p&gt;從主要群體與整體的比較來看，
+主要群體的成員 (node) 比重逐年上升，表示有越來越多公司經由投資或被投資的關係成為主要群體的一部分。
+但主要群體的連結數 (edge) 比重雖略有下降，但整體約略維持在九成以上水準。表示九成以上的投資關係發生在主要群體之內，比較如下圖：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yrRatio1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;根據不同來源資料，我們可以作各企業的平均連結數比較。
+如下圖可見，整體而言平均連結數約在 2.4 ~ 2.6 之間，
+與長期投資比較有關。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/avgdeg.source.png" /&gt;&lt;/p&gt;
+&lt;p&gt;隨著資本市場逐年發展，
+在上市櫃公司與集團投資公司數逐年增加的情況下，
+只要各企業的平均連結數沒太大變化，
+可了解整體與主要群體的網絡密度將逐年下降。&lt;/p&gt;
+&lt;h2&gt;投資公司排名&lt;/h2&gt;
+&lt;p&gt;本節將分別從董監事法人代表資訊與長期投資來看每年前十名的公司變化。
+首先從董監事法人代表資訊來看投資公司排名，
+該排名可以了解哪些公司擔任最多上市櫃公司的董監事：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yr.out_deg1.Board.png" /&gt;&lt;/p&gt;
+&lt;p&gt;每年前十名的公司不盡相同，
+但除了開發工銀、中央投資、光華投資、交通銀行、兆豐商銀之外，
+其餘公司投資數約略在 20 間公司之內。
+有趣的是黨營事業群在上市櫃公司擔任董監事的家數，在 2000 年以後逐漸減少，
+乃至於 2006 年以後僅擔任一間上市櫃公司董監事。
+由此也可以見到政黨輪替的必要性。&lt;/p&gt;
+&lt;p&gt;為了更清楚每年度投資前十名公司的變化，
+我們試著以 Heat Map 方式來觀察：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/out_deg1.mat.Board.png" /&gt;&lt;/p&gt;
+&lt;p&gt;能在這 18 年中持續居於前十名的公司，主要都是政府、國營事業與大型財團。
+在該圖中可看到隨著時代逐漸降低影響力的企業集團，如：和通創投、黨營事業、東森集團等。
+另一方面亦可看到逐漸增加影響力的企業集團，即同屬旺中集團旗下的新紀元投資與中嘉網路。&lt;/p&gt;
+&lt;p&gt;若改從長期投資的資訊切入，觀察每年前十名的變化，我們又能獲得什麼資訊？&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yr.out_deg1.Ivst.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/out_deg1.mat.Ivst.png" /&gt;&lt;/p&gt;
+&lt;p&gt;長期而言大部分公司投資數在一百家公司以內，
+但開發工銀的投資數多數時候均傲視群雄，
+一度更曾達到四百間公司以上，但往後投資數卻逐年減少。&lt;/p&gt;
+&lt;p&gt;另一個有趣的地方是，除了開發金之外，
+投資數超過 150 的多半為金融業，
+這點與金融業的自身的行業特性有關。&lt;/p&gt;
+&lt;p&gt;2011 年以後多出不少間財團轉投資成立的創業投資公司。
+此乃託因於 2011 年開始，合併財報揭露集團轉投資資訊，
+故我們方可見到這些創投公司的轉投資情形。&lt;/p&gt;
+&lt;h2&gt;結論&lt;/h2&gt;
+&lt;p&gt;目前我們已約略了解：
+上市櫃公司間的企業投資網絡，
+長期而言存在一主要群體，
+且該群體結構長期而言相對穩定。&lt;/p&gt;
+&lt;p&gt;而黨營事業過去在該網絡中佔有相對重要的位置，
+但 2000 年後影響力逐漸下降。&lt;/p&gt;
+&lt;p&gt;但該結構對整體環境影響為何？這可能並不能單從這些資訊即可回答。
+但我們或許可以問的是：若我是有意在臺灣上市櫃的新創事業老闆或股東，
+這樣的網絡結構是否對我有影響？
+這問題將在下篇文章進一步探討。&lt;/p&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>從上市櫃公司看黨營事業變化</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/09/24/kmt_history/" rel="alternate"></link><updated>2015-09-24T17:23:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-09-24:blog/blog/2015/09/24/kmt_history/</id><summary type="html">&lt;p&gt;從之前的文章中，
+我們發現過去黨營事業在不少上市櫃公司擔任董監事，
+因此本篇文章即將討論黨營事業的投資變化。&lt;/p&gt;
+&lt;p&gt;下圖為黨營事業的直接持股變化&lt;/p&gt;
+&lt;p&gt;[add pic]&lt;/p&gt;
+&lt;p&gt;其中中央投資、光華投資等為國民黨完全持股的黨營事業，
+其在 2002 年以前直接投資公司家數一度位居全國前三名。&lt;/p&gt;
+&lt;p&gt;但我們接下來想問的是，
+若包含各種間接投資的話，
+黨營事業究竟會持有多少公司？
+為此我製作了持股動畫來表示黨營事業的持股變化。
+以表格方式來表達的話，
+我們可以看到核心成員、非核心成員與投資夥伴的分別。&lt;/p&gt;
+&lt;p&gt;[add table]&lt;/p&gt;
+&lt;p&gt;其中我們可以看到，在近幾年國民黨擔任董監事的公司數大幅減少，至 2007 年已沒有任何相關資訊了。但真的是這樣嗎？&lt;/p&gt;
+&lt;p&gt;從之前的文章知道，
+黨營事業依然在不少公司佔有董監事席次，
+但這些公司均非上市櫃公司，
+所以至今僅能從經濟部營利事業登記資料與國民黨的公開年報得知大略的投資內容了。
+這件事其實很可惜，不論任何政黨或政治人物，
+因其主要從事的工作影響公眾利益甚鉅，
+為降低利益衝突的可能性，
+理應公佈財產內容供大眾審閱監督。
+但若有方便的機器讀取格式，
+就能讓民間更易於發展相關應用。
+只是這點對當前政府而言，
+應該是相當不情願的吧。&lt;/p&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>台灣公司關係圖後續計畫</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/09/01/twcom_todo/" rel="alternate"></link><updated>2014-09-01T07:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-09-01:blog/blog/2014/09/01/twcom_todo/</id><summary type="html">&lt;p&gt;在參加資料科學愛好者年會暨第十次黑客松之後，要先寫下後續計畫提醒自己盡快完成。&lt;/p&gt;
 &lt;p&gt;寫在開頭之前，有些感想先提一下，我是資料分析的愛好者，也是 &lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 長期參與者。
 受到 g0v 村長感召（躺在病床上還不忘寫程式真是太讚了）而決定投入開放資料的分析研究。
 作這個一邊是興趣一邊當練功，雖然無償但我作得爽。
@@ -25,7 +483,7 @@
 &lt;p&gt;Taiwan R User Group 討論不少跟資料分析、機器學習甚至雲端運算等相關議題，
 我也會在 Taiwan R User Group 分享心得（日期待後續公佈），
 歡迎對這方面有興趣的同好，每週一來 Taiwan R User Group 的 ML/DM Monday 看看，一同分享所知所學。&lt;/p&gt;
-&lt;p&gt;謝謝。&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>集團間研究</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/29/grouping/" rel="alternate"></link><updated>2014-08-29T08:29:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-29:blog/2014/08/29/grouping/</id><summary type="html">&lt;p&gt;&lt;strong&gt;「台灣究竟存在多少集團？」&lt;/strong&gt;&lt;br&gt;
+&lt;p&gt;謝謝。&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>集團間研究</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/29/grouping/" rel="alternate"></link><updated>2014-09-01T11:45:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-29:blog/blog/2014/08/29/grouping/</id><summary type="html">&lt;p&gt;&lt;strong&gt;「台灣究竟存在多少集團？」&lt;/strong&gt;&lt;br&gt;
 這是我第一次接觸到台灣公司關係圖資料時第一個浮現的問題，所以有了這一系列文章出現。&lt;/p&gt;
 &lt;p&gt;從第一篇文章中，我們從法人投資關係中發現了一個橫跨國營事業、黨營事業與財團的超大型集團，並試圖從不同角度觀察該集團的主要成員。但即使在這一個大型集團中，仍然可以
 辨識出一些主要的家族集團與少數次要的集團。那麼這些集團大致上有哪些成員？不同集團間有怎樣的合作關係？如&lt;a href="http://socio
@@ -130,12 +588,12 @@ licensed under a &lt;a rel="license"
 href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
 Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
 xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
-rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>關於台灣公司關係圖</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/21/twcom_about/" rel="alternate"></link><updated>2014-08-21T15:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-21:blog/2014/08/21/twcom_about/</id><summary type="html">&lt;p&gt;關於本站台灣公司關係圖系列的文章，其實是因緣際會拿到 &lt;a href="https://twitter.com/ronnywang"&gt;RonnyWang&lt;/a&gt; 抓的資料，剛好自己又對集團研究很感興趣，所以就一頭栽進去了。
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>關於台灣公司關係圖</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/21/twcom_about/" rel="alternate"></link><updated>2014-08-21T15:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-21:blog/blog/2014/08/21/twcom_about/</id><summary type="html">&lt;p&gt;關於本站台灣公司關係圖系列的文章，其實是因緣際會拿到 &lt;a href="https://twitter.com/ronnywang"&gt;RonnyWang&lt;/a&gt; 抓的資料，剛好自己又對集團研究很感興趣，所以就一頭栽進去了。
 對於黨營事業的研究，只是因為剛好在分析過程中，發現黨營事業的規模竟然也可與其他財團相比。
 在跟中研院社會所李宗榮老師討論過後，才知道以前就有不少學者為文指出黨營事業的問題，就決定來寫篇文章作 update。
 但會引起這麼多人關注，實在出乎意料之外。&lt;/p&gt;
 &lt;p&gt;不過本系列尚未結束，除了我一開始最想問的集團問題仍未有滿意的答案外，分析過程中其實還有其他有趣的故事可以寫，這些都會在後續系列文章一一補上。
-也歡迎各位不吝提供指教，若對哪些內容比較感興趣也歡迎留言，我會盡量協助回答，感謝各位。&lt;/p&gt;</summary></entry><entry><title>集團研究--榮化</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/ronhwa/" rel="alternate"></link><updated>2014-08-09T01:55:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-09:blog/2014/08/09/ronhwa/</id><summary type="html">&lt;p&gt;本文將就李長榮化工的董監事社會網路結構進行探討，資料來源為 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 6 月份資料。&lt;/p&gt;
+也歡迎各位不吝提供指教，若對哪些內容比較感興趣也歡迎留言，我會盡量協助回答，感謝各位。&lt;/p&gt;</summary></entry><entry><title>集團研究--榮化</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/ronhwa/" rel="alternate"></link><updated>2014-08-11T16:30:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-09:blog/blog/2014/08/09/ronhwa/</id><summary type="html">&lt;p&gt;本文將就李長榮化工的董監事社會網路結構進行探討，資料來源為 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 6 月份資料。&lt;/p&gt;
 &lt;p&gt;首先想知道有哪些公司名稱與"李長榮"有關？&lt;/p&gt;
 &lt;table&gt;&lt;tr&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;39054405&lt;/td&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;20563007&lt;/td&gt;&lt;td&gt;李長榮實業股份有限公司&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;97173920&lt;/td&gt;&lt;td&gt;李長榮科技股份有限公司&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 
@@ -201,7 +659,7 @@ licensed under a &lt;a rel="license"
 href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
 Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
 xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
-rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>黨營事業知多少</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/kmtnew/" rel="alternate"></link><updated>2014-08-09T01:35:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-09:blog/2014/08/09/kmtnew/</id><summary type="html">&lt;h2&gt;黨營事業知多少？&lt;/h2&gt;
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>黨營事業知多少</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/kmtnew/" rel="alternate"></link><updated>2014-08-11T16:30:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-09:blog/blog/2014/08/09/kmtnew/</id><summary type="html">&lt;h2&gt;黨營事業知多少？&lt;/h2&gt;
 &lt;p&gt;本文將就國民黨營事業的社會網路結構進行深入探討，資料來源為 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 6 月份資料。&lt;/p&gt;
 &lt;p&gt;前篇文章提到台灣企業生態圈中的超巨大關係企業集團，其中黨營事業處於該集團核心位置，而黨營事業又主要以中央投資為核心向外延伸。關於國民黨黨產多寡，其實我們亦可從年
 報得知，不一定要如此費心挖掘。但本篇研究重心在於表現黨營事業的投資分佈概況，其核心人物主要以誰為主？有哪些財團企業與黨營事業往來密切？甚至藉由比較核心人物擔任董
@@ -276,7 +734,7 @@ licensed under a &lt;a rel="license"
 href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
 Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
 xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
-rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>如何分辨同名同姓</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/samename/" rel="alternate"></link><updated>2014-08-06T23:45:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-06:blog/2014/08/06/samename/</id><summary type="html">&lt;h2&gt;如何辨別同名同姓的董監事？&lt;/h2&gt;
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>如何分辨同名同姓</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/samename/" rel="alternate"></link><updated>2014-08-06T23:45:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-06:blog/blog/2014/08/06/samename/</id><summary type="html">&lt;h2&gt;如何辨別同名同姓的董監事？&lt;/h2&gt;
 &lt;p&gt;本文將說明在 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 的董監事資料中存在同名同姓的問題。董監事名單不像公司一樣有統一編號可供查詢，
 所以在比對不同公司董監事資料時，不可避免地會遇到同名同姓的問題。本文根據法人代表資料並結合不同公司間的相同董監事名單，協助分類同名同姓者。並以此分類結果作為尋找
 家族企業的基準。這篇文章僅為學術研究，模型正確性尚無有效評估方法，故分類結果僅供參考，不代表任何立場。&lt;/p&gt;
@@ -326,7 +784,7 @@ rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary
 資關係，但其董監事成員中有四人與大魯閣纖維完全重複，故被認定為同一群人經營之企業。&lt;/p&gt;
 &lt;p&gt;另外以王雪紅為例：&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/samename.wang.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/samename_files/samename_28_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/samename_files/samename_27_1.png" /&gt;&lt;/p&gt;
 &lt;p&gt;王雪紅擔任不少公司，其中也包含宏達電、台塑等公司的董監事。但就模型分類結果而言，宏達國際電池與威創科技顧問等公司亦被模型認定為同一個王雪紅經營。而聯宏育樂與聯宏
 建設開發則被模型認定為另一個王雪紅所經營。如此即可降低集團分類時的困難度。&lt;/p&gt;
 &lt;h2&gt;結語&lt;/h2&gt;
@@ -343,7 +801,7 @@ licensed under a &lt;a rel="license"
 href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
 Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
 xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
-rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>台灣公司關係圖</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/twcom/" rel="alternate"></link><updated>2014-08-06T23:43:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io/blog,2014-08-06:blog/2014/08/06/twcom/</id><summary type="html">&lt;h2&gt;從董監事名單觀察法人投資關係&lt;/h2&gt;
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>台灣公司關係圖</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/twcom/" rel="alternate"></link><updated>2014-08-06T23:43:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-06:blog/blog/2014/08/06/twcom/</id><summary type="html">&lt;h2&gt;從董監事名單觀察法人投資關係&lt;/h2&gt;
 &lt;p&gt;台灣的企業種類分佈相當廣泛，有政府經營的國營企業、廣大的中小企業，家族企業為背景的財團，還有黨營事業，這些不同的市場參與者組成了現今的企業生態圈。但對於檯面上的
 企業財團之間存在怎樣的競合關係，我們卻始終無法一覽全貌。近年來社會網絡分析 (Social Network Analysis）相當盛行，藉著觀察法人投資關係我們
 可以更清楚政府、財團甚至黨營事業組成一個大群體。這群體的成員組成有誰？他們的規模究竟有多大？該如何界定他們的影響力？這些都將在下文逐一分析討論。&lt;/p&gt;

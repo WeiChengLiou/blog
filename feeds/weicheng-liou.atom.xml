@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/weicheng-liou.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2015-10-08T14:00:00+08:00</updated><entry><title>新創企業的貴人-投資公司</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/" rel="alternate"></link><updated>2015-10-08T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-08:blog/blog/2015/10/08/ivstSNA/</id><summary type="html">&lt;p&gt;本文討論新上市櫃公司的法人股東角色，法人股東主要有以下幾種：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;國外法人&lt;/li&gt;
+&lt;li&gt;國內上市櫃公司&lt;/li&gt;
+&lt;li&gt;國內投資/創投公司&lt;/li&gt;
+&lt;li&gt;金融業&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;根據前文我們了解臺灣的企業投資網絡中，
+存在一個由各大財團、金融業、黨營事業等合成的主要群體。
+既然在長期下持續維持此結構，
+那麼有志於在臺灣上市櫃的企業應如何尋找創投資金？&lt;/p&gt;
+&lt;p&gt;好的創投資金可以有多種定義，如：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;提供法律、財務、技術等協助&lt;/li&gt;
+&lt;li&gt;提供相關資源拓展公司業務&lt;/li&gt;
+&lt;li&gt;對公司營運現況提供建議&lt;/li&gt;
+&lt;li&gt;協助公司上市櫃&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;鑑於前三點不易觀察，
+故我們試圖從第四點來討論好的創投公司。
+從歷年的新上市櫃公司的董監資料，
+我們可以從法人股東資訊得知該公司獲得哪些公司投資。
+分析資料來自於 1996-2014 間新上市櫃公司資訊，
+根據各公司上市櫃當年 12 月的董監名單進行統計。&lt;/p&gt;
+&lt;p&gt;以下分析將就幾個層面依序討論新上市櫃公司的優勢：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;歷年新上市櫃公司概況&lt;/li&gt;
+&lt;li&gt;法人董監事是否存在優勢？&lt;/li&gt;
+&lt;li&gt;主要群體的法人董監事是否存在優勢？&lt;/li&gt;
+&lt;li&gt;是否存在優秀的投資公司？&lt;/li&gt;
+&lt;li&gt;法人董監之間有何合作關係？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;歷年新上市櫃公司概況&lt;/h2&gt;
+&lt;p&gt;歷年的新上市櫃公司家數分佈如下：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/yrNewList.png" /&gt;&lt;/p&gt;
+&lt;p&gt;而新上市櫃公司的產業分佈如下：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/indNewList.png" /&gt;&lt;/p&gt;
+&lt;p&gt;主要以電子相關產業為主。&lt;/p&gt;
+&lt;h2&gt;法人董監事是否存在優勢？&lt;/h2&gt;
+&lt;p&gt;根據每年新上市櫃公司與興櫃公司的法人董監事資訊，
+我們想了解新上市櫃公司的法人董監事比重是否明顯較高。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/InstRatio.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖中可見平均約有七成四左右的新上市櫃公司有法人董監事，
+在興櫃公司之間其比率更高。
+故對於有志於在臺灣上市櫃的新創企業而言，
+法人股東還是可以為公司帶來些許優勢。&lt;/p&gt;
+&lt;h2&gt;主要群體的法人董監事是否存在優勢？&lt;/h2&gt;
+&lt;p&gt;那麼主要群體的法人董監事是否有優勢呢？
+這點可以觀察新上市櫃公司在上市櫃當年，是否身處主要群體之內：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/MaxGrpRatio.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖中可以看到在新上市櫃公司當中，
+身處主要群體的公司佔整體比重平均低於五成。
+2002 年之前還曾在五成以上，但這比率逐年降至三成以下。
+由此可見是否有主要群體的法人董監事參與，
+這件事似乎並不會為公司帶來優勢。&lt;/p&gt;
+&lt;p&gt;而從歷年興櫃公司法人董監事觀察亦知，
+身處主要群體的興櫃公司比重平均也不超過五成，
+而且這比重也正逐年下降當中。&lt;/p&gt;
+&lt;p&gt;相較於主要群體成員佔所有公司比重持續超過八成而言，
+這些公司在新上市櫃公司與興櫃公司的比重明顯低很多。&lt;/p&gt;
+&lt;p&gt;那麼相較於所有有法人董監事的新上市櫃公司，
+來自於主要群體的公司有多少？
+下圖為歷年新上市櫃公司中，主要群體在不同比較基準下的比例：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;主要群體的公司數 / 有法人董監事的公司&lt;/li&gt;
+&lt;li&gt;主要群體的公司數 / 所有新上市櫃公司&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/MaxGrpRatio.NewIvst.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖中可見，
+即使在有法人董監事的公司當中，
+主要群體比重也不見得明顯較高。
+這與前文當中，主要群體連接數佔整體八成以上相比明顯較低。&lt;/p&gt;
+&lt;h2&gt;是否存在優秀的投資公司？&lt;/h2&gt;
+&lt;p&gt;假設我們定義所謂的投資成功為：
+出現在新上市櫃公司當年底的法人董監事名單上。
+則根據各法人董監事成功次數多寡繪成直方圖如下表：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/cntNewList.png" /&gt;&lt;/p&gt;
+&lt;p&gt;多數投資公司僅成功一次，
+但有少數公司可成功一次以上，
+我們試圖將成功次數在五次以上者列出如下：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;投資公司&lt;/th&gt;
+&lt;th&gt;成功次數&lt;/th&gt;
+&lt;th&gt;是否為主要集團&lt;/th&gt;
+&lt;th&gt;主要股東或代表集團&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/11147207"&gt;開發&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;80&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;開發金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/03720209"&gt;交銀&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;26&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;兆豐金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/03557311"&gt;臺銀&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;財政部&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/05008092"&gt;光華投資&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;國民黨&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/03705903"&gt;兆豐商銀&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;兆豐金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/nan"&gt;行政院開發基&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;行政院&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/96975508"&gt;中盈投資&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;中鋼&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/03064421"&gt;中央投資&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;國民黨&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/nan"&gt;中華開發創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;開發金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/47217677"&gt;聯電&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;聯電&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/84442466"&gt;中亞創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;開發金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/22522685"&gt;Ｄ和通創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;台隆工業&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/23226655"&gt;中歐創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;開發金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/79460007"&gt;華榮&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;華榮電線電纜&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/nan"&gt;台元創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;裕隆、台元紡織&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/86383174"&gt;和通創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;台隆工業&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/nan"&gt;財政部&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;財政部&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/30414175"&gt;中鋼&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;中鋼&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/nan"&gt;富鼎創業投資&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;信邦電、台肥、永豐證、義隆電、元富證、優群、崇越...&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/03742301"&gt;華銀&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;華南金&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/35412204"&gt;華新&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;華新麗華&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/22099218"&gt;華邦電&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;華新麗華&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/23534317"&gt;普訊創投&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;台達電、英業達、致茂、義美&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://company.g0v.ronny.tw/id/47230290"&gt;宏電&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Y&lt;/td&gt;
+&lt;td&gt;宏碁&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;看起來成功次數較多者，多與國內主要財團與銀行有關。
+但其中有趣的是，國民黨的黨營事業--中央投資與光華投資也名列前五名之內。
+配合排行居於前位的兆豐金與開發金等集團，
+我們似乎可以想像得到：藉著過去黨國資本主義的裙帶關係與潛規則運作，
+國民黨的黨營事業似乎比一般法人機構更容易獲得投資新上市櫃公司的機會。
+實際上黨營事業 (中央投資、光華投資) 的成功次數也多半集中在 2000 年以前，
+2000 年政黨輪替以後成功次數已大幅減少。
+以近五年的情況統計，下圖為近五年新上市櫃公司的董監事法人統計：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/cntdicNewList_5y.png" /&gt;&lt;/p&gt;
+&lt;p&gt;根據過去五年成功案例統計可發現，
+開發工銀、兆豐金、國發基金與國營事業依舊維持一定的成功次數。
+但如今開發工銀已非黨營事業，而兆豐金背後最大股東是財政部。
+過去黨營事業結構龐大，但隨著國民黨逐一出脫手中黨營事業 (Ex: 復華金、開發金、建華銀行等)，投資新上市櫃公司的影響力似乎也日漸式微。&lt;/p&gt;
+&lt;h2&gt;投資公司成功率分析&lt;/h2&gt;
+&lt;p&gt;從上節結果來看，這統計似乎告訴我們：
+要想獲得較高的上市櫃機會，還是要與銀行、黨營事業或大財團在一起比較靠譜。
+但這邊存在兩點需要釐清：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;根據前節的統計結果顯示，新上市櫃公司中主要群體的比重並不比非主要群體高，
+故主要群體的法人董監事不存在特殊優勢。&lt;/li&gt;
+&lt;li&gt;某些公司 (如：開發工銀、兆豐商銀) 擔任法人董監事的公司數較多，當然成功次數也高。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;為了探討成功次數與成功率之間的關係，
+我們試著把縮小樣本至興櫃公司 (2002 年以後方成立興櫃市場)，
+統計各公司擔任興櫃公司之法人董監事數與成功上市櫃數之比。
+為了便於觀察成功率變化，
+在此我們僅取曾任三間以上興櫃公司者進行觀察統計，
+詳細統計結果請見&lt;a href="http://weichengliou.github.io/blog/downloads/NewIvstHit.html"&gt;連結&lt;/a&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/Reg.NewIvst.Ratio.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖中可見這些公司投資興櫃公司的成功率多半在五成以上 (不論是否為主要群體)，
+與前節統計七成以上新上市櫃公司皆有法人董監代表結果一致。
+但問題是：前幾名公司看起來像是屬主要群體成員，
+為何成功率反而高？這點要從法人董監之間的合作關係看起。&lt;/p&gt;
+&lt;h2&gt;法人董監間合作關係分析&lt;/h2&gt;
+&lt;p&gt;成功次數高的公司之間是否存在合作關係？&lt;/p&gt;
+&lt;p&gt;下圖為根據新上市櫃公司的董監事法人股東資訊，重新製作了投資公司間的合作關係圖 (省略兩間以下的合作關係)。
+兩家公司間的連線代表共同投資某新上市櫃公司，圓圈越大表示成功數越多，紅色圓圈表示成功五次以上。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/connNewList.png" /&gt;&lt;/p&gt;
+&lt;p&gt;下圖為根據近五年資料所作的合作關係圖，紅色圓圈表示成功三次以上：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/connNewList_5y.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由上圖觀察到幾個現象：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;長期以來不少新上市櫃公司皆與以開發金、兆豐金為核心的大投資集團有關。&lt;/li&gt;
+&lt;li&gt;近五年主要集團現象不如過去明顯，但還是可以看到兩個投資集團實為一個 (開發工銀與中華開發創投實為同一集團)。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;從每年底興櫃公司的法人股東公司數統計，也可以看到投資公司的合作模式正在轉變當中。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/cowoPatn.Reg.png" /&gt;&lt;/p&gt;
+&lt;p&gt;多數公司的法人董監在兩間公司以下，且無任何法人董監的公司比例逐年下降中，與前節具有法人董監之興櫃公司的比重逐漸升高結論相同。
+唯一擁有十二位法人董監股東的興櫃公司為高鐵 (2633)。&lt;/p&gt;
+&lt;p&gt;對於投資公司間的合作關係變化，這邊也準備了 GIF 協助觀察，可以觀察歷年投資於新上市櫃公司與興櫃公司的投資公司們彼此的合作關係變化。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/animated.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;文末附上國民黨出脫黨營事業簡表，供讀者參觀對照。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;2001: 
+    - 金控法通過
+    - 開發工銀與菁英證券合組為開發金
+
+2002:
+    - 復華證金與復華證券合組為復華金控
+    - 大華證券併入開發金
+    - 交通商銀與國際綜合證券合組為兆豐金
+    - 兆豐金先後合併中國輸出入銀行、中興票券、倍利國際證券、中國國際商業銀行、中國產險、中央國際證券投信
+    - 華信商業銀行、建弘證券與金華信銀證券合組為建華金
+
+2005:
+    - 建華金合併台北國際商銀
+
+2006:
+    - 建華金改名為永豐金
+    - 元大證併入復華金，改名為元大金
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>台灣上市櫃公司網絡變化史</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/08/twcom_tej/" rel="alternate"></link><updated>2015-10-08T12:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-08:blog/blog/2015/10/08/twcom_tej/</id><summary type="html">&lt;p&gt;本文旨在應用臺灣上市櫃公司歷史公開資訊，
+探討 1998-2014 年間上市櫃公司的企業投資網路。
+資料來源以臺灣經濟新報 (TEJ) 資料庫為主，
+但 &lt;a href="http://www.mops.com.tw"&gt;公開資訊觀測站&lt;/a&gt; 亦可找到相關資訊。&lt;/p&gt;
+&lt;p&gt;從經濟部的營利事業登記資料可以得知，
+眼下各大財團、國營企業、金融機構與黨營事業彼此交叉投資形成一個主要群體，
+某種程度上可視為黨國資本主義時代下遺留的產物。
+那麼這種企業間的投資網路，在過去具有什麼特徵？這些年來又產生那些變化？
+乃至於我最想問的一個問題是：這種企業間的投資網絡對我們具有何種意義？&lt;/p&gt;
+&lt;p&gt;要想回答這些問題，需仰賴臺灣上市櫃公司與公開發行公司的公開資訊。
+為了因應證交所的資訊要求，這些公司需定期揭露轉投資公司、對中國投資、董監事與大股東持股資訊，
+而這些資訊成了我們建構不同時期企業投資網絡的最大資料來源。&lt;/p&gt;
+&lt;p&gt;在分析前先講結論：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;每年上市櫃公司家數逐年遞增。&lt;/li&gt;
+&lt;li&gt;整體產業分佈以電子業為主。&lt;/li&gt;
+&lt;li&gt;主要集團間共同或交叉投資，形成大群體現象一直存在。&lt;/li&gt;
+&lt;li&gt;主要群體的公司數佔整體比重逐年上升，但密度逐年下降。 &lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;基本分析&lt;/h2&gt;
+&lt;p&gt;上市櫃公司家數與產業分佈可以下圖表示：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/indNewList.png" /&gt;&lt;/p&gt;
+&lt;p&gt;那麼就投資關係而言，這些年究竟出現多少公司？&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yrNode.png" /&gt;&lt;/p&gt;
+&lt;p&gt;主要資料來源大多來自於公司財報裡的長期投資項目。&lt;/p&gt;
+&lt;p&gt;長期投資項目並不僅止於國內，也包含國外的股權投資或百分百持股子公司。
+2011 年以後，因為證交所要求於合併財報中揭露集團轉投資之故，
+故一般投資人更有機會了解各集團整體轉投資概況。&lt;/p&gt;
+&lt;p&gt;董監事法人代表資訊乃指各上市櫃公司董監事名單中的法人代表資訊，
+這部份資訊較長期投資資訊少。&lt;/p&gt;
+&lt;p&gt;最後是轉投資中國的資訊，
+這部份資料自 1999 年開始陸續公佈越來越多資訊，
+主要為各上市櫃公司在中國轉投資設立的工廠或子公司資訊。&lt;/p&gt;
+&lt;p&gt;若是將各公司間投資關係合併起來看，
+依不同資料來源可以看到這些連結的數量變化。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yrEdge.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由於對中國投資的部份，多半以在當地設廠或設立子公司為主，交叉投資的部份較少。
+為了簡化分析，後續分析將以長期投資與董監事法人代表資訊為主。&lt;/p&gt;
+&lt;p&gt;從主要群體與整體的比較來看，
+主要群體的成員 (node) 比重逐年上升，表示有越來越多公司經由投資或被投資的關係成為主要群體的一部分。
+但主要群體的連結數 (edge) 比重雖略有下降，但整體約略維持在九成以上水準。表示九成以上的投資關係發生在主要群體之內，比較如下圖：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yrRatio1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;根據不同來源資料，我們可以作各企業的平均連結數比較。
+如下圖可見，整體而言平均連結數約在 2.4 ~ 2.6 之間，
+與長期投資比較有關。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/avgdeg.source.png" /&gt;&lt;/p&gt;
+&lt;p&gt;隨著資本市場逐年發展，
+在上市櫃公司與集團投資公司數逐年增加的情況下，
+只要各企業的平均連結數沒太大變化，
+可了解整體與主要群體的網絡密度將逐年下降。&lt;/p&gt;
+&lt;h2&gt;投資公司排名&lt;/h2&gt;
+&lt;p&gt;本節將分別從董監事法人代表資訊與長期投資來看每年前十名的公司變化。
+首先從董監事法人代表資訊來看投資公司排名，
+該排名可以了解哪些公司擔任最多上市櫃公司的董監事：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yr.out_deg1.Board.png" /&gt;&lt;/p&gt;
+&lt;p&gt;每年前十名的公司不盡相同，
+但除了開發工銀、中央投資、光華投資、交通銀行、兆豐商銀之外，
+其餘公司投資數約略在 20 間公司之內。
+有趣的是黨營事業群在上市櫃公司擔任董監事的家數，在 2000 年以後逐漸減少，
+乃至於 2006 年以後僅擔任一間上市櫃公司董監事。
+由此也可以見到政黨輪替的必要性。&lt;/p&gt;
+&lt;p&gt;為了更清楚每年度投資前十名公司的變化，
+我們試著以 Heat Map 方式來觀察：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/out_deg1.mat.Board.png" /&gt;&lt;/p&gt;
+&lt;p&gt;能在這 18 年中持續居於前十名的公司，主要都是政府、國營事業與大型財團。
+在該圖中可看到隨著時代逐漸降低影響力的企業集團，如：和通創投、黨營事業、東森集團等。
+另一方面亦可看到逐漸增加影響力的企業集團，即同屬旺中集團旗下的新紀元投資與中嘉網路。&lt;/p&gt;
+&lt;p&gt;若改從長期投資的資訊切入，觀察每年前十名的變化，我們又能獲得什麼資訊？&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yr.out_deg1.Ivst.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/out_deg1.mat.Ivst.png" /&gt;&lt;/p&gt;
+&lt;p&gt;長期而言大部分公司投資數在一百家公司以內，
+但開發工銀的投資數多數時候均傲視群雄，
+一度更曾達到四百間公司以上，但往後投資數卻逐年減少。&lt;/p&gt;
+&lt;p&gt;另一個有趣的地方是，除了開發金之外，
+投資數超過 150 的多半為金融業，
+這點與金融業的自身的行業特性有關。&lt;/p&gt;
+&lt;p&gt;2011 年以後多出不少間財團轉投資成立的創業投資公司。
+此乃託因於 2011 年開始，合併財報揭露集團轉投資資訊，
+故我們方可見到這些創投公司的轉投資情形。&lt;/p&gt;
+&lt;h2&gt;結論&lt;/h2&gt;
+&lt;p&gt;目前我們已約略了解：
+上市櫃公司間的企業投資網絡，
+長期而言存在一主要群體，
+且該群體結構長期而言相對穩定。&lt;/p&gt;
+&lt;p&gt;而黨營事業過去在該網絡中佔有相對重要的位置，
+但 2000 年後影響力逐漸下降。&lt;/p&gt;
+&lt;p&gt;但該結構對整體環境影響為何？這可能並不能單從這些資訊即可回答。
+但我們或許可以問的是：若我是有意在臺灣上市櫃的新創事業老闆或股東，
+這樣的網絡結構是否對我有影響？
+這問題將在下篇文章進一步探討。&lt;/p&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>從上市櫃公司看黨營事業變化</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/09/24/kmt_history/" rel="alternate"></link><updated>2015-09-24T17:23:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-09-24:blog/blog/2015/09/24/kmt_history/</id><summary type="html">&lt;p&gt;從之前的文章中，
+我們發現過去黨營事業在不少上市櫃公司擔任董監事，
+因此本篇文章即將討論黨營事業的投資變化。&lt;/p&gt;
+&lt;p&gt;下圖為黨營事業的直接持股變化&lt;/p&gt;
+&lt;p&gt;[add pic]&lt;/p&gt;
+&lt;p&gt;其中中央投資、光華投資等為國民黨完全持股的黨營事業，
+其在 2002 年以前直接投資公司家數一度位居全國前三名。&lt;/p&gt;
+&lt;p&gt;但我們接下來想問的是，
+若包含各種間接投資的話，
+黨營事業究竟會持有多少公司？
+為此我製作了持股動畫來表示黨營事業的持股變化。
+以表格方式來表達的話，
+我們可以看到核心成員、非核心成員與投資夥伴的分別。&lt;/p&gt;
+&lt;p&gt;[add table]&lt;/p&gt;
+&lt;p&gt;其中我們可以看到，在近幾年國民黨擔任董監事的公司數大幅減少，至 2007 年已沒有任何相關資訊了。但真的是這樣嗎？&lt;/p&gt;
+&lt;p&gt;從之前的文章知道，
+黨營事業依然在不少公司佔有董監事席次，
+但這些公司均非上市櫃公司，
+所以至今僅能從經濟部營利事業登記資料與國民黨的公開年報得知大略的投資內容了。
+這件事其實很可惜，不論任何政黨或政治人物，
+因其主要從事的工作影響公眾利益甚鉅，
+為降低利益衝突的可能性，
+理應公佈財產內容供大眾審閱監督。
+但若有方便的機器讀取格式，
+就能讓民間更易於發展相關應用。
+只是這點對當前政府而言，
+應該是相當不情願的吧。&lt;/p&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>AWS EC2 學習筆記 -- 安裝 mongodb</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/09/12/awsmongo/" rel="alternate"></link><updated>2014-09-12T23:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-09-12:blog/blog/2014/09/12/awsmongo/</id><summary type="html">&lt;p&gt;這篇講述如何在 AWS 安裝 mongodb。
+基本上在 mongodb 官網有&lt;a href="http://docs.mongodb.org/ecosystem/platforms/amazon-ec2/#deploy-mongodb-ec2"&gt;相關介紹&lt;/a&gt;，
+但基於個人特殊需求所以要作些客製化設定，所以紀錄於此。&lt;/p&gt;
+&lt;p&gt;相關參考資料：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://emptysqua.re/blog/five-things/"&gt;Five Things About Scaling MongoDB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://attachmentsme.tumblr.com/post/5168114317/tips-from-a-production-mongodb-deployment"&gt;Tips from a Production MongoDB Deployment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://stuffpetedoes.blogspot.tw/2012/07/amazon-ec2-learnings.html"&gt;Amazon EC2 learnings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;安裝 mongodb&lt;/h3&gt;
+&lt;p&gt;在新創一個 instance 之前，請先開啟 security group 的 port 27017 (mongodb 預設 port)。
+建立 instance 後用 ssh 登入遠端主機安裝 mongodb。 &lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;sudo yum -y update
+
+&lt;span class="nv"&gt;$ &lt;/span&gt;&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;[MongoDB]&lt;/span&gt;
+&lt;span class="s2"&gt;name=MongoDB Repository&lt;/span&gt;
+&lt;span class="s2"&gt;baseurl=http://downloads-distro.mongodb.org/repo/redhat/os/x86_64&lt;/span&gt;
+&lt;span class="s2"&gt;gpgcheck=0&lt;/span&gt;
+&lt;span class="s2"&gt;enabled=1&amp;quot;&lt;/span&gt; &lt;span class="p"&gt;|&lt;/span&gt; sudo tee -a /etc/yum.repos.d/mongodb.repo
+
+&lt;span class="nv"&gt;$ &lt;/span&gt;sudo yum install -y mongodb-org-server mongodb-org-shell mongodb-org-tools
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;修改 /etc/mongod.conf 設定&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;外部 IP 登入：把 bind_ip 那一行給 comment 掉。&lt;/p&gt;
+&lt;p&gt;這邊要注意的是，如果資料庫打算開放給其他人使用的話，那就要在 mongodb 設定使用者權限預防資料被誤殺。
+但 mongodb 僅用帳號密碼作控管，畢竟不如防火牆管制安全，故使用前請慎思。
+&lt;a href="http://stackoverflow.com/questions/4767989/problem-with-access-to-mongodb-on-amazon-ec2"&gt;這篇文章&lt;/a&gt; 有另外建議用 ssh tunnel 的方式保護可供參考。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;開啟登入檢核：設定 auth = true&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然後就可以關閉 mongod.conf 了。&lt;/p&gt;
+&lt;h3&gt;新增使用者與權限&lt;/h3&gt;
+&lt;p&gt;輸入 mongo 以登入 mongo shell，先新增使用者管理員帳號。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;use admin
+db.createUser(
+    {
+        user: &amp;quot;gilbert&amp;quot;,
+        pwd: &amp;quot;password1234&amp;quot;,
+        roles:
+        [
+            {
+                role: &amp;quot;userAdminAnyDatabase&amp;quot;,
+                db: &amp;quot;admin&amp;quot;
+            }
+        ]
+    }
+)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;以後登入 mongo shell 時，須鍵入以下指令：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;mongo -u gilba -p xpkp5168 --authenticationDatabase admin
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;新增其他使用者時也用以上指令，關於內建 role 的說明可見於&lt;a href="http://docs.mongodb.org/manual/reference/built-in-roles/#built-in-roles"&gt;此處&lt;/a&gt;。
+若要新增權限，可用 grantRolesToUser 指令如下：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;db.grantRolesToUser(
+    &amp;quot;gilbert&amp;quot;,
+    [
+        {
+            role: &amp;quot;readWriteAnyDatabase&amp;quot;,
+            db: &amp;quot;admin&amp;quot;
+        }
+    ]
+)
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;若想取消權限時，則使用 revokeRolesFromUser 指令。&lt;/p&gt;
+&lt;h3&gt;外部登入&lt;/h3&gt;
+&lt;p&gt;先記下遠端 instance IP (假設為 192.168.1.1)，然後在本地端嘗試登入 mongo shell：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="nv"&gt;$ &lt;/span&gt;mongo 192.168.1.1 -u gilbert -p password1234 --authenticationDatabase admin
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;若出現以下錯誤訊息可不用理會：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;Error while trying to show server startup warnings: not authorized on admin to execute command { getLog: &amp;quot;startupWarnings&amp;quot; }
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;接著可以試著玩玩看了。&lt;/p&gt;</summary><category term="AWS"></category><category term="mongodb"></category></entry><entry><title>AWS EC2 學習筆記 -- Use AWS EC2 Command Line Tools</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/09/12/awssetup/" rel="alternate"></link><updated>2014-09-12T11:55:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-09-12:blog/blog/2014/09/12/awssetup/</id><summary type="html">&lt;p&gt;本文談論如何利用 AWS EC2 Command Line Tools (簡稱 CLI) 建立 instances。
+雖說 AWS 可透過瀏覽器的 Console 介面建立 instance，但畢竟使用上沒那麼靈活。
+若能在 terminal 利用 CLI 建立及取消 instances，那麼在進行平行計算上會十分方便。&lt;/p&gt;
+&lt;p&gt;以下是看了幾天 AWS 文件後，自行摸索出來的操作步驟，以後也可以寫成 script 方便使用。
+參考資料在此：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://docs.aws.amazon.com/AWSEC2/latest/CommandLineReference/ec2-clt.pdf"&gt;安裝及指令手冊&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://aws.amazon.com/marketplace/ref=lbr_navhdr_header"&gt;AWS marketplace&lt;/a&gt;：查詢現有的 Amazon Machine Image 代號與價格 (AMI)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;AWS EC2 概要說明&lt;/h3&gt;
+&lt;p&gt;基本上建立 instance 大概是這樣的：你不能光建個 instance 就以為萬事太平。
+你還要設定 security group 讓你可以用 ssh 連進去，再來還要有個 public IP 讓 ssh 有地方連，要有 Key-pair 作為 ssh 登入鑰匙。
+事情大概就是這樣，接下來我們就要細談操作步驟。&lt;/p&gt;
+&lt;h3&gt;設定步驟說明&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;安裝 AWS CLI Tools&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;創造 Key-pair&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; ec2-create-keypair my-key-pair
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;創造/設定 security group
+    首先藉由預設 security group 查詢預設的 vpc，或者你也可以自行創建。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; ec2-describe-group
+
+GROUP   sg-d04b6db5     266317072757    default default VPC security group      vpc-xxxxxxxx
+PERMISSION      266317072757    default ALLOWS  all                     FROM    USER    266317072757            ID sg-d04b6db5  ingress
+PERMISSION      266317072757    default ALLOWS  all                     TO      CIDR    0.0.0.0/0       egress
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;上面的 &lt;strong&gt;vpc-xxxxxxx&lt;/strong&gt; 就是 vpc ID，接著創造 security group：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; ec2-create-group mygrp -d &amp;quot;My group&amp;quot; -c vpc-xxxxxxxx
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;接著設定 security group，這邊先設定允許 ssh 登入的 port 與 IP。
+IP 要輸入電腦的真實 IP，這邊假設真實 IP 為 192.168.1.1，若不知道者可從這裡&lt;a href="http://checkrealip.com/"&gt;查詢&lt;/a&gt;：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; ec2-authorize mygrp -P tcp -p 22 -s 192.168.1.1/24
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;或是可以直接設定為 0.0.0.0/0，這樣全世界的電腦都可以透過 ssh 連進去了。&lt;/p&gt;
+&lt;p&gt;接著檢查已設定的 security group：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; ec2-describe-group mygrp
+GROUP   sg-af1234ca     266317072757    mygrp   My group        vpc-bb11a1de
+PERMISSION      266317072757    mygrp   ALLOWS  tcp     22      22      FROM    CIDR    1.161.0.0/16    ingress
+PERMISSION      266317072757    mygrp   ALLOWS  all                     TO      CIDR    0.0.0.0/0       egress
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;其中 &lt;strong&gt;sg-af1234ca&lt;/strong&gt; 就是我們新創之security group 的 ID，這個要記起來等下設定 instance 時會用到。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;設定 instance&lt;/p&gt;
+&lt;p&gt;先至 &lt;a href="https://aws.amazon.com/marketplace/ref=lbr_navhdr_header"&gt;AWS marketplace&lt;/a&gt; 找合適的 image。image 就是映像檔，根據不同需求、地區、cpu 等級而有不同定價，比如說我的預設 region 是 us-east，最便宜的 image 為 &lt;a href="https://aws.amazon.com/marketplace/pp/B00CIYTQTC/ref=gtw_msl_title?ie=UTF8&amp;amp;pf_rd_r=0KRNNBW3CGDSBVWNDA9D&amp;amp;pf_rd_m=A33KC2ESLMUT5Y&amp;amp;pf_rd_t=101&amp;amp;pf_rd_i=awsmp-gateway-1&amp;amp;pf_rd_p=1841533842&amp;amp;pf_rd_s=right-3"&gt;Amazon Linux AMI(HVM/64 bit)&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;instance type 中 t2.micro 的價格最便宜，第一次玩就用這個了。基本上一分錢一分貨，想要效能好一點就要挑貴的，如果只是嘗鮮就先拿簡單的來練練，等有感覺了再升級。&lt;/p&gt;
+&lt;p&gt;選好 image 後按下 Continue 鈕，選 Manual Launch 的分頁，就可以看到不同地區的 ID。這邊選 US East 的 ID 為 ami-978d91fe。&lt;/p&gt;
+&lt;p&gt;選好 iamge 與主機類型後，就可以設定 instance 了&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; ec2-run-instances ami-978d91fe -t t2.micro -k thinkpad -g sg-af1234ca --associate-public-ip-address true
+
+RESERVATION     r-fbe183d0      266317072757
+INSTANCE        i-5d0da4b6      ami-978d91fe            ip-172-31-31-196.ec2.internal   pending thinkpad        0               t2.micro        2014-09-11T12:37:29+0000        us-east-1b              monitoring-disabled              172.31.31.196   vpc-bb11a1de    subnet-6022f317 ebs                                     hvm     xen             sg-af1234ca     default false
+NIC     eni-7a10a00c    subnet-6022f317 vpc-bb11a1de    266317072757    in-use  172.31.31.196   ip-172-31-31-196.ec2.internal   true
+NICATTACHMENT   eni-attach-46a8cb25     0       attaching       2014-09-11T20:37:29+0800        true
+GROUP   sg-af1234ca     mygrp
+PRIVATEIPADDRESS        172.31.31.196   ip-172-31-31-196.ec2.internal
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;出現以上訊息就算是設定成功了。&lt;strong&gt;i-5d0da4b6&lt;/strong&gt; 為這次新創之 instance ID，之後停止或中斷時都會用到，忘記的話可以用 ec2-describe-instances 指令查詢。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;測試 ssh 連線&lt;/p&gt;
+&lt;p&gt;首先要先知道剛新創之 instance 的 Public IP。這邊建議用 AWS Command Line Tool 的指令來查會比較清楚：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; aws ec2 describe-instances
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;接著在回傳的一大串 json 字串裡找到 PublicIp 就是了。每次新創的 instance 之 Public IP 不一定會相同，這邊找到的是 54.165.147.88。&lt;/p&gt;
+&lt;p&gt;接著就可以用 ssh 作測試：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="o"&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class="n"&gt;ssh&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="n"&gt;ThinkPad&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pem&lt;/span&gt; &lt;span class="n"&gt;ec2&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;user&lt;/span&gt;&lt;span class="mf"&gt;@54.165.147.88&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;接著會出現訊息詢問是否要新增目標 IP 的指紋 (fingerprint)，選 yes 後出現類似以下訊息應該就算登入成功了。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;The authenticity of host &amp;#39;54.165.147.88 (54.165.147.88)&amp;#39; can&amp;#39;t be established.
+ECDSA key fingerprint is ce:b1:41:dc:f7:88:85:5b:68:c2:7c:21:7a:04:d1:a4.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added &amp;#39;54.165.147.88&amp;#39; (ECDSA) to the list of known hosts.
+
+    __|  __|_  )
+    _|  (     /   Amazon Linux AMI
+    ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-ami/2014.03-release-notes/
+16 package(s) needed for security, out of 44 available
+Run &amp;quot;sudo yum update&amp;quot; to apply all updates.
+[ec2-user@ip-172-31-31-196 ~]$
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;停止/中斷 instance&lt;/p&gt;
+&lt;p&gt;使用完畢後要記得把 instance 停止，免得他繼續計費。以下是停止跟中斷的命令：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; ec2-stop-instances i-5d0da4b6
+
+&amp;gt;&amp;gt; ec2-terminate-instances i-5d0da4b6
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;以上就是一個 AWS instance 誕生跟毀滅的過程。希望大家有基本概念後，多玩幾次、多看參考文件，可以幫助你更快進入狀況。&lt;/p&gt;</summary><category term="AWS"></category><category term="EC2"></category></entry><entry><title>台灣公司關係圖後續計畫</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/09/01/twcom_todo/" rel="alternate"></link><updated>2014-09-01T07:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-09-01:blog/blog/2014/09/01/twcom_todo/</id><summary type="html">&lt;p&gt;在參加資料科學愛好者年會暨第十次黑客松之後，要先寫下後續計畫提醒自己盡快完成。&lt;/p&gt;
+&lt;p&gt;寫在開頭之前，有些感想先提一下，我是資料分析的愛好者，也是 &lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 長期參與者。
+受到 g0v 村長感召（躺在病床上還不忘寫程式真是太讚了）而決定投入開放資料的分析研究。
+作這個一邊是興趣一邊當練功，雖然無償但我作得爽。
+參加過資料科學愛好者年會後，我發現其實也有許多人在不同的領域作類似的傻事（笑）。
+以下是 g0v 黑客松成果發表時想說但來不及說的事：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;開放原始碼：這個一開始就想做了，但我程式碼寫很醜，所以得先把程式碼作些整理後再放到 Github，也歡迎更多同好指教。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;資料庫上線：我要先研究怎麼把資料庫丟到 AWS 去，供作以後網站查詢使用。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;整合現有台灣公司關係圖網站：我玩過一陣子 Flask 跟 Bootstrap，但發現要把前後端所有技能點滿很難...Orz。 要請 g0v 的眾高手幫忙了。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;整合其他外部資料：以後陸續加上&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;關於集團分類的部份我自覺還可以作到更好，
+所以之後還會逐漸改善模型，
+以後若想到什麼有趣的議題也會在這 blog 繼續寫下去。&lt;/p&gt;
+&lt;p&gt;Taiwan R User Group 討論不少跟資料分析、機器學習甚至雲端運算等相關議題，
+我也會在 Taiwan R User Group 分享心得（日期待後續公佈），
+歡迎對這方面有興趣的同好，每週一來 Taiwan R User Group 的 ML/DM Monday 看看，一同分享所知所學。&lt;/p&gt;
+&lt;p&gt;謝謝。&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>集團間研究</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/29/grouping/" rel="alternate"></link><updated>2014-09-01T11:45:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-29:blog/blog/2014/08/29/grouping/</id><summary type="html">&lt;p&gt;&lt;strong&gt;「台灣究竟存在多少集團？」&lt;/strong&gt;&lt;br&gt;
+這是我第一次接觸到台灣公司關係圖資料時第一個浮現的問題，所以有了這一系列文章出現。&lt;/p&gt;
+&lt;p&gt;從第一篇文章中，我們從法人投資關係中發現了一個橫跨國營事業、黨營事業與財團的超大型集團，並試圖從不同角度觀察該集團的主要成員。但即使在這一個大型集團中，仍然可以
+辨識出一些主要的家族集團與少數次要的集團。那麼這些集團大致上有哪些成員？不同集團間有怎樣的合作關係？如&lt;a href="http://socio
+logy.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf"&gt;中研院社會所李宗榮老師的研究&lt;/a&gt; 中，各個家族財團除了發展家族事業之外，也會與其他家族共同
+合作投資新事業，擴大經營版圖。那麼是否有辦法辨識出這些策略聯盟的企業，甚至是從這些策略聯盟企業發掘不同集團間的親密程度？&lt;/p&gt;
+&lt;p&gt;首先必須要承認的是分類集團並不容易，因為有以下難題必須面對：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;集團投資可分為法人投資與自然人投資兩種，其中自然人投資面臨同名同姓的問題，所以多少具有猜測成份。&lt;/li&gt;
+&lt;li&gt;某些公司董監事名單由多家公司的法人代表組成，此因其為不同集團共同成立的策略聯盟，故同時為多個集團成員。&lt;/li&gt;
+&lt;li&gt;又有某些公司，雖然董監事名單存在兩間以上公司，但其實均屬同一集團，並不保證能完全辨識出來。&lt;/li&gt;
+&lt;li&gt;某些大集團，如新光集團，其投資母公司由多家投資公司或財團法人組成。各家投資公司或有彼此交叉持股集團子公司，或有與其他集團合資成立公司，不保證能完全確定核心
+集團成員。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;即使如此，我還是想盡可能從資料中描繪出集團的概貌，畫出更"立體"的台灣企業生態圈。因為資料的限制，在認定集團成員上仍然存在些許模糊地帶，故本文所稱的集團研究，姑
+且稱之為「泛」集團研究可能更為貼切。&lt;/p&gt;
+&lt;p&gt;本文資料來源為 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 6 月份資料。&lt;/p&gt;
+&lt;h3&gt;分類方式說明&lt;/h3&gt;
+&lt;p&gt;面對集團分類問題，我們試圖計畫分類步驟如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;確定公司名稱與統編&lt;/li&gt;
+&lt;li&gt;觀察該公司股東結構，判定其是否為某集團核心企業。&lt;/li&gt;
+&lt;li&gt;觀察該公司投資企業名單，判定其是否為某集團核心企業。&lt;/li&gt;
+&lt;li&gt;依董監事名單找出其他相關企業（策略聯盟不一定要找關係企業），逐步分類集團核心與非核心企業。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;在對所有企業進行初步分類後，所有集團的關係企業可分為 是/非董監事關係企業 與 是/非核心企業 共四種。
+最理想的狀況是：所有集團的非董監事關係核心企業不重疊，但事實並非如此。例如：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;對於某些公司自己既是集團母公司，又同時為其他集團核心公司成員者。通常是因為董監事是以個人身份投資多間公司，故核心企業可能會重複記入，所以我們將這些企業合併一起。&lt;/li&gt;
+&lt;li&gt;兩集團合資成立某公司 A ，各擁有該公司半數董監事席次，故該公司同時為兩集團的核心成員。&lt;/li&gt;
+&lt;li&gt;某些公司如亞洲水泥自身為集團母公司，其股東裡有應柴秀珍基金會成員。但亞洲水泥是遠東集團核心成員，應柴秀珍基金會卻被歸類為遠東集團的投資夥伴，這點在判定仁昌
+投資這種董監事人數較少的公司時，就會從核心成員變成非核心成員。&lt;/li&gt;
+&lt;li&gt;本文前段述及之集團認定問題&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;故作進一步分類時，我們除了檢查重複的核心成員時，也應同時檢查雙方的董監事成員是否相近。
+關於決定成員是否相近，我們定義集團 A, B 間的核心企業重複比例如下：&lt;/p&gt;
+&lt;p&gt;若核心企業重複比例越高，表示其中核心企業較少的集團越有可能是另一集團的一份子。同理亦可計算董監事重複比例。&lt;/p&gt;
+&lt;p&gt;考慮手邊擁有的資料，我們採用保守的方法合併"可能"相似的集團：&lt;strong&gt;若核心企業重複比例或董監事重複比例超過五成則視為同一個集團。&lt;/strong&gt;
+這步驟會重複數次，因為兩集團合併後的較大集團可能會新發現其他高相似度的集團。
+這集團分類並不完全精準，因為分類過程中有考慮董監事個人，但我們並不能完全確定董監事分類方法正確無誤。
+依李宗榮老師對上市櫃五百大公司的研究結果，規模越大的公司就越少同名同姓董監事。
+故對於大集團之間的比較來說，仍可獲得可以參考的結果。&lt;/p&gt;
+&lt;h3&gt;集團規模分佈&lt;/h3&gt;
+&lt;p&gt;依上述步驟分類集團後，我們可觀察各集團核心企業數量與董監事人數分佈如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;董監事人數&lt;/td&gt;&lt;td&gt;總企業家數&lt;/td&gt;&lt;td&gt;核心企業家數&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;count&lt;/td&gt;&lt;td&gt;7923.0&lt;/td&gt;&lt;td&gt;7923.0&lt;/td&gt;&lt;td&gt;7923.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;mean&lt;/td&gt;&lt;td&gt;7.83200807775&lt;/td&gt;&lt;td&gt;6.48554840338&lt;/td&gt;&lt;td&gt;3.82241575161&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;std&lt;/td&gt;&lt;td&gt;10.9679791608&lt;/td&gt;&lt;td&gt;11.8677338699&lt;/td&gt;&lt;td&gt;5.65474667245&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;min&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;td&gt;1.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;25%&lt;/td&gt;&lt;td&gt;4.0&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;50%&lt;/td&gt;&lt;td&gt;5.0&lt;/td&gt;&lt;td&gt;3.0&lt;/td&gt;&lt;td&gt;2.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;75%&lt;/td&gt;&lt;td&gt;9.0&lt;/td&gt;&lt;td&gt;6.0&lt;/td&gt;&lt;td&gt;4.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;max&lt;/td&gt;&lt;td&gt;516.0&lt;/td&gt;&lt;td&gt;259.0&lt;/td&gt;&lt;td&gt;154.0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/grouping_files/grouping_7_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/grouping_files/grouping_8_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由上圖可知共分類出八千多個集團，半數以上的集團董監事人數超過五人，核心企業家數不超過兩間。&lt;/p&gt;
+&lt;p&gt;但我們更好奇的是大集團的規模，考量到集團間有可能進行各種策略聯盟，若以具有絕對控制權的企業家數來衡量集團規模會更顯得實際，經排名後前 25 名列表如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;排名&lt;/td&gt;&lt;td&gt;代表企業&lt;/td&gt;&lt;td&gt;總企業家數&lt;/td&gt;&lt;td&gt;核心企業家數&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;新光合成纖維股份有限公司&lt;/td&gt;&lt;td&gt;254&lt;/td&gt;&lt;td&gt;154&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;南聯國際貿易股份有限公司&lt;/td&gt;&lt;td&gt;256&lt;/td&gt;&lt;td&gt;137&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;寶島投資開發股份有限公司&lt;/td&gt;&lt;td&gt;115&lt;/td&gt;&lt;td&gt;111&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;亞洲水泥股份有限公司&lt;/td&gt;&lt;td&gt;146&lt;/td&gt;&lt;td&gt;101&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;永豐餘投資控股股份有限公司&lt;/td&gt;&lt;td&gt;169&lt;/td&gt;&lt;td&gt;88&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;兆豐國際商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;259&lt;/td&gt;&lt;td&gt;69&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;聯華實業股份有限公司&lt;/td&gt;&lt;td&gt;129&lt;/td&gt;&lt;td&gt;65&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;耐斯企業股份有限公司&lt;/td&gt;&lt;td&gt;113&lt;/td&gt;&lt;td&gt;65&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;臺灣水泥股份有限公司&lt;/td&gt;&lt;td&gt;177&lt;/td&gt;&lt;td&gt;61&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;仲冠投資股份有限公司&lt;/td&gt;&lt;td&gt;115&lt;/td&gt;&lt;td&gt;60&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;能率投資股份有限公司&lt;/td&gt;&lt;td&gt;103&lt;/td&gt;&lt;td&gt;58&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;堉群實業股份有限公司&lt;/td&gt;&lt;td&gt;65&lt;/td&gt;&lt;td&gt;57&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;東元電機股份有限公司&lt;/td&gt;&lt;td&gt;111&lt;/td&gt;&lt;td&gt;56&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;燁聯鋼鐵股份有限公司&lt;/td&gt;&lt;td&gt;67&lt;/td&gt;&lt;td&gt;56&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;凱撒大飯店股份有限公司&lt;/td&gt;&lt;td&gt;55&lt;/td&gt;&lt;td&gt;53&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;16&lt;/td&gt;&lt;td&gt;慶豐環宇股份有限公司&lt;/td&gt;&lt;td&gt;54&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;力麗企業股份有限公司&lt;/td&gt;&lt;td&gt;59&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;味丹企業股份有限公司&lt;/td&gt;&lt;td&gt;66&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;19&lt;/td&gt;&lt;td&gt;中華工程股份有限公司&lt;/td&gt;&lt;td&gt;63&lt;/td&gt;&lt;td&gt;51&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;國產實業建設股份有限公司&lt;/td&gt;&lt;td&gt;80&lt;/td&gt;&lt;td&gt;51&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;21&lt;/td&gt;&lt;td&gt;年代網際事業股份有限公司&lt;/td&gt;&lt;td&gt;65&lt;/td&gt;&lt;td&gt;50&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;22&lt;/td&gt;&lt;td&gt;富邦綜合證券股份有限公司&lt;/td&gt;&lt;td&gt;113&lt;/td&gt;&lt;td&gt;50&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;23&lt;/td&gt;&lt;td&gt;金寶電子工業股份有限公司&lt;/td&gt;&lt;td&gt;143&lt;/td&gt;&lt;td&gt;49&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;24&lt;/td&gt;&lt;td&gt;潤泰創新國際股份有限公司&lt;/td&gt;&lt;td&gt;60&lt;/td&gt;&lt;td&gt;48&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;中央投資股份有限公司&lt;/td&gt;&lt;td&gt;224&lt;/td&gt;&lt;td&gt;48&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;前一百大排名：&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/big100.html"&gt;HTML&lt;/a&gt;, &lt;a href="http://weichengliou.github.io/blog/downloads/data/csv/big100.csv"&gt;CSV&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;為了幫助識別，本文的代表企業以集團內連接數最多的企業作為集團代表企業。&lt;/p&gt;
+&lt;p&gt;我們發現到僅前 4 名的核心企業家數在一百家以上，其中最大者為新光集團，台南幫統一集團次之。&lt;/p&gt;
+&lt;p&gt;而過去觀察直接投資公司家數第一名的兆豐銀，在考慮核心企業家數後落到第四名。但其總投資企業家數 259 家為所有集團中最多者。
+財政部為兆豐金控主要大股東，在加入財政部主導投資的其他官股銀行，如：第一金、合庫、土銀等次集團後，泛兆豐銀集團實質上乃是一官股銀行集團。
+以銀行或投資公司為主體的集團，如泛兆豐集團，雖然投資企業家數多，但核心企業僅 69 家約佔四分之一左右。
+相反地，其他如統一、新光、遠東等集團的核心企業數均有一百家以上，代表這些集團的關係企業有半數以上掌握絕對控制權，這些差異也可以顯示出集團經營偏好。&lt;/p&gt;
+&lt;p&gt;但是集團分類的用處不僅於此，我們還可從集團間的策略聯盟比較，觀察不同集團間的親密程度。&lt;/p&gt;
+&lt;h3&gt;策略聯盟&lt;/h3&gt;
+&lt;p&gt;我們試從前一百大集團分析集團間的關係企業交集。以泛兆豐集團為例，與其最親密的集團如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;代表企業&lt;/td&gt;&lt;td&gt;重複企業家數&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中央投資股份有限公司&lt;/td&gt;&lt;td&gt;61&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;亞洲水泥股份有限公司&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;永豐餘投資控股股份有限公司&lt;/td&gt;&lt;td&gt;21&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;和泰汽車股份有限公司&lt;/td&gt;&lt;td&gt;16&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;元大創業投資股份有限公司&lt;/td&gt;&lt;td&gt;14&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;華南商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;耐斯企業股份有限公司&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;台灣聚合化學品股份有限公司&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;富邦綜合證券股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中國鋼鐵股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;長春人造樹脂廠股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;金寶電子工業股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;聯華實業股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;仲冠投資股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;明怡投資股份有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;和展投資有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;新光合成纖維股份有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;宏碁股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;長榮國際股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;臺灣水泥股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;由上表可以觀察得到與泛兆豐集團最親密的是以中央投資集團，其次為亞洲水泥集團。另外也可看到與兆豐銀較親密的集團，多半以銀行或投資公司為代表企業的同性質集團為主。這
+點可能與這類集團特性以轉投資為主有關。&lt;/p&gt;
+&lt;p&gt;因金融業產業特性使然，不論是投資公司或銀行業，均會多方尋求投資機會但未必介入實際經營。所以表現出來的就是關係企業多但核心企業少。雖然某些大集團如亞洲水泥集團，其
+轉投資事業也是包山包海，但多半以實際經營為主，故核心企業多。這點就與以金融或投資公司為主體的集團不同。&lt;/p&gt;
+&lt;p&gt;對於前一百大集團間的共同投資公司家數，我們可以試用階層式分群法 (Hierarchical Clustering) 表示如下：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/grouping_files/grouping_18_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖中可以觀察到有某些集團的關係特別親密，也有某些集團（如寶島投資開發）跟其他集團幾乎沒有共同投資關係。&lt;/p&gt;
+&lt;p&gt;若想同時觀察所有集團間的連結，我們可以試圖用網絡分析圖來表示。&lt;/p&gt;
+&lt;p&gt;首先將集團間共同投資的企業數以 5 家為級距分組，5 家以下忽略。接著以核心企業數表示各集團大小，試圖繪出社會網絡圖出來：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/grpconn.html"&gt;另開新頁&lt;/a&gt;&lt;iframe height="600px" width="100%" src=http://weichengliou.github.io/blog/downloads/data/html/grpconn.html&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;由圖可看到某些大型集團間存在高度密切的共同投資關係，這些集團彼此形成了比較高密度的聚合體，因此我們可以相信說這些集團間的行動或許會是比較一致的，資訊也會更容易在
+這些集團的高層間流通。而其他多數集團僅保持集團內的共同投資行為，不只規模較小，與其他集團的合作關係也較不明顯。&lt;/p&gt;
+&lt;h3&gt;結語&lt;/h3&gt;
+&lt;p&gt;我們試著用一些簡單的方式去分類集團，並根據這些分類後的結果去觀察大型集團間的合作行為。在大型集團間彼此共同合作關係應屬常態，但究竟是因先合作才有規模，還是先有規
+模才有合作，就好比雞生蛋或蛋生雞的問題一樣難解，但鐵定是共生共榮的。正如十根筷子折不斷的道理一般，集團的力量一定大於單一企業，而這個由國營事業、黨營事業以及大型
+集團形成的菁英核心圈，其凝聚力又絕對遠勝其他單一集團。&lt;/p&gt;
+&lt;p&gt;因此在觀察政府的施政方向時，應注意政府是否常以「拼經濟」為名為企業大開方便之門？重大建設公開招標後，是否對層層發包最後壓榨底層勞工不聞不問？是否為了企業工廠運作
+順利而犧牲了山川空氣水？&lt;/p&gt;
+&lt;p&gt;筆者要談的是，與社會公平正義比較起來，制度與結構問題才是我們更應該去注意的地方。只要制度與經濟結構不變，就算換人執政也是難有作為。人不一定會變壞，但制度或結構上
+的缺陷卻會讓在位者有機會結黨營私，所以才需要組織更多公民意識來共同監督政府施政，民主並不是只有投票而已，公民意見的交流、匯總與執行也應該是民主的一部份。&lt;/p&gt;
+&lt;p&gt;2014-09-11 後記：&lt;/p&gt;
+&lt;p&gt;這樣的集團分類方法也許也許也許會有人不認同，我也相信一定還有改善空間。
+所以之後還會有後續的修正方法出現，待整理過程式碼後也將開放給各位參考。
+關於大型集團間的網絡結構，過去已有相關文獻與研究說明（見參考文獻），
+不論是親屬關係或共同投資關係，在在都可見到大家族/大集團間產生連結的例子。
+這可能是個自然現象，但是在與其他因子的連結上（例如企業營收、市佔等）仍值得更多後續研究探討。
+之後小弟還會繼續就集團議題探討下去，有任何意見也請歡迎指教，謝謝。&lt;/p&gt;
+&lt;h3&gt;參考文獻&lt;/h3&gt;
+&lt;p&gt;&lt;a href="http://soci
+ology.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf"&gt;李宗榮，2007，〈在國家與家族之間：企業控制與臺灣大型企業間網絡再探〉，《台灣社會學》，第13卷，頁173-242。(TSSCI)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>關於台灣公司關係圖</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/21/twcom_about/" rel="alternate"></link><updated>2014-08-21T15:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-21:blog/blog/2014/08/21/twcom_about/</id><summary type="html">&lt;p&gt;關於本站台灣公司關係圖系列的文章，其實是因緣際會拿到 &lt;a href="https://twitter.com/ronnywang"&gt;RonnyWang&lt;/a&gt; 抓的資料，剛好自己又對集團研究很感興趣，所以就一頭栽進去了。
+對於黨營事業的研究，只是因為剛好在分析過程中，發現黨營事業的規模竟然也可與其他財團相比。
+在跟中研院社會所李宗榮老師討論過後，才知道以前就有不少學者為文指出黨營事業的問題，就決定來寫篇文章作 update。
+但會引起這麼多人關注，實在出乎意料之外。&lt;/p&gt;
+&lt;p&gt;不過本系列尚未結束，除了我一開始最想問的集團問題仍未有滿意的答案外，分析過程中其實還有其他有趣的故事可以寫，這些都會在後續系列文章一一補上。
+也歡迎各位不吝提供指教，若對哪些內容比較感興趣也歡迎留言，我會盡量協助回答，感謝各位。&lt;/p&gt;</summary></entry><entry><title>集團研究--榮化</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/ronhwa/" rel="alternate"></link><updated>2014-08-11T16:30:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-09:blog/blog/2014/08/09/ronhwa/</id><summary type="html">&lt;p&gt;本文將就李長榮化工的董監事社會網路結構進行探討，資料來源為 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 6 月份資料。&lt;/p&gt;
+&lt;p&gt;首先想知道有哪些公司名稱與"李長榮"有關？&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;id&lt;/td&gt;&lt;td&gt;name&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;39054405&lt;/td&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;20563007&lt;/td&gt;&lt;td&gt;李長榮實業股份有限公司&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;97173920&lt;/td&gt;&lt;td&gt;李長榮科技股份有限公司&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;看起來我們的研究重點應該是統一編號 39054405 的「李長榮化學工業股份有限公司」，他同時也是上市櫃公司。
+但我們相信這三間公司之間應該是有關係的，故我們可以試著藉由社會網絡分析來觀察。&lt;/p&gt;
+&lt;h3&gt;集團成員&lt;/h3&gt;
+&lt;p&gt;我們以李長榮化工為基礎，逐層分析李長榮化工的集團成員（以下簡稱榮化集團），可建構出企業網路生態圖如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;src&lt;/td&gt;&lt;td&gt;dst&lt;/td&gt;&lt;td&gt;cnt&lt;/td&gt;&lt;td&gt;seat&lt;/td&gt;&lt;td&gt;seatratio&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;尚茂電子材料股份有限公司&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;8.33&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;福聚太陽能股份有限公司&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;36.36&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;惠利投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;環球橡膠股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;新能生物科技股份有限公司&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;37.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮化學工業股份有限公司&lt;/td&gt;&lt;td&gt;李長榮科技股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;42.86&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;惠利投資股份有限公司&lt;/td&gt;&lt;td&gt;水之源企業股份有限公司&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;12.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮科技股份有限公司&lt;/td&gt;&lt;td&gt;劦燦股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;16.67&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/ronhwa.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ronhwa_files/ronhwa_9_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;在本文中，若集團核心成員以個人或法人身份持有被投資公司五成以上的董監席次，則我們稱集團對該被投資公司具有絕對控制權。&lt;/p&gt;
+&lt;p&gt;在本圖中，福聚與惠利實業等四間公司為榮化之法人股東，藍色點代表具絕對控制權之企業，暗紅色點為關係企業，而紫色點為其他共同投資者。&lt;br&gt;
+在連結的圖中，紅色點為榮化之法人股東，藍色點代表具絕對控制權之企業，橙色點為關係企業，而綠色點為其他共同投資者，越粗的線代表席次比重越高。&lt;/p&gt;
+&lt;p&gt;整體而言，與李長榮化工有關的事業有 13 家公司。&lt;br&gt;
+榮化除了董事長李謀偉以個人身份擔任董事長外，其餘董監事成員主要以福聚與惠利實業這兩間僑外資公司為主，而這兩間公司又分別為註冊在英屬維京群島的公司所持有。透過免稅
+島註冊公司繞道投資台灣企業，其最大好處應該是避稅，其餘優點還有待精通此處竅門之專業人士指點。&lt;/p&gt;
+&lt;p&gt;而榮化集團中具有絕對控制權的公司列表如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;被投資對象&lt;/td&gt;&lt;td&gt;董監席次&lt;/td&gt;&lt;td&gt;持有席次&lt;/td&gt;&lt;td&gt;持有比重&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;惠利投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;環球橡膠股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;新能生物科技股份有限公司&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;50.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮科技股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;其中新能生物科技雖有絕對控制權，但有部份董監事成員非屬榮化集團，這點須在分析核心成員名單時加以區別。&lt;/p&gt;
+&lt;h3&gt;核心人物與投資夥伴&lt;/h3&gt;
+&lt;p&gt;在找出核心關係企業後，我們可進一步觀察該集團的核心人物。對於同名同姓的處理方式，可見
+&lt;a href="http://weichengliou.github.io/blog/blog/2014/08/06/samename/"&gt;如何辨別同名同姓&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;對於李長榮化工的核心成員，我們可列出名單後，繪成社會網絡圖如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/ronhwa_boss.html"&gt;另開新頁&lt;/a&gt;&lt;iframe height="600px" width="100%" src=http://weichengliou.github.io/blog/downloads/data/html/ronhwa_boss.html&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;在本圖中，各公司以董事長作為核心人物，與其他董監事成員相連接。各人物的圓圈大小代表頭銜多寡，頭銜越多者圓圈越大。
+橙色部份代表核心成員，藍色部分代表榮化幕後大老闆成員，綠色代表非核心成員或友好成員。&lt;/p&gt;
+&lt;p&gt;從此圖中我們看到了核心人物以李謀偉、楊賽芬、李明恭、莊訓佳等人為主。
+而李陳蘭、李振芳等人雖非榮化集團核心成員，但他們卻是榮化幕後的大老闆之一，其影響力不可小覷。&lt;/p&gt;
+&lt;p&gt;張西龍、葉寅夫、高育仁等人為友好集團成員，其影響力可從他們的頭銜多寡與連接數得知。
+若將這些人物的重要性畫成散佈圖，或許可以更清楚他們彼此間的影響力大小：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ronhwa_files/ronhwa_18_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;上圖 X 軸為連接數，Y 軸為近距中間值 (closeness centrality)，越右上角表示重要性越高。各圓圈大小代表頭銜多寡；顏色以綠色為核心成員，紅
+色為幕後大股東，藍色為友好成員。為顯示簡潔起見，僅標示相對重要或頭銜數大於五者。&lt;/p&gt;
+&lt;p&gt;我們可以看到核心成員或幕後大老闆大多位在相對重要的位置，但也有部份友好成員，如張西龍，處於相對重要位置。這是因為他們在具有絕對控制權的企業擔任董監事，故拉高了重
+要性，也表示其友好程度相對較高。&lt;/p&gt;
+&lt;p&gt;另外在相對不重要的左下角也有些頭銜數較高的人，如：高育仁、葉寅夫，這些人仍然是友好成員，只是相對比較沒那麼重要而已。但就其具有共同投資關係這點上，其實也遠比其他
+不具共同投資關係的公司還要來得親密多了。&lt;/p&gt;
+&lt;h3&gt;同一群人經營，但不在榮化投資範圍內的公司&lt;/h3&gt;
+&lt;p&gt;就本集團的核心董監事代表而言，這些人是否也有擔任其他事業的董監事代表呢？在初步排除同名同姓的可能後，我們可試以現有模型檢查：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;公司名稱&lt;/td&gt;&lt;td&gt;出現次數&lt;/td&gt;&lt;td&gt;成員名單&lt;/td&gt;&lt;td&gt;絕對控制權&lt;/td&gt;&lt;td&gt;席次&lt;/td&gt;&lt;td&gt;控制權百分比&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李長榮實業股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;李明恭,李陳蘭,楊賽芬,洪再興,王焜燦,李謀偉&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;李城企業股份有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;魏正誠,王焜燦,李謀偉,李陳蘭,楊賽芬&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;紘洋化學股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;王興益,盧俊雄,李陳蘭,李振芳&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;全利能源實業股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;魏正誠,李謀偉,李陳蘭,楊賽芬&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;全利台船務代理有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;李謀偉,李陳蘭&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;66.67&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;納亞股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;李謀偉,楊賽芬&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;50.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;惠利船務代理有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;李陳蘭&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;奎克生技光電股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;李謀偉&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;25.0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;就現有模型與資料推斷，核心成員仍持有李長榮實業等八家事業。關於其與榮化間的關係，合併後以社會網絡分析圖表示如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/ronhwa.far.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ronhwa_files/ronhwa_23_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;在上圖中暗紅色為模型新發現榮化具有控制權之企業，其餘新發現但無控制權之企業仍以橙色表示。其中有四間公司仍與榮化存在相關的投資關係。另外四間則無，但從董監事成員來
+看，他們仍然是同一群人經營的事業。若是從連接數與近距中間值來觀察榮化集團中各企業的重要性，仍然以榮化的重要性最高。&lt;/p&gt;
+&lt;p&gt;下圖以各公司的董監事人數代表圓圈大小。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ronhwa_files/ronhwa_25_0.png" /&gt;&lt;/p&gt;
+&lt;h3&gt;結語&lt;/h3&gt;
+&lt;p&gt;本文試圖討論榮化集團的轉投資事業與其核心成員，發現榮化其實是大股東們透過海外註冊公司持有。另外我們也藉由法人投資關係找出來幾間與榮化有共同投資關係的友好企業。&lt;/p&gt;
+&lt;p&gt;最後在檢查大股東的其他轉投資事業時，發現八間轉投資事業，其中有四間公司仍與榮化存在間接投資關係。
+這些事業雖然不一定與榮化有投資關係，但廣義上仍可將之歸類為榮化集團的一份子。&lt;/p&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>黨營事業知多少</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/kmtnew/" rel="alternate"></link><updated>2014-08-11T16:30:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-09:blog/blog/2014/08/09/kmtnew/</id><summary type="html">&lt;h2&gt;黨營事業知多少？&lt;/h2&gt;
+&lt;p&gt;本文將就國民黨營事業的社會網路結構進行深入探討，資料來源為 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 6 月份資料。&lt;/p&gt;
+&lt;p&gt;前篇文章提到台灣企業生態圈中的超巨大關係企業集團，其中黨營事業處於該集團核心位置，而黨營事業又主要以中央投資為核心向外延伸。關於國民黨黨產多寡，其實我們亦可從年
+報得知，不一定要如此費心挖掘。但本篇研究重心在於表現黨營事業的投資分佈概況，其核心人物主要以誰為主？有哪些財團企業與黨營事業往來密切？甚至藉由比較核心人物擔任董
+監事的公司，我們還可以找出不屬於中央投資的投資範圍，但仍與國民黨有密切關係的公司。這些公司可能是直屬國民黨，亦有可能是與國民黨往來較為親密的公司。藉由這層董監事
+的親密關係，我們有理由相信這些公司能得到比其他公司更多的資訊交流機會，幫助這些公司進一步擴大經營優勢。&lt;/p&gt;
+&lt;h3&gt;黨營事業成員&lt;/h3&gt;
+&lt;p&gt;國民黨的黨營關係事業成員，以中央投資為核心，層層向外投資。
+在不考慮是否有絕對控制權的情況下，可建構出企業網路生態圖如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/kmt.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_7_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;在本圖中，藍色點代表具絕對控制權之企業，暗紅色點為關係企業，而紫色點為其他共同投資者。&lt;br&gt;
+在連結的圖中，綠色點代表具絕對控制權之企業，橙色點為關係企業，而藍色點為其他共同投資者，越粗的線代表席次比重越高。&lt;/p&gt;
+&lt;p&gt;整體而言，與中央投資有關的事業高達 119 家公司，投資標的橫跨金融、科技、建設與民生消費等行業，甚至包含了台灣證交所。&lt;/p&gt;
+&lt;p&gt;但對中央投資而言，並非每間公司皆擁有絕對控制權。根據&lt;a href="#ref"&gt;林宛瑩、許崇源教授的研究&lt;/a&gt;，控制權的衡量方式可分為盈餘控制權、席次控制權與股份控制權。
+因現有資料並無股份或盈餘等相關資訊，故以席次控制權作為本文的控制權定義。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_10_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;關於投資方式，可分為直接投資與間接投資兩種。以下圖為例，假設 A 公司直接擁有 C 公司 30% 的控制權。而 A 公司又另外透過 50% 持有之 B
+公司間接持有 C 公司 20% 的控制權，則 A 公司對 C 公司擁有 50% 的控制權。&lt;/p&gt;
+&lt;p&gt;關於絕對控制權，此處定義若集團核心成員以個人或法人方式持有某公司的席次控制權超過五成，則稱集團擁有該公司之絕對控制權。&lt;/p&gt;
+&lt;p&gt;根據以上定義，可對中央投資篩選出具有絕對控制權之企業名單。其與中央投資的關係可觀察前面的社會網絡圖。&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;被投資對象&lt;/td&gt;&lt;td&gt;董監席次&lt;/td&gt;&lt;td&gt;持有席次&lt;/td&gt;&lt;td&gt;持有比重&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;裕臺企業股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;臺灣中華日報社股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;齊魯企業股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;欣光華股份有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;網赫資訊科技股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;50.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;裕台開發實業股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;雙園投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;悅昇昌投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中園建設股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;台灣新生報業股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;50.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;齊揚開發股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;豐園建設股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;昱華開發股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;建華投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;啟聖實業股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中央日報社股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;欣和股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;裕園開發股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;裕達開發股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h3&gt;核心人物與投資夥伴&lt;/h3&gt;
+&lt;p&gt;在找出核心關係企業後，我們可進一步觀察誰是這黨營企業集團中的核心人物。但整體的董監事名單存在同名同姓的問題，關於處理同名同姓者的方式，可見下一篇文章。&lt;/p&gt;
+&lt;p&gt;對於黨營事業的核心成員，我們可繪成社會網絡圖如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/kmt_boss.html"&gt;另開新頁&lt;/a&gt;&lt;iframe height="600px" width="100%" src=http://weichengliou.github.io/blog/downloads/data/html/kmt_boss.html&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;在本圖中，各公司以董事長作為核心人物，與其他董監事成員相連接。各人物的圓圈大小代表頭銜多寡，頭銜越多者圓圈越大。橙色部份代表核心成員，藍色代表非核心成員或友好成
+員。&lt;/p&gt;
+&lt;p&gt;從此圖中我們看到了核心人物以徐立德、陳國平、黃章榮、薛立言等人為主，他們代表國民黨出任許多黨營事業董監事或法人代表，其重要性不在話下。
+另外在藍色的非核心成員裡，有人擔任少數黨營企業的董監事，例如呂理卿、方東白等人。
+有些人為與黨營事業共同投資的友好成員，例如徐旭東、何壽川、邱純枝、高育仁、尹衍樑等人。
+這些人本身即已擔任自家集團或關係企業的企業主，因共同投資而與黨營事業結合為利益共同體，理論上應享有更多資訊交流、政策奧援等無形利益。&lt;/p&gt;
+&lt;p&gt;若將這些人物的重要性畫成散佈圖，或許可以更清楚他們彼此間的影響力大小：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_17_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;上圖 X 軸為連接數，Y 軸為近距中間值 (closeness
+centrality)，越右上角表示重要性越高。各圓圈大小代表頭銜多寡；顏色以紅色為核心成員，藍色為友好成員。為顯示簡潔起見，僅標示相對重要成員。&lt;/p&gt;
+&lt;p&gt;我們可以看到核心成員大多位在相對重要的位置。而某些與黨營事業友好的企業大老闆們，多半落在相對比較不重要的一群。&lt;/p&gt;
+&lt;h3&gt;同一群人是否還存在其他投資事業？&lt;/h3&gt;
+&lt;p&gt;就核心成員而言，這些人除了出任中央投資相關投資事業的董監事代表之外，是否也有擔任其他事業的董監事代表呢？在初步排除同名同姓的可能後，我們可試列表如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;公司名稱&lt;/td&gt;&lt;td&gt;出現次數&lt;/td&gt;&lt;td&gt;成員名單&lt;/td&gt;&lt;td&gt;絕對控制權&lt;/td&gt;&lt;td&gt;席次&lt;/td&gt;&lt;td&gt;控制權百分比&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;欣裕台股份有限公司&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;施汎泉,施明豪,郭土木,黃士庭,葉裕祥,薛立言,曾忠正,林千惠,黃章榮&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;光華投資股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;鄭世芳,黃士庭,薛立言,曾忠正,林千惠,黃章榮&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;裕晟投資股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;黃章榮,鄭世芳,薛立言,曾忠正&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中國廣播股份有限公司&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;黃士庭,鄭世芳,曾忠正&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;27.27&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;廣播人股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;鄭世芳,曾忠正&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;亞太電信股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;薛立言,曾忠正&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;16.67&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;文炳印刷科技股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;楊忠耕&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;大通建築經理股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;呂理卿&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中央文物供應社股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;陳國平&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;國際創業投資股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;鄭世芳&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;33.33&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;勤生投資股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;徐立德&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;50.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;悅悅股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;黃士庭&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;皇冠實業股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;徐立德&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;12.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;灃水營造工程股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;陳國平&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;100.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;國際第三創業投資股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;陳國平&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;50.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;世界生技創業投資股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;林千惠&lt;/td&gt;&lt;td&gt;False&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;25.0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;龍天投資股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;胡鴻仁&lt;/td&gt;&lt;td&gt;True&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;50.0&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;以上的公司名單依出現次數多寡排列，我們可以找出非屬中央投資的投資範圍，但是由同一群人經營之企業。自然這些企業亦享有與中央投資同等的資訊優勢，其出現次數越多表示與
+黨營事業的關係越密切。
+結合中央投資下的關係企業名單，我們可繪出企業網絡圖協助觀察如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/kmt.far.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_21_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;在本圖中暗紅色點為新發現之企業。因本文觀察研究主要以尚在營業中的企業為主。某些未出現的公司，如中央文物供應社或灃水營造工程等，目前公司狀態為已解散或停業故不表示
+出來。&lt;/p&gt;
+&lt;p&gt;我們可以看到除了中央投資外，同一群人也另外持有欣裕台（完全持有）、光華投資（完全持有）、裕晟投資（完全持有）甚至是亞太電信（部份持有）。利用網絡分析圖可以幫助我
+們更容易觀察到這些公司彼此的轉投資關係。&lt;/p&gt;
+&lt;p&gt;最後根據連接數與近距中間值，我們可以觀察比較中央投資集團相關企業的重要性，如下圖即顯示出除了中央投資居於重要地位之外，環宇投資與歐華創投等也佔據了相當重要的位置
+。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_23_0.png" /&gt;&lt;/p&gt;
+&lt;h3&gt;結語&lt;/h3&gt;
+&lt;p&gt;本文試圖探討黨營事業的結構，找出中央投資的關係企業與核心企業。利用核心企業的董監事名單，可以找出黨營事業的核心人物與友好企業夥伴。另外甚至可以依此找出不屬於中央
+投資的投資範圍內的企業名單。協助我們更清楚整體黨營事業成員。類似方法也可用於觀察以家族為核心的財團成員。黨營事業形成自有其歷史背景，但時至今日其規模仍與財團相當
+，其與財團互為利益共同體這點，絕非一朝一夕便可消除。&lt;/p&gt;
+&lt;p&gt;因此我們需要持續監督黨營事業發展與影響，創造更透明的政治與經濟環境，透過全民共同監督以降低黑箱政治、政府與財團利益交換的可能性。&lt;/p&gt;
+&lt;h3&gt;參考文獻&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a id="ref"&gt;&lt;/a&gt; 林宛瑩；許崇源，2008.06，〈台灣集團企業之控股型態與公司治理衡量指標之探討〉，《交大管理學報》，Vol.28,
+No.1，pp.269-312.(TSSCI)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>使用 Pelican 建立 blog</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/" rel="alternate"></link><updated>2014-08-07T02:30:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-07:blog/blog/2014/08/07/buildblog/</id><summary type="html">&lt;p&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;這篇要介紹如何使用 pelican 建立 blog。 Pelican 是用 python 搭建的 blog 系統，在整合 IPython notebook 這部份頗受好評。 所以也不少人用 IPython notebook 寫完報告或教學後，直接用 Pelican 建立的 blog 發表文章。&lt;/p&gt;
+&lt;p&gt;基本上雖然在第一 po 有略為提到如何建立 blog， 但事實上我還是為了一些技術問題抓掉不少頭髮。 還好問題全部都解決了，所以在這邊作個紀錄。&lt;/p&gt;
+&lt;p&gt;我使用的作業環境是 ubuntu 14.04 LTS, Python 2.7.8，參考資料來源為：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;Building this blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pelican.readthedocs.org/en/3.4.0/index.html"&gt;Pelican documents&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://yassi.github.io/yassi_pelican_output/pelican-on-github-pages-heroku-and-nginx.html"&gt;Plican on github pages, heroku, and nginx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;建立部落格大概有幾個步驟要作&lt;/p&gt;
+&lt;h3 id="安裝套件"&gt;安裝套件&lt;/h3&gt;
+&lt;p&gt;目前看到的部落格都會建議用 virtualenv 安裝所需套件，不過我個人是用 Pyenv，比 virtualenv 方便很多。 關於 Pyenv 的安裝方式，可以參考 &lt;a href="http://blog.codylab.com/python-pyenv/"&gt;這篇文章&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;假設已經安裝好 Pyenv 後，首先新增資料夾，以及新增一個 virtualenv&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mkdir pelican
+cd pelican
+pyenv virtualenv 2.7.8 pelican
+pyenv local pelican&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;接下來是安裝套件，先把 &lt;a href="http://WeiChengLiou.github.io/blog/downloads/requirements.txt"&gt;requirements.txt&lt;/a&gt; 儲存到目前的資料夾，鍵入以下指令安裝套件&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pip install -r requirements.txt&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;這樣就可以確保大家的版本相同了！&lt;/p&gt;
+&lt;h3 id="git-clone"&gt;git clone&lt;/h3&gt;
+&lt;p&gt;接著安裝 theme 跟 plugins：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/jakevdp/pelican-octopress-theme.git
+git clone https://github.com/getpelican/pelican-plugins.git&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;theme 目前是引用 &lt;a href="http://jakevdp.github.io/blog/2013/05/07/migrating-from-octopress-to-pelican/"&gt;jakevdp&lt;/a&gt; 的設定， 因為該作者有針對 Ipython notebook 的顯示作調整，直接拿現成的來用比較方便。 而且我也蠻喜歡這風格的。 如果想換其他佈景主題的話，請參考這邊的&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;建議&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;其實如果熟悉 pelican 的話，是可以選擇自己用 pelican-quickstart 一步步建立 blog 的。 但這邊我選擇拿前人的設定來改：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/ocefpaf/python4oceanographers&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;接著移到 python4oceanographers 目錄下， 將 pelicanconf.py 檔案裡的 THEME 跟 PLUGIN_PATH 修改成你放置 pelican-octopress-theme 跟 pelican-plugins 的路徑：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;path = os.path.join(os.environ.get(&amp;#39;HOME&amp;#39;), &amp;#39;pelican&amp;#39;)
+THEME = &amp;#39;%s/pelican-octopress-theme&amp;#39; % path
+PLUGIN_PATH = &amp;#39;%s/pelican-plugins&amp;#39; % path&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="localhost-測試"&gt;localhost 測試&lt;/h3&gt;
+&lt;p&gt;接著可以先試著編譯，作第一次 local 端測試了。編譯後的檔案會放在 output 資料夾中，所以要切換至 output 資料夾設定 server。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;make html
+cd output
+python -m SimpleHTTPServer 8080&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;接著開啟瀏覽器，到 http://localhost:8080 看看結果如何。如果順利的話，這時應該可以看到 blog 了。&lt;/p&gt;
+&lt;h3 id="修改設定"&gt;修改設定&lt;/h3&gt;
+&lt;p&gt;接下來開啟 pelicanconf.py ，修改自己想要的設定。 這邊簡單介紹幾個必改的設定&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;AUTHOR 作者
+SITENAME 站名
+SITESUBTITLE 站名副標題
+uri GitHub Pages 站名，格式為 http://帳號.github.io
+LINKS 友站連結
+TWITTER_USER 你的 Twitter 帳號
+GOOGLEPLUS_USER 你的 Google+ 帳號&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;以上改完後再重新編譯後試試，應該這時站名之類的應該都改過來了。&lt;/p&gt;
+&lt;h3 id="發表文章"&gt;發表文章&lt;/h3&gt;
+&lt;p&gt;文章統一儲存在 content 資料夾裡，或是自己改 pelicanconf.py 裡面設定。 可以用 reStructured Text 或 Markdown 格式書寫，我個人比較偏好 Markdown，所以以 markdown 語法說明。&lt;/p&gt;
+&lt;p&gt;每篇文章都是一個獨立檔案，檔名格式為 yyyy-mm-dd-blogging.md。 前面是日期，後面是文章識別名稱。 以本篇文章為例，文章開頭有以下 tag：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;title: 如何利用 pelican 建立 blog
+date: 2014-08-07 00:30
+comments: true
+slug: buildblog
+tags: python, pelican&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;slug 是唯一的，可以不寫. tags 可寫可不寫。&lt;/p&gt;
+&lt;p&gt;後面文章內容的部份就看個人發揮了。 關於 markdown 格式寫法，可以參考 &lt;a href="http://zh.wikipedia.org/wiki/Markdown"&gt;wiki&lt;/a&gt;。 若是想直接把 IPython notebook 貼過來的人，先把 ipynb 檔案拷貝至 content/downloads/notebooks ， md 檔最後加上以下這行：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;{% notebook blogging.ipynb cells[1:] %}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;所以往後發表文章的時候，可以先在 local 端編譯測試，看看格式有沒有跑掉之類的，確定可以了再上線。 上線前記得先把 content 資料夾裡面前作者的文章砍光，資料夾別跟著砍了，留下自己的文章就好。&lt;/p&gt;
+&lt;h3 id="github-上線"&gt;GitHub 上線&lt;/h3&gt;
+&lt;p&gt;當你寫好文章準備上線了，找個可以放置 blog 的地方也是一門學問。 這邊建議直接丟 GitHub，好處是完全免費，只是檔案要被看光光 （但其實這個站也是拿人家現成的來改，就算完全 open 也是應該的吧）。 或者你也可以考慮放到 Heroku 去，設定方式請看參考資料。&lt;/p&gt;
+&lt;p&gt;在 GitHub 上線前，要先把 GitHub remote 目錄改一改。 我的方式是先去 GitHub 開一個 repository，假定名稱為 blog 好了。 然後修改 python4oceanographers 資料夾名稱為 blog，接著修改 GitHub remote 設定為 blog：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git remote remove origin
+git remote add origin https://github.com/帳號/blog.git
+git push -u origin master&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;接下來就是利用 GitHub Pages 把 blog 推上線， GitHub 的實作方式是建立一個新的 branch 叫做 gh-pages。 原則上只要把 output 資料夾的內容放到 gh-pages 這個 branch 就行了。 但實際上很不容易， 還好 Pelican 都幫你搞定了，只要鍵入 &lt;code&gt;make github&lt;/code&gt; ，Pelican 就會幫你編譯，然後上傳到 gh-pages。 也不需要切換 branch。&lt;br /&gt;但要注意的是，編譯的內容是以 master 為基礎的，所以要先 git push master 後，才能 &lt;code&gt;make github&lt;/code&gt;。&lt;/p&gt;
+&lt;h3 id="設定-google-analytics-disqus"&gt;設定 Google Analytics, Disqus&lt;/h3&gt;
+&lt;p&gt;上線後可以去註冊 &lt;a href="http://www.google.com/intl/zh-TW/analytics/"&gt;Google Analytics&lt;/a&gt; 跟 &lt;a href="https://disqus.com/"&gt;Disqus&lt;/a&gt; 服務。 Google Analytics 可以幫忙作網站流量分析，而 Disqus 是網站留言管理系統。 註冊過後會得到一個代碼，再把這些代碼寫到 publishconf.py 裡相對應的欄位去，記得把 SITEURL 改成自己在 GitHub 的網址。 這樣應該就可以了。&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;</summary><category term="python"></category><category term="pelican"></category></entry><entry><title>如何分辨同名同姓</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/samename/" rel="alternate"></link><updated>2014-08-06T23:45:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-06:blog/blog/2014/08/06/samename/</id><summary type="html">&lt;h2&gt;如何辨別同名同姓的董監事？&lt;/h2&gt;
+&lt;p&gt;本文將說明在 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖&lt;/a&gt; 的董監事資料中存在同名同姓的問題。董監事名單不像公司一樣有統一編號可供查詢，
+所以在比對不同公司董監事資料時，不可避免地會遇到同名同姓的問題。本文根據法人代表資料並結合不同公司間的相同董監事名單，協助分類同名同姓者。並以此分類結果作為尋找
+家族企業的基準。這篇文章僅為學術研究，模型正確性尚無有效評估方法，故分類結果僅供參考，不代表任何立場。&lt;/p&gt;
+&lt;p&gt;以下將先描述同名同姓可能的問題及影響，接下來作分類規則說明，最後是初步分析分類結果。&lt;/p&gt;
+&lt;h2&gt;同名同姓有多少？&lt;/h2&gt;
+&lt;p&gt;關於同名同姓者這件事，應該要先從董監事姓名大排行談起。以下為最常出現的董監事姓名前 25 名：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;姓名&lt;/td&gt;&lt;td&gt;個數&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳淑芬&lt;/td&gt;&lt;td&gt;284&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳建宏&lt;/td&gt;&lt;td&gt;270&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳俊宏&lt;/td&gt;&lt;td&gt;246&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳美玲&lt;/td&gt;&lt;td&gt;243&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林淑惠&lt;/td&gt;&lt;td&gt;240&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳怡君&lt;/td&gt;&lt;td&gt;239&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳淑惠&lt;/td&gt;&lt;td&gt;238&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳淑貞&lt;/td&gt;&lt;td&gt;237&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳美惠&lt;/td&gt;&lt;td&gt;230&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳麗華&lt;/td&gt;&lt;td&gt;214&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳淑娟&lt;/td&gt;&lt;td&gt;203&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林志明&lt;/td&gt;&lt;td&gt;195&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳淑玲&lt;/td&gt;&lt;td&gt;189&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;黃淑芬&lt;/td&gt;&lt;td&gt;184&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳俊良&lt;/td&gt;&lt;td&gt;179&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林淑芬&lt;/td&gt;&lt;td&gt;177&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳志明&lt;/td&gt;&lt;td&gt;170&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳淑華&lt;/td&gt;&lt;td&gt;170&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳建志&lt;/td&gt;&lt;td&gt;166&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林俊宏&lt;/td&gt;&lt;td&gt;165&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林怡君&lt;/td&gt;&lt;td&gt;162&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林建宏&lt;/td&gt;&lt;td&gt;162&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林淑華&lt;/td&gt;&lt;td&gt;159&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳秀美&lt;/td&gt;&lt;td&gt;157&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳淑美&lt;/td&gt;&lt;td&gt;155&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;前五百大詳細內容見此：&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/name_rank.html"&gt;HTML&lt;/a&gt;, &lt;a href="http://weichengliou.github.io/blog/downloads/data/csv/name_rank.csv"&gt;CSV&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;由上表可發現這幾乎是菜市場名大排行，尤其有的姓名者有上百個以上，我們實在無法確認這些人剛好都同一人。&lt;/p&gt;
+&lt;p&gt;但我們可以進一步去觀察，在那些擔任法人代表的姓名中，最常出現的名字有哪些？以下是前 25 名的排行：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;姓名&lt;/td&gt;&lt;td&gt;個數&lt;/td&gt;&lt;td&gt;法人代表個數&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳國榮&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;td&gt;51&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;羅智先&lt;/td&gt;&lt;td&gt;50&lt;/td&gt;&lt;td&gt;47&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;嚴凱泰&lt;/td&gt;&lt;td&gt;49&lt;/td&gt;&lt;td&gt;43&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;許國興&lt;/td&gt;&lt;td&gt;51&lt;/td&gt;&lt;td&gt;41&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中華開發工業銀行股份有限公司&lt;/td&gt;&lt;td&gt;40&lt;/td&gt;&lt;td&gt;39&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;吳東昇&lt;/td&gt;&lt;td&gt;64&lt;/td&gt;&lt;td&gt;39&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;蕭明輝&lt;/td&gt;&lt;td&gt;78&lt;/td&gt;&lt;td&gt;37&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;張天吉&lt;/td&gt;&lt;td&gt;45&lt;/td&gt;&lt;td&gt;35&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳志鴻&lt;/td&gt;&lt;td&gt;89&lt;/td&gt;&lt;td&gt;34&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳劉惠鈺&lt;/td&gt;&lt;td&gt;112&lt;/td&gt;&lt;td&gt;34&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;蔡紹中&lt;/td&gt;&lt;td&gt;46&lt;/td&gt;&lt;td&gt;33&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林坤煌&lt;/td&gt;&lt;td&gt;57&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;徐蘭英&lt;/td&gt;&lt;td&gt;42&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳建志&lt;/td&gt;&lt;td&gt;166&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;練台生&lt;/td&gt;&lt;td&gt;46&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;徐旭東&lt;/td&gt;&lt;td&gt;45&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;殷建禮&lt;/td&gt;&lt;td&gt;36&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;何壽川&lt;/td&gt;&lt;td&gt;44&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;王文淵&lt;/td&gt;&lt;td&gt;43&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;戚維功&lt;/td&gt;&lt;td&gt;42&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳國平&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;黃景聰&lt;/td&gt;&lt;td&gt;38&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林俊龍&lt;/td&gt;&lt;td&gt;53&lt;/td&gt;&lt;td&gt;29&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;羅家慶&lt;/td&gt;&lt;td&gt;34&lt;/td&gt;&lt;td&gt;29&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;兆豐國際商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;td&gt;29&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;前五百大詳細內容見此：&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/namer_rank.html"&gt;HTML&lt;/a&gt;, &lt;a href="http://weichengliou.github.io/blog/downloads/data/csv/namer_rank.csv"&gt;CSV&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;上表中最多法人代表身份的姓名僅有 51 間公司，這與董監事姓名排行前 25 名中動輒一兩百個有很大差異。
+而且出現許多熟知的集團老闆名字，故可推論法人代表會是一個好的參考依據。
+不同公司的法人代表未必都是同一人，但若兩間公司之間存在法人投資關係則可視為同一人。&lt;/p&gt;
+&lt;p&gt;例如 A 公司與 B 公司存在法人投資關係，A 公司的某甲以法人代表身份出任 B 公司的董事，那麼 A 公司的某甲必然等於 B 公司的某甲。
+如此即可藉由法人投資關係歸類部份的同名同姓者。&lt;/p&gt;
+&lt;p&gt;接著思考兩兩公司間重複名字個數的多寡。若兩公司出現一個相同姓名的董監事，則其很有可能為同名同姓。但若同時出現兩個、甚至三個以上相同的董監事姓名，則這兩間公司很有
+可能是同一群人經營。且台灣的財團企業多以家族團體形式經營，故常見同一集團下的關係企業由同一群人擔任董監事的現象。計算重複兩個以上董監事的公司對，可繪製分配圖如下
+表：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/samename_files/samename_15_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;大部分公司對僅有兩個名字重複，某些公司對名字甚至會重複到 10 個以上。基本上若名字重複越多者，越容易相信該公司對的同名同姓者為同一群人。
+以下為重複最多名字的公司對名單：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;公司一&lt;/td&gt;&lt;td&gt;公司二&lt;/td&gt;&lt;td&gt;董監事重複個數&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;華南金融控股股份有限公司&lt;/td&gt;&lt;td&gt;華南商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;兆豐金融控股股份有限公司&lt;/td&gt;&lt;td&gt;兆豐國際商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;28&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;合作金庫商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;合作金庫金融控股股份有限公司&lt;/td&gt;&lt;td&gt;24&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;悠遊卡投資控股股份有限公司&lt;/td&gt;&lt;td&gt;悠遊卡股份有限公司&lt;/td&gt;&lt;td&gt;24&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;敏盛資產管理股份有限公司&lt;/td&gt;&lt;td&gt;敏盛醫控股份有限公司&lt;/td&gt;&lt;td&gt;23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;第一商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;第一金融控股股份有限公司&lt;/td&gt;&lt;td&gt;23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;巨城投資股份有限公司&lt;/td&gt;&lt;td&gt;西北實業股份有限公司&lt;/td&gt;&lt;td&gt;23&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;和裕投資股份有限公司&lt;/td&gt;&lt;td&gt;和泰汽車股份有限公司&lt;/td&gt;&lt;td&gt;22&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;新光金融控股股份有限公司&lt;/td&gt;&lt;td&gt;新光人壽保險股份有限公司&lt;/td&gt;&lt;td&gt;22&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;聯億貿易股份有限公司&lt;/td&gt;&lt;td&gt;三泰化工原料股份有限公司&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;龍秀興業股份有限公司&lt;/td&gt;&lt;td&gt;觀自在興業股份有限公司&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;聯億貿易股份有限公司&lt;/td&gt;&lt;td&gt;三德企業股份有限公司&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;國泰人壽保險股份有限公司&lt;/td&gt;&lt;td&gt;國泰金融控股股份有限公司&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;三泰化工原料股份有限公司&lt;/td&gt;&lt;td&gt;三德企業股份有限公司&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;富邦金融控股股份有限公司&lt;/td&gt;&lt;td&gt;台北富邦商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;統一超商股份有限公司&lt;/td&gt;&lt;td&gt;統一企業股份有限公司&lt;/td&gt;&lt;td&gt;19&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;國泰金融控股股份有限公司&lt;/td&gt;&lt;td&gt;國泰世華商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;19&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;海外台商國際開發股份有限公司&lt;/td&gt;&lt;td&gt;海外台商旅行社股份有限公司&lt;/td&gt;&lt;td&gt;19&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;台新金融控股股份有限公司&lt;/td&gt;&lt;td&gt;台新國際商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;華南金融控股股份有限公司&lt;/td&gt;&lt;td&gt;華南產物保險股份有限公司&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;品冠行銷股份有限公司&lt;/td&gt;&lt;td&gt;味丹企業股份有限公司&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;桃園汽車客運股份有限公司&lt;/td&gt;&lt;td&gt;桃客資產開發股份有限公司&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;財成企業股份有限公司&lt;/td&gt;&lt;td&gt;建成開發股份有限公司&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;資誠稅務諮詢顧問股份有限公司&lt;/td&gt;&lt;td&gt;資誠企業管理顧問股份有限公司&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;遠東新世紀股份有限公司&lt;/td&gt;&lt;td&gt;亞洲水泥股份有限公司&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;h2&gt;分類規則說明&lt;/h2&gt;
+&lt;p&gt;結合法人代表與同名同姓重複個數的資訊，我們可以設計以下的分類流程：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;列出所有姓名名單。&lt;/li&gt;
+&lt;li&gt;給定一個名字某甲，找出所有該名字擔任董監事的公司，假設不同公司的某甲為不同人。&lt;/li&gt;
+&lt;li&gt;根據法人代表名單進行初步分類，若某甲以 A 公司法人代表身份出任 B 公司董監事，則視 A 公司與 B 公司的某甲為同一人。&lt;/li&gt;
+&lt;li&gt;根據不同的兩公司之間，有兩個以上董監事姓名重複、且包含某甲者，視這些名字為同一人。&lt;/li&gt;
+&lt;li&gt;儲存分類結果進資料庫，回到步驟 2 處理下一個名字。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;根據以上分類結果，我們可以重新比較分類前後的董監事名單如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;姓名&lt;/td&gt;&lt;td&gt;個數&lt;/td&gt;&lt;td&gt;法人代表個數&lt;/td&gt;&lt;td&gt;分類後組數&lt;/td&gt;&lt;td&gt;減少組數&lt;/td&gt;&lt;td&gt;減少比率&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;嚴凱泰&lt;/td&gt;&lt;td&gt;49&lt;/td&gt;&lt;td&gt;43&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;48&lt;/td&gt;&lt;td&gt;97.96&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;吳東進&lt;/td&gt;&lt;td&gt;47&lt;/td&gt;&lt;td&gt;27&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;46&lt;/td&gt;&lt;td&gt;97.87&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;蔡紹中&lt;/td&gt;&lt;td&gt;46&lt;/td&gt;&lt;td&gt;33&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;45&lt;/td&gt;&lt;td&gt;97.83&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;張天吉&lt;/td&gt;&lt;td&gt;45&lt;/td&gt;&lt;td&gt;35&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;44&lt;/td&gt;&lt;td&gt;97.78&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;徐旭東&lt;/td&gt;&lt;td&gt;45&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;44&lt;/td&gt;&lt;td&gt;97.78&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;中華開發工業銀行股份有限公司&lt;/td&gt;&lt;td&gt;40&lt;/td&gt;&lt;td&gt;39&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;39&lt;/td&gt;&lt;td&gt;97.5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;蔡慧倫&lt;/td&gt;&lt;td&gt;38&lt;/td&gt;&lt;td&gt;28&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;37&lt;/td&gt;&lt;td&gt;97.37&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;黃景聰&lt;/td&gt;&lt;td&gt;38&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;37&lt;/td&gt;&lt;td&gt;97.37&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;陳劉惠鈺&lt;/td&gt;&lt;td&gt;112&lt;/td&gt;&lt;td&gt;34&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;109&lt;/td&gt;&lt;td&gt;97.32&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;張陳瑪蓮&lt;/td&gt;&lt;td&gt;111&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;108&lt;/td&gt;&lt;td&gt;97.3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林義守&lt;/td&gt;&lt;td&gt;36&lt;/td&gt;&lt;td&gt;24&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;35&lt;/td&gt;&lt;td&gt;97.22&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;蕭汾梯&lt;/td&gt;&lt;td&gt;35&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;34&lt;/td&gt;&lt;td&gt;97.14&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林孝臻&lt;/td&gt;&lt;td&gt;33&lt;/td&gt;&lt;td&gt;22&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;td&gt;96.97&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;袁文茵&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;td&gt;96.77&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;兆豐國際商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;30&lt;/td&gt;&lt;td&gt;29&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;29&lt;/td&gt;&lt;td&gt;96.67&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;林鴻堯&lt;/td&gt;&lt;td&gt;28&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;27&lt;/td&gt;&lt;td&gt;96.43&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;謝龍賜&lt;/td&gt;&lt;td&gt;28&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;27&lt;/td&gt;&lt;td&gt;96.43&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;苗豐強&lt;/td&gt;&lt;td&gt;27&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;td&gt;96.3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;謝龍隱&lt;/td&gt;&lt;td&gt;27&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;td&gt;96.3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;呂豫文&lt;/td&gt;&lt;td&gt;27&lt;/td&gt;&lt;td&gt;19&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;td&gt;96.3&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;謝龍贊&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;96.15&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;莊自立&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;96.15&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;張泓池&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;96.15&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;葉煌財&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;td&gt;21&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;96.15&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;蔡旺家&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;96.15&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;對於某些名字，特別是集團老闆的名字而言，分類後數量大幅減少。但也不是每個名字都相應減少，從下面名字次數分配與分類後的次數分配圖觀察可知，右尾分配在分類後大幅減少
+，但左尾並無相應的減少。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/samename_files/samename_24_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;經過以上分類程序後，我們可以初步對董監事名單作分類，甚至可以針對分類後姓名，利用社會網路分析找出其代表之公司。例如謝國樑：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/samename.shie.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/samename_files/samename_26_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;上圖中橘色企業為經模型分類後，認定為同一個謝國樑擔任董監事的企業。其他顏色企業，除了深藍色以外，皆被模型認定為不同的謝國樑。其中謝林興業並不與其他橘色企業存在投
+資關係，但其董監事成員中有四人與大魯閣纖維完全重複，故被認定為同一群人經營之企業。&lt;/p&gt;
+&lt;p&gt;另外以王雪紅為例：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/samename.wang.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/samename_files/samename_27_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;王雪紅擔任不少公司，其中也包含宏達電、台塑等公司的董監事。但就模型分類結果而言，宏達國際電池與威創科技顧問等公司亦被模型認定為同一個王雪紅經營。而聯宏育樂與聯宏
+建設開發則被模型認定為另一個王雪紅所經營。如此即可降低集團分類時的困難度。&lt;/p&gt;
+&lt;h2&gt;結語&lt;/h2&gt;
+&lt;p&gt;本文提供了一種基於法人代表與重複董監事名單資訊而建立的分類模型，可協助降低分辨同名同姓董監事的複雜度。藉由有效的分類董監事模型，可幫助我們判斷同一人或同一群人經
+營的集團企業，而不會僅限制於交叉投資關係。&lt;/p&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>台灣公司關係圖</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/twcom/" rel="alternate"></link><updated>2014-08-06T23:43:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-06:blog/blog/2014/08/06/twcom/</id><summary type="html">&lt;h2&gt;從董監事名單觀察法人投資關係&lt;/h2&gt;
+&lt;p&gt;台灣的企業種類分佈相當廣泛，有政府經營的國營企業、廣大的中小企業，家族企業為背景的財團，還有黨營事業，這些不同的市場參與者組成了現今的企業生態圈。但對於檯面上的
+企業財團之間存在怎樣的競合關係，我們卻始終無法一覽全貌。近年來社會網絡分析 (Social Network Analysis）相當盛行，藉著觀察法人投資關係我們
+可以更清楚政府、財團甚至黨營事業組成一個大群體。這群體的成員組成有誰？他們的規模究竟有多大？該如何界定他們的影響力？這些都將在下文逐一分析討論。&lt;/p&gt;
+&lt;p&gt;本研究資料來源為 &lt;a href="http://gcis.nat.g0v.tw/"&gt;台灣公司關係圖 http://gcis.nat.g0v.tw/&lt;/a&gt; 6 月份資料，整體樣本數為 1,447,188 家公司。由於資料來源並不含時間序列的變數，無法觀察不同時點的公司存活家數變化，故僅考慮營運中的企業。台灣整體營運中的企業數 (不含分公司) 約 619,154 家。其中有董監事名單或被列入董監事名單的公司約有 42,043 家，這些約佔整體營運中的企業 6.79% 左右。我們想了解的，就是這些公司為台灣形塑出來的企業生態圈概貌。&lt;/p&gt;
+&lt;p&gt;本報告將依以下順序進行探討：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;樣本組成概貌&lt;/li&gt;
+&lt;li&gt;台灣整體企業網絡成份&lt;/li&gt;
+&lt;li&gt;誰是老大？誰是幕後藏鏡人？&lt;/li&gt;
+&lt;li&gt;企業影響力排名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;台灣企業網絡生態圈&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/TWcompany_files/TWcompany_11_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;根據不同企業間的法人投資關係，可將企業們分成大小不同的群體，進而繪出如上圖的台灣企業投資網路分佈（圓點大小代表企業數量多寡）。為簡化圖形複雜度，在此僅列出三家以
+上公司形成的群體。圖中多數群體的規模（此處群體規模為群體內的企業家數）相近，但有一個群體規模明顯大於其他群體。這群體究竟有多大？他的群體規模是第二名的三百倍以上
+。&lt;/p&gt;
+&lt;p&gt;這規模最大的群體，其交叉投資關係可繪成以下社會網路圖：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/TWcompany_files/TWcompany_13_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;上圖中紅點部份為該群體中直接投資公司數量前 25 名的公司。這些公司成員有官股行庫、財團與黨營事業。這些公司正位於群體的核心附近，透過子公司繼續投資其他公司形成
+間接投資。其他也有財團間透過策略聯盟交叉投資，或是共同投資新事業結合成利益共同體。種種複雜的投資關係下建構出了一個超巨大關係企業集團。對於台灣大型企業集團的結構
+與形成過程，可參考中研院李宗榮老師發表的研究文章
+&lt;a href="http://newsletter.sinica.edu.tw/file/file/36/3602.pdf"&gt;1&lt;/a&gt;,
+&lt;a href="http://sociology.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf"&gt;2&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;對於群體規模與相同規模的群體個數之間的關係，我們可繪成散佈圖如下：&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/TWcompany_files/TWcompany_16_0.png" /&gt;&lt;/p&gt;
+&lt;p&gt;由圖可觀察到一些現象：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;絕大多數公司僅存在少數法人投資關係。&lt;/li&gt;
+&lt;li&gt;規模越大的群體，其個數與群體規模成指數遞減的關係。&lt;/li&gt;
+&lt;li&gt;規模最大的群體有一萬個以上成員。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;這些由法人投資而形成的群體可視為具有廣義上的集團關係。集團所帶來的好處，不僅是投資方提供資金，取得被投資方的經營利潤而已。這當中還帶來了更多的資訊、人脈等無形優
+勢，幫助集團成員攫取更多利益。而集團的存在對經濟發展亦有指標性的影響，因為集團本身的規模優勢與市場地位而築成強勢的議價力量，會成為其他企業營運上不可忽視的因素之
+一。&lt;/p&gt;
+&lt;h2&gt;誰是老大哥？誰是藏鏡人？&lt;/h2&gt;
+&lt;p&gt;在觀察到台灣存在這麼一個超大關係企業集團後，令人忍不住想了解其中的組成成份。&lt;/p&gt;
+&lt;p&gt;在此我們試從兩個面向探討：直接投資家數、直接投資加上間接投資家數，來觀察誰是當中的老大哥。&lt;/p&gt;
+&lt;h3&gt;直接投資家數排名&lt;/h3&gt;
+&lt;p&gt;整體而言，最多直接投資的公司有誰呢？
+根據全體法人投資關係，列出前 25 大公司如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;排名&lt;/td&gt;&lt;td&gt;單位名稱&lt;/td&gt;&lt;td&gt;祖先數&lt;/td&gt;&lt;td&gt;子孫數&lt;/td&gt;&lt;td&gt;直接被投資&lt;/td&gt;&lt;td&gt;直接投資&lt;/td&gt;&lt;td&gt;是否身處最大集團&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;兆豐國際商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;291&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;96&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;中華開發工業銀行股份有限公司&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;304&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;79&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;南聯國際貿易股份有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;112&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;55&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;裕隆汽車製造股份有限公司&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;195&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;47&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;南和興產股份有限公司&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;53&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;45&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;統一企業股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;221&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;43&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;統一超商股份有限公司&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;77&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;39&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;寶島投資開發股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;36&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;36&lt;/td&gt;&lt;td&gt;X&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;東元電機股份有限公司&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;81&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;35&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;創新工業技術移轉股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;47&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;34&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;中國鋼鐵股份有限公司&lt;/td&gt;&lt;td&gt;120&lt;/td&gt;&lt;td&gt;155&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;33&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;行政院國家發展基金管理會&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;635&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;光陽工業股份有限公司&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;52&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;臺灣水泥股份有限公司&lt;/td&gt;&lt;td&gt;71&lt;/td&gt;&lt;td&gt;246&lt;/td&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;31&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;永豐餘投資控股股份有限公司&lt;/td&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;195&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;29&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;16&lt;/td&gt;&lt;td&gt;仁寶電腦工業股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;102&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;29&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;南亞塑膠工業股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;109&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;28&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;臺灣化學纖維股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;109&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;27&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;19&lt;/td&gt;&lt;td&gt;行政院國軍退除役官兵輔導委員會&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;53&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;27&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;中盈投資開發股份有限公司&lt;/td&gt;&lt;td&gt;120&lt;/td&gt;&lt;td&gt;155&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;26&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;21&lt;/td&gt;&lt;td&gt;太陽光電能源科技股份有限公司&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;29&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;X&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;22&lt;/td&gt;&lt;td&gt;中央投資股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;118&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;23&lt;/td&gt;&lt;td&gt;大同股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;65&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;24&lt;/td&gt;&lt;td&gt;中華電信股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;71&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;24&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;新光合成纖維股份有限公司&lt;/td&gt;&lt;td&gt;51&lt;/td&gt;&lt;td&gt;313&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;24&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;前五百大詳細內容見此：&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/outdeg_rank.html"&gt;HTML&lt;/a&gt;, &lt;a href="http://weichengliou.github.io/blog/downloads/data/csv/outdeg_rank.csv"&gt;CSV&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以上可觀察到前 25 名企業中，僅有兩間公司不屬於最大集團的一份子。事實上即使前 100 名中也僅有五間公司不屬於最大集團的一份子。（見下表）&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;名次&lt;/td&gt;&lt;td&gt;名稱&lt;/td&gt;&lt;td&gt;直接投資&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;寶島投資開發股份有限公司&lt;/td&gt;&lt;td&gt;36&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;太陽光電能源科技股份有限公司&lt;/td&gt;&lt;td&gt;25&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;33&lt;/td&gt;&lt;td&gt;鬥牛士股份有限公司&lt;/td&gt;&lt;td&gt;21&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;50&lt;/td&gt;&lt;td&gt;旭晟投資有限公司&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;51&lt;/td&gt;&lt;td&gt;皇科投資有限公司&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;56&lt;/td&gt;&lt;td&gt;中嘉網路股份有限公司&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;觀察前 25 名可以看到組成份子可略分三大類：財團、官股、黨營事業。前兩名的兆豐國際商業銀行與中華開發工業銀行，因過去的工業銀行背景，故至今仍佔有不少公司的董監
+事席次。中華開發昔日具備官股與黨營事業背景，但時至今日已無黨營事業席次，而官股亦已僅剩一席。&lt;/p&gt;
+&lt;p&gt;國民黨麾下的中央投資，與大同公司、太陽光電能源科技公司同時列名第 21 名。自過去一黨專政時代開始，國民黨即擁有不少資產。雖然社會自過去一直不斷有要求國民黨歸還
+黨產的聲音出現，但至今仍有堪與其他財團相比擬的轉投資公司家數。像國民黨這樣具有財團實力的政黨在世界各國當中已是少數，其身處台灣最大關係企業集團中的一員，更顯示了
+其與財團之間利害關係密切。&lt;/p&gt;
+&lt;p&gt;對於直接投資前 50 名的公司，可繪出一階社會網路圖如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/outdeg_network.lv1.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/TWcompany_files/TWcompany_25_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;僅從一階社會網路圖來看，這些原本即身處最大關係企業集團之內的企業已形成一個群體，表示這些企業間的距離在兩度 (degree &amp;lt;= 2)
+之內，足證這些企業間的關係密切。&lt;/p&gt;
+&lt;h3&gt;直接投資＋間接投資排名&lt;/h3&gt;
+&lt;p&gt;接下來試圖從直接投資＋間接投資（簡稱為子孫數）排名觀察。母公司投資子公司，子公司又投資孫公司，如此層層相連形成一廣大關係企業結構。雖說最上層公司未必能影響最下層
+公司，但仍可視為有間接影響力。根據全體法人投資關係，列出子孫數前 25 大公司如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;排名&lt;/td&gt;&lt;td&gt;單位名稱&lt;/td&gt;&lt;td&gt;祖先數&lt;/td&gt;&lt;td&gt;子孫數&lt;/td&gt;&lt;td&gt;直接被投資&lt;/td&gt;&lt;td&gt;直接投資&lt;/td&gt;&lt;td&gt;是否身處最大集團&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;財政部&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;719&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;臺灣金融控股股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;668&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;臺灣銀行股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;665&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;行政院國家發展基金管理會&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;635&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;東賢投資有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;495&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;財團法人新光吳火獅文教基金會&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;492&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;成安有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;480&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;雲山有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;479&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;傑成有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;477&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;逢星投資股份有限公司&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;475&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;新台建設股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;475&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;傑昌投資股份有限公司&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;474&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;兆邦投資股份有限公司&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;472&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;成玲投資股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;472&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;葛昌投資股份有限公司&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;472&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;新光國際投資股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;471&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;16&lt;/td&gt;&lt;td&gt;家邦投資股份有限公司&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;471&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;進賢投資股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;460&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;昕達投資股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;460&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;19&lt;/td&gt;&lt;td&gt;昕昌投資股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;460&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;昕陽投資股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;460&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;21&lt;/td&gt;&lt;td&gt;東興投資股份有限公司&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;459&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;22&lt;/td&gt;&lt;td&gt;瑞新興業股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;459&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;23&lt;/td&gt;&lt;td&gt;漢霖建設股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;458&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;24&lt;/td&gt;&lt;td&gt;恆昇國際企業有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;458&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;前五百大詳細內容見此：&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/des_rank.html"&gt;HTML&lt;/a&gt;, &lt;a href="http://weichengliou.github.io/blog/downloads/data/csv/des_rank.csv"&gt;CSV&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;從子孫數排名有幾項觀察：&lt;/p&gt;
+&lt;p&gt;以財政部為首，影響最多公司（台灣金控與台灣銀行為官股行庫成員，由財政部直接投資），其亦身處最大集團之內。雖說此亦有公私利益混雜的疑慮，但與黨營事業的差別在於：政
+府由全體人民投票決定，有可能政黨輪替，但是政黨則否。&lt;/p&gt;
+&lt;p&gt;而國發基金的成立宗旨在於改善產業結構、投資協助產業創新，其影響力排名第二。惟其評估標的方式與是否有受到有效監管則不在本文討論範圍之內。&lt;/p&gt;
+&lt;p&gt;除官股行庫與國發基金以外，其餘公司多以投資公司為主。此因現今經營控制財團企業的家族們，多以投資公司的形式控制企業。其直接投資家數多在十家以下，堪稱為財團幕後的藏
+鏡人。值得注意的是，榜上排名前 25
+名的公司中，有大半屬於泛新光集團（新光＋台新）的一份子，新光集團旗下成員眾多，大股東透過多家投資公司交叉持有旗下企業，故這些公司的子孫數中有大量重複對象。&lt;/p&gt;
+&lt;p&gt;關於這些企業間的關係，可以根據前 50 名企業繪製一階企業社會網路圖如下：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/des_network.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/TWcompany_files/TWcompany_31_1.png" /&gt;&lt;/p&gt;
+&lt;p&gt;從上圖可以看到，前 25 名的企業大致可分為兩大群體：官股與泛新光集團。一階的企業網絡圖共有 162 個點，佔不到該最大群體的 10％。若是延伸至三階共有 1986 個點，共佔該最大群體 14.87 %。&lt;/p&gt;
+&lt;p&gt;但是這種觀察方式僅能觀察得到官股與新光集團影響力龐大的結論，那麼其他家族與企業集團又如何呢？接下來將試圖應用社會網路分析的部份概念，來協助找出居於群體核心位置的
+企業。&lt;/p&gt;
+&lt;h3&gt;中間度排名&lt;/h3&gt;
+&lt;p&gt;這部份應用近距中間度指標 (closeness centrality) 試圖找出居於核心位置的企業。先暫列排名前 25 名企業如下：&lt;/p&gt;
+&lt;table&gt;&lt;tr&gt;&lt;td&gt;排名&lt;/td&gt;&lt;td&gt;單位名稱&lt;/td&gt;&lt;td&gt;祖先數&lt;/td&gt;&lt;td&gt;子孫數&lt;/td&gt;&lt;td&gt;直接被投資&lt;/td&gt;&lt;td&gt;直接投資&lt;/td&gt;&lt;td&gt;是否身處最大集團&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;臺灣銀行股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;665&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;財政部&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;719&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;兆豐國際商業銀行股份有限公司&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;291&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;96&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;臺灣金融控股股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;668&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;中華開發工業銀行股份有限公司&lt;/td&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;304&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;79&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;行政院國家發展基金管理會&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;635&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;32&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;兆豐金融控股股份有限公司&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;348&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;財團法人新光吳火獅文教基金會&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;492&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;統一企業股份有限公司&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;221&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;43&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;交通部&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;432&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;中華開發金融控股股份有限公司&lt;/td&gt;&lt;td&gt;19&lt;/td&gt;&lt;td&gt;316&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;12&lt;/td&gt;&lt;td&gt;中華郵政股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;362&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;家邦投資股份有限公司&lt;/td&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;471&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;14&lt;/td&gt;&lt;td&gt;兆豐國際商業銀行股份有限公司工會&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;350&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;15&lt;/td&gt;&lt;td&gt;進賢投資股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;460&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;16&lt;/td&gt;&lt;td&gt;東賢投資有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;495&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;13&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;17&lt;/td&gt;&lt;td&gt;裕隆汽車製造股份有限公司&lt;/td&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;195&lt;/td&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;47&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;18&lt;/td&gt;&lt;td&gt;綿豪實業股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;436&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;19&lt;/td&gt;&lt;td&gt;高權投資股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;222&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;20&lt;/td&gt;&lt;td&gt;德岳實業股份有限公司&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;450&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;21&lt;/td&gt;&lt;td&gt;興文投資股份有限公司&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;326&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;22&lt;/td&gt;&lt;td&gt;永原投資股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;231&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;23&lt;/td&gt;&lt;td&gt;東興投資股份有限公司&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;459&lt;/td&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;24&lt;/td&gt;&lt;td&gt;新光育樂股份有限公司&lt;/td&gt;&lt;td&gt;39&lt;/td&gt;&lt;td&gt;444&lt;/td&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;25&lt;/td&gt;&lt;td&gt;泰伯投資股份有限公司&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;229&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;O&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;前五百大詳細內容見此：&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/betw_rank.html"&gt;HTML&lt;/a&gt;, &lt;a href="http://weichengliou.github.io/blog/downloads/data/csv/betw_rank.csv"&gt;CSV&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;排名前 25 名的企業，多半以官股行庫、國發基金與國營事業居多。其次為泛新光集團、統一集團與裕隆集團。&lt;/p&gt;
+&lt;p&gt;若是觀察前一百名企業的一階企業網路圖（見下圖），可看到多數企業集合成一個群體，表示這些企業間的距離大多在兩度以內，再次印證了這些企業間關係密切程度。其中新光集團
+旗下企業佔了不少，可見其企業經營網絡之廣闊。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/clos_network.lv1.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/TWcompany_files/TWcompany_39_1.png" /&gt;&lt;/p&gt;
+&lt;h2&gt;結語&lt;/h2&gt;
+&lt;p&gt;本文試從社會網路分析角度揭示台灣經濟發展現況。從整體觀之，台灣存在一個由政府、財團與黨營事業組成之超巨大關係企業集團。關於其形成方式自有其歷史背景，並非本文探討
+重點。然吾人必須了解，僅僅從法人投資而言，財團間的利益關係遠比我們想像的還要密切。更遑論因血親、姻親而組成的親族關係，將使這集團規模進一步擴大。&lt;/p&gt;
+&lt;p&gt;另外我們也發現黨營事業亦身處這個巨大利益共同體裡面，這點在政黨決策方向的制定與執行上，將不可避免地造成巨大影響。如何有效監督與減少政黨與財團間的裙帶關係影響，仍
+有待全民共同努力。&lt;/p&gt;
+&lt;p&gt;本文研究僅為一個起點，後續將有更多的深入研究，協助我們更了解台灣的企業生態環境。&lt;/p&gt;
+&lt;h2&gt;參考文獻&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="http://newsletter.sinica.edu.tw/file/file/36/3602.pdf"&gt;李宗榮，〈台灣企業間的親屬網絡〉，《中央研究院週報》 No.
+1216&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://s
+ociology.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf"&gt;李宗榮，2007，〈在國家與家族之間：企業控制與臺灣大型企業間網絡再探〉，《台灣社會學》，第13卷，頁173-242。(TSSCI)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>第一 po</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/08/03/first/" rel="alternate"></link><updated>2014-08-03T10:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-08-03:blog/blog/2014/08/03/first/</id><summary type="html">&lt;p&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;這是我第一次利用 Pelican 架 blog。感謝老天，只花一個早上就把雛型建置起來了。我主要是參考 &lt;a href="http://www.southampton.ac.uk/~fangohr/blog/blogging-with-the-ipython-notebook.html"&gt;Blogging with the IPython Notebook&lt;/a&gt; 與 &lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;Building this blog&lt;/a&gt; 這兩篇文章。簡單來說，&lt;a href="http://ocefpaf.github.io/python4oceanographers/blog/2013/12/23/blog/"&gt;Building this blog&lt;/a&gt; 這篇文章作者把整個 blog 都放到 GitHub 去了，文內說明僅需要先安裝必備的套件（作者建議搭配 virtualenv 使用，但我是用 pyenv），從 GitHub clone 他的 blog 之後，稍作修改即可使用。 跟 GitHub 結合的最大好處是備份與版本控制，我自己最近作的一個專案就是利用 BitBucket 來幫忙作版本控制，這樣就不用帶著隨身碟跑來跑去了。&lt;/p&gt;
+&lt;p&gt;Pelican 的最大好處是：他可以跟 IPython notebook 作很好的結合，這點對於作資料分析的人而言非常好用。 現在 IPython notebook 越作越強大了，還可以跟 Google doc 結合。 用 IPython Notebook 作分析報告或教案，然後配合 GitHub 作版本控制、教案分享與展示，這樣實在非常完美。&lt;/p&gt;
+&lt;p&gt;本篇文章是在 IPython notebook 上面完成的，接下來會作些測試，以確認一些常用的功能是否能正常使用。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell vbox"&gt;
+&lt;div class="input hbox"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In&amp;nbsp;[2]:
+&lt;/div&gt;
+&lt;div class="input_area box-flex1"&gt;
+&lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span class="n"&gt;font&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;AR PL KaitiM Big5&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;mpl&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;rcParams&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;font.sans-serif&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;font&lt;/span&gt;
+&lt;span class="n"&gt;mpl&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;rc&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;font&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;family&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;sans-serif&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; 
+&lt;span class="n"&gt;mpl&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;rc&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;text&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;usetex&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;false&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; 
+
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;randn&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cumsum&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;span class="n"&gt;plt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;u&amp;#39;中文測試&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="vbox output_wrapper"&gt;
+&lt;div class="output vbox"&gt;
+
+
+&lt;div class="hbox output_area"&gt;&lt;div class="prompt output_prompt"&gt;
+    Out[2]:&lt;/div&gt;
+&lt;div class="box-flex1 output_subarea output_pyout"&gt;
+
+
+&lt;pre&gt;
+&amp;lt;matplotlib.text.Text at 0x7fd89f415f50&amp;gt;
+&lt;/pre&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="hbox output_area"&gt;&lt;div class="prompt"&gt;&lt;/div&gt;
+&lt;div class="box-flex1 output_subarea output_display_data"&gt;
+
+
+&lt;img src="data:image/png;base64,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
+ERGRZPn/Y9OPIdyZINoAAAAASUVORK5CYII=
+"&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell vbox"&gt;
+&lt;div class="input hbox"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In&amp;nbsp;[3]:
+&lt;/div&gt;
+&lt;div class="input_area box-flex1"&gt;
+&lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;markdown&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;markdown&lt;/span&gt;
+
+&lt;span class="n"&gt;html_url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;http://weichengliou.github.io/blog/downloads/data/html/kmt_boss.html&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;markdown_str&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;u&amp;quot;[另開新頁]({0})&amp;quot;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;unicode&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html_url&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;span class="n"&gt;HTML&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;markdown&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;markdown_str&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;\
+     &lt;span class="s"&gt;u&amp;#39;&amp;lt;iframe height=&amp;quot;600px&amp;quot; width=&amp;quot;100%&amp;quot; src={0}&amp;gt;&amp;lt;/iframe&amp;gt;&amp;#39;&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html_url&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="vbox output_wrapper"&gt;
+&lt;div class="output vbox"&gt;
+
+
+&lt;div class="hbox output_area"&gt;&lt;div class="prompt output_prompt"&gt;
+    Out[3]:&lt;/div&gt;
+&lt;div class="box-flex1 output_subarea output_pyout"&gt;
+
+&lt;div class="output_html rendered_html"&gt;
+&lt;p&gt;&lt;a href="http://weichengliou.github.io/blog/downloads/data/html/kmt_boss.html"&gt;另開新頁&lt;/a&gt;&lt;/p&gt;&lt;iframe height="600px" width="100%" src=http://weichengliou.github.io/blog/downloads/data/html/kmt_boss.html&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;基本上可以畫圖、可以顯示中文（但是需要設定字體），可以設定超連結。&lt;/p&gt;
+&lt;p&gt;大致上可以開始寫文章了！&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell vbox"&gt;
+&lt;div class="input hbox"&gt;
+&lt;div class="prompt input_prompt"&gt;
+In&amp;nbsp;[4]:
+&lt;/div&gt;
+&lt;div class="input_area box-flex1"&gt;
+&lt;div class="highlight-ipynb"&gt;&lt;pre class="ipynb"&gt;&lt;span class="n"&gt;HTML&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="vbox output_wrapper"&gt;
+&lt;div class="output vbox"&gt;
+
+
+&lt;div class="hbox output_area"&gt;&lt;div class="prompt output_prompt"&gt;
+    Out[4]:&lt;/div&gt;
+&lt;div class="box-flex1 output_subarea output_pyout"&gt;
+
+&lt;div class="output_html rendered_html"&gt;
+
+&lt;small&gt;
+&lt;p&gt; This post was written as an IPython notebook.  It is available for
+&lt;a href="http://WeiChengLiou.github.com/blog/downloads/
+notebooks/2014-08-03-first_post.ipynb"&gt;download&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
+alt="Creative Commons License" style="border-width:0"
+src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
+xmlns:dct="http://purl.org/dc/terms/"
+property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
+xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
+property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
+licensed under a &lt;a rel="license"
+href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
+Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
+xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
+rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.
+ 
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/p&gt;</summary></entry></feed>
