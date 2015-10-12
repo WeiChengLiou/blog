@@ -6,11 +6,11 @@ tags: 台灣公司關係圖
 category: 台灣公司關係圖
 
 
-本文旨在應用臺灣上市櫃公司歷史公開資訊，
+本文為作者與中央研究院資訊所何建民老師、台灣大學會計系王泰昌教授合作指導研究計畫的一部分。
+旨在應用臺灣上市櫃公司歷史公開資訊，
 探討 1998-2014 年間上市櫃公司的企業投資網路。
 資料來源以臺灣經濟新報 (TEJ) 資料庫為主，
 但 <a href="http://www.mops.com.tw">公開資訊觀測站</a> 亦可找到相關資訊。
-感謝中央研究院資訊所何建民老師與台灣大學會計系王泰昌教授合作協助指導研究。
 
 從經濟部的營利事業登記資料可以得知，
 眼下各大財團、國營企業、金融機構與黨營事業彼此交叉投資形成一個主要群體，
@@ -150,16 +150,5 @@ category: 台灣公司關係圖
 這問題將在下篇文章進一步探討。
 
 
+本文屬 TEJ 部份權利屬於臺灣經濟新報所有。
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
-alt="Creative Commons License" style="border-width:0"
-src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span
-xmlns:dct="http://purl.org/dc/terms/"
-property="dct:title">Gilbert's Data Lab</span> by <a
-xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
-property="cc:attributionName" rel="cc:attributionURL">WeiCheng Liou</a> is
-licensed under a <a rel="license"
-href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a
-xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
-rel="dct:source">http://WeiChengLiou.github.io/</a>.

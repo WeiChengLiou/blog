@@ -6,7 +6,8 @@ tags: 台灣公司關係圖
 category: 台灣公司關係圖
 
 
-本文討論新上市櫃公司的法人股東角色，法人股東主要有以下幾種：
+本文為作者與中央研究院資訊所何建民老師、台灣大學會計系王泰昌教授合作指導研究計畫的一部分。
+主要討論新上市櫃公司的法人股東角色，法人股東主要有以下幾種：
 
 1. 國外法人
 2. 國內上市櫃公司
@@ -27,11 +28,10 @@ category: 台灣公司關係圖
 
 鑑於前三點不易觀察，
 故我們試圖從第四點來討論好的創投公司。
+分析資料來自於 TEJ 資料庫 1996-2014 間新上市櫃公司資訊，
+根據各公司上市櫃當年 12 月的董監名單進行統計。
 從歷年的新上市櫃公司的董監資料，
 我們可以從法人股東資訊得知該公司獲得哪些公司投資。
-分析資料來自於 1996-2014 間新上市櫃公司資訊，
-根據各公司上市櫃當年 12 月的董監名單進行統計。
-感謝中央研究院資訊所何建民老師與台灣大學會計系王泰昌教授合作協助指導研究。
 
 以下分析將就幾個層面依序討論新上市櫃公司的優勢：
 
@@ -245,16 +245,4 @@ category: 台灣公司關係圖
         - 元大證併入復華金，改名為元大金
 
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img
-alt="Creative Commons License" style="border-width:0"
-src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span
-xmlns:dct="http://purl.org/dc/terms/"
-property="dct:title">Gilbert's Data Lab</span> by <a
-xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
-property="cc:attributionName" rel="cc:attributionURL">WeiCheng Liou</a> is
-licensed under a <a rel="license"
-href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons
-Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a
-xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
-rel="dct:source">http://WeiChengLiou.github.io/</a>.
-
+本文屬 TEJ 部份權利屬於臺灣經濟新報所有。
