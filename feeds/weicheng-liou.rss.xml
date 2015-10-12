@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gilbert's Data Lab</title><link>http://WeiChengLiou.github.io/blog/</link><description>Data drives thinking, thinking transforms data.</description><atom:link href="/feeds/weicheng-liou.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 08 Oct 2015 14:00:00 +0800</lastBuildDate><item><title>新創企業的貴人-投資公司</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/</link><description>&lt;p&gt;本文討論新上市櫃公司的法人股東角色，法人股東主要有以下幾種：&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gilbert's Data Lab</title><link>http://WeiChengLiou.github.io/blog/</link><description>Data drives thinking, thinking transforms data.</description><atom:link href="/feeds/weicheng-liou.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 08 Oct 2015 14:00:00 +0800</lastBuildDate><item><title>新創企業的貴人-投資公司</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/</link><description>&lt;p&gt;本文為作者與中央研究院資訊所何建民老師、台灣大學會計系王泰昌教授合作指導研究計畫的一部分。
+主要討論新上市櫃公司的法人股東角色，法人股東主要有以下幾種：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;國外法人&lt;/li&gt;
 &lt;li&gt;國內上市櫃公司&lt;/li&gt;
@@ -19,11 +20,10 @@
 &lt;/ol&gt;
 &lt;p&gt;鑑於前三點不易觀察，
 故我們試圖從第四點來討論好的創投公司。
-從歷年的新上市櫃公司的董監資料，
-我們可以從法人股東資訊得知該公司獲得哪些公司投資。
-分析資料來自於 1996-2014 間新上市櫃公司資訊，
+分析資料來自於 TEJ 資料庫 1996-2014 間新上市櫃公司資訊，
 根據各公司上市櫃當年 12 月的董監名單進行統計。
-感謝中央研究院資訊所何建民老師與台灣大學會計系王泰昌教授合作協助指導研究。&lt;/p&gt;
+從歷年的新上市櫃公司的董監資料，
+我們可以從法人股東資訊得知該公司獲得哪些公司投資。&lt;/p&gt;
 &lt;p&gt;以下分析將就幾個層面依序討論新上市櫃公司的優勢：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;歷年新上市櫃公司概況&lt;/li&gt;
@@ -315,22 +315,11 @@
 &lt;/pre&gt;&lt;/div&gt;
 
 
-&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
-alt="Creative Commons License" style="border-width:0"
-src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
-xmlns:dct="http://purl.org/dc/terms/"
-property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
-xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
-property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
-licensed under a &lt;a rel="license"
-href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
-Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
-xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
-rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">WeiCheng Liou</dc:creator><pubDate>Thu, 08 Oct 2015 14:00:00 +0800</pubDate><guid>tag:WeiChengLiou.github.io,2015-10-08:blog/blog/2015/10/08/ivstSNA/</guid><category>台灣公司關係圖</category></item><item><title>台灣上市櫃公司網絡變化史</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/08/twcom_tej/</link><description>&lt;p&gt;本文旨在應用臺灣上市櫃公司歷史公開資訊，
+&lt;p&gt;本文屬 TEJ 部份權利屬於臺灣經濟新報所有。&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">WeiCheng Liou</dc:creator><pubDate>Thu, 08 Oct 2015 14:00:00 +0800</pubDate><guid>tag:WeiChengLiou.github.io,2015-10-08:blog/blog/2015/10/08/ivstSNA/</guid><category>台灣公司關係圖</category></item><item><title>台灣上市櫃公司網絡變化史</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/08/twcom_tej/</link><description>&lt;p&gt;本文為作者與中央研究院資訊所何建民老師、台灣大學會計系王泰昌教授合作指導研究計畫的一部分。
+旨在應用臺灣上市櫃公司歷史公開資訊，
 探討 1998-2014 年間上市櫃公司的企業投資網路。
 資料來源以臺灣經濟新報 (TEJ) 資料庫為主，
-但 &lt;a href="http://www.mops.com.tw"&gt;公開資訊觀測站&lt;/a&gt; 亦可找到相關資訊。
-感謝中央研究院資訊所何建民老師與台灣大學會計系王泰昌教授合作協助指導研究。&lt;/p&gt;
+但 &lt;a href="http://www.mops.com.tw"&gt;公開資訊觀測站&lt;/a&gt; 亦可找到相關資訊。&lt;/p&gt;
 &lt;p&gt;從經濟部的營利事業登記資料可以得知，
 眼下各大財團、國營企業、金融機構與黨營事業彼此交叉投資形成一個主要群體，
 某種程度上可視為黨國資本主義時代下遺留的產物。
@@ -417,18 +406,7 @@ rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</descrip
 但我們或許可以問的是：若我是有意在臺灣上市櫃的新創事業老闆或股東，
 這樣的網絡結構是否對我有影響？
 這問題將在下篇文章進一步探討。&lt;/p&gt;
-&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
-alt="Creative Commons License" style="border-width:0"
-src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
-xmlns:dct="http://purl.org/dc/terms/"
-property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
-xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
-property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
-licensed under a &lt;a rel="license"
-href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
-Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
-xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
-rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">WeiCheng Liou</dc:creator><pubDate>Thu, 08 Oct 2015 12:00:00 +0800</pubDate><guid>tag:WeiChengLiou.github.io,2015-10-08:blog/blog/2015/10/08/twcom_tej/</guid><category>台灣公司關係圖</category></item><item><title>從上市櫃公司看黨營事業變化</title><link>http://WeiChengLiou.github.io/blog/blog/2015/09/24/kmt_history/</link><description>&lt;p&gt;從之前的文章中，
+&lt;p&gt;本文屬 TEJ 部份權利屬於臺灣經濟新報所有。&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">WeiCheng Liou</dc:creator><pubDate>Thu, 08 Oct 2015 12:00:00 +0800</pubDate><guid>tag:WeiChengLiou.github.io,2015-10-08:blog/blog/2015/10/08/twcom_tej/</guid><category>台灣公司關係圖</category></item><item><title>從上市櫃公司看黨營事業變化</title><link>http://WeiChengLiou.github.io/blog/blog/2015/09/24/kmt_history/</link><description>&lt;p&gt;從之前的文章中，
 我們發現過去黨營事業在不少上市櫃公司擔任董監事，
 因此本篇文章即將討論黨營事業的投資變化。&lt;/p&gt;
 &lt;p&gt;下圖為黨營事業的直接持股變化&lt;/p&gt;
