@@ -1,5 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/tai-wan-gong-si-guan-xi-tu.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2015-10-08T14:00:00+08:00</updated><entry><title>新創企業的貴人-投資公司</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/" rel="alternate"></link><updated>2015-10-08T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-08:blog/blog/2015/10/08/ivstSNA/</id><summary type="html">&lt;p&gt;本文為作者與中央研究院資訊所何建民老師、台灣大學會計系王泰昌教授合作指導研究計畫的一部分。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/tai-wan-gong-si-guan-xi-tu.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2015-10-21T14:00:00+08:00</updated><entry><title>投資公司投資成效檢定</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/21/ivstSNA_stat/" rel="alternate"></link><updated>2015-10-21T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-21:blog/blog/2015/10/21/ivstSNA_stat/</id><summary type="html">&lt;p&gt;這篇文章是作為前篇文章的補充，提供統計檢定結果給有興趣深入了解的人。&lt;/p&gt;
+&lt;h2&gt;法人董監是否存在優勢&lt;/h2&gt;
+&lt;h3&gt;新上市櫃公司&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;樣本數&lt;/th&gt;
+&lt;th&gt;樣本平均&lt;/th&gt;
+&lt;th&gt;t 統計量&lt;/th&gt;
+&lt;th&gt;p-value&lt;/th&gt;
+&lt;th&gt;顯著與否&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1301&lt;/td&gt;
+&lt;td&gt;0.7333&lt;/td&gt;
+&lt;td&gt;19.0192&lt;/td&gt;
+&lt;td&gt;2.3653e-71&lt;/td&gt;
+&lt;td&gt;顯著&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;興櫃公司&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;樣本數&lt;/th&gt;
+&lt;th&gt;樣本平均&lt;/th&gt;
+&lt;th&gt;t 統計量&lt;/th&gt;
+&lt;th&gt;p-value&lt;/th&gt;
+&lt;th&gt;顯著與否&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2471&lt;/td&gt;
+&lt;td&gt;0.7831&lt;/td&gt;
+&lt;td&gt;34.1361&lt;/td&gt;
+&lt;td&gt;1.4796e-209&lt;/td&gt;
+&lt;td&gt;顯著&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;主要群體的法人董監事是否存在優勢&lt;/h2&gt;
+&lt;h3&gt;新上市櫃公司&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;樣本群體&lt;/th&gt;
+&lt;th&gt;樣本數&lt;/th&gt;
+&lt;th&gt;樣本平均&lt;/th&gt;
+&lt;th&gt;t 統計量&lt;/th&gt;
+&lt;th&gt;p-value&lt;/th&gt;
+&lt;th&gt;顯著與否&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;有法人董監之公司&lt;/td&gt;
+&lt;td&gt;954&lt;/td&gt;
+&lt;td&gt;0.6069&lt;/td&gt;
+&lt;td&gt;6.7576&lt;/td&gt;
+&lt;td&gt;2.4400e-11&lt;/td&gt;
+&lt;td&gt;顯著&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;所有公司&lt;/td&gt;
+&lt;td&gt;1301&lt;/td&gt;
+&lt;td&gt;0.4450&lt;/td&gt;
+&lt;td&gt;-3.9872&lt;/td&gt;
+&lt;td&gt;7.0574e-05&lt;/td&gt;
+&lt;td&gt;顯著&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;興櫃公司&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;樣本數&lt;/th&gt;
+&lt;th&gt;樣本平均&lt;/th&gt;
+&lt;th&gt;t 統計量&lt;/th&gt;
+&lt;th&gt;p-value&lt;/th&gt;
+&lt;th&gt;顯著與否&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;2471&lt;/td&gt;
+&lt;td&gt;0.4274&lt;/td&gt;
+&lt;td&gt;-7.2980&lt;/td&gt;
+&lt;td&gt;3.9181e-13&lt;/td&gt;
+&lt;td&gt;顯著&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>新創企業的貴人-投資公司</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/" rel="alternate"></link><updated>2015-10-08T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-08:blog/blog/2015/10/08/ivstSNA/</id><summary type="html">&lt;p&gt;本文為作者與中央研究院資訊所何建民老師、台灣大學會計系王泰昌教授合作指導研究計畫的一部分。
 主要討論新上市櫃公司的法人股東角色，法人股東主要有以下幾種：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;國外法人&lt;/li&gt;
@@ -69,9 +165,8 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/MaxGrpRatio.NewIvst.png" /&gt;&lt;/p&gt;
 &lt;p&gt;由圖中可見，
-即使在有法人董監事的公司當中，
-主要群體比重也不見得明顯較高。
-這與前文當中，主要群體連接數佔整體八成以上相比明顯較低。&lt;/p&gt;
+在有法人董監事的公司當中，主要群體比重略高於五成。
+但這比例與前文的主要群體連接數佔整體八成以上相比仍明顯較低。&lt;/p&gt;
 &lt;h2&gt;是否存在優秀的投資公司？&lt;/h2&gt;
 &lt;p&gt;假設我們定義所謂的投資成功為：
 出現在新上市櫃公司當年底的法人董監事名單上。
@@ -290,8 +385,9 @@
 &lt;h2&gt;結論&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;有法人董監事的公司，比較容易獲得上市櫃的機會。&lt;/li&gt;
-&lt;li&gt;來自主要群體的法人投資不一定會比較有利。&lt;/li&gt;
-&lt;li&gt;主要群體的興櫃公司比例正逐年下降中。&lt;/li&gt;
+&lt;li&gt;來自主要群體的法人投資不會比較有利，但機會高於非主要群體的法人投資。&lt;/li&gt;
+&lt;li&gt;主要群體的興櫃公司比重正逐年下降中。&lt;/li&gt;
+&lt;li&gt;黨營事業的成功率逐年下降，但兆豐金與開發金之相關事業仍有一定影響力。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;對於黨營事業為何會逐年下降，這點或許與金控公司法通過與民進黨執政後要求歸還檔產生浪逐漸加大有關。&lt;/p&gt;
 &lt;p&gt;文末附上國民黨出脫黨營事業簡表，供讀者參觀對照。&lt;/p&gt;
