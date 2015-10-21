@@ -101,8 +101,9 @@ if __name__ == '__main__':
         '2015-10-ivstSNA.md',
         # '2015-09-kmt_history.md',
         '2015-10-twcom_tej.md',
+        '2015-10-ivstSNA_stat.md',
         ]
-    paths = ['ivstSNA', 'twcom_tej']
+    paths = ['ivstSNA', 'twcom_tej', 'ivstSNA_stat']
     dstpaths = [('images/%s_files/' % fi) for fi in paths]
     watch(mainfis, dstpaths)
 
