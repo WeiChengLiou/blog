@@ -1,101 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gilbert's Data Lab</title><link>http://WeiChengLiou.github.io/blog/</link><description>Data drives thinking, thinking transforms data.</description><atom:link href="/feeds/weicheng-liou.rss.xml" rel="self"></atom:link><lastBuildDate>Wed, 21 Oct 2015 14:00:00 +0800</lastBuildDate><item><title>投資公司投資成效檢定</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/21/ivstSNA_stat/</link><description>&lt;p&gt;這篇文章是作為前篇文章的補充，提供統計檢定結果給有興趣深入了解的人。&lt;/p&gt;
-&lt;h2&gt;法人董監是否存在優勢&lt;/h2&gt;
-&lt;h3&gt;新上市櫃公司&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;樣本數&lt;/th&gt;
-&lt;th&gt;樣本平均&lt;/th&gt;
-&lt;th&gt;t 統計量&lt;/th&gt;
-&lt;th&gt;p-value&lt;/th&gt;
-&lt;th&gt;顯著與否&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1301&lt;/td&gt;
-&lt;td&gt;0.7333&lt;/td&gt;
-&lt;td&gt;19.0192&lt;/td&gt;
-&lt;td&gt;2.3653e-71&lt;/td&gt;
-&lt;td&gt;顯著&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3&gt;興櫃公司&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;樣本數&lt;/th&gt;
-&lt;th&gt;樣本平均&lt;/th&gt;
-&lt;th&gt;t 統計量&lt;/th&gt;
-&lt;th&gt;p-value&lt;/th&gt;
-&lt;th&gt;顯著與否&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2471&lt;/td&gt;
-&lt;td&gt;0.7831&lt;/td&gt;
-&lt;td&gt;34.1361&lt;/td&gt;
-&lt;td&gt;1.4796e-209&lt;/td&gt;
-&lt;td&gt;顯著&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;主要群體的法人董監事是否存在優勢&lt;/h2&gt;
-&lt;h3&gt;新上市櫃公司&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;樣本群體&lt;/th&gt;
-&lt;th&gt;樣本數&lt;/th&gt;
-&lt;th&gt;樣本平均&lt;/th&gt;
-&lt;th&gt;t 統計量&lt;/th&gt;
-&lt;th&gt;p-value&lt;/th&gt;
-&lt;th&gt;顯著與否&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;有法人董監之公司&lt;/td&gt;
-&lt;td&gt;954&lt;/td&gt;
-&lt;td&gt;0.6069&lt;/td&gt;
-&lt;td&gt;6.7576&lt;/td&gt;
-&lt;td&gt;2.4400e-11&lt;/td&gt;
-&lt;td&gt;顯著&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;所有公司&lt;/td&gt;
-&lt;td&gt;1301&lt;/td&gt;
-&lt;td&gt;0.4450&lt;/td&gt;
-&lt;td&gt;-3.9872&lt;/td&gt;
-&lt;td&gt;7.0574e-05&lt;/td&gt;
-&lt;td&gt;顯著&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h3&gt;興櫃公司&lt;/h3&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;樣本數&lt;/th&gt;
-&lt;th&gt;樣本平均&lt;/th&gt;
-&lt;th&gt;t 統計量&lt;/th&gt;
-&lt;th&gt;p-value&lt;/th&gt;
-&lt;th&gt;顯著與否&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;2471&lt;/td&gt;
-&lt;td&gt;0.4274&lt;/td&gt;
-&lt;td&gt;-7.2980&lt;/td&gt;
-&lt;td&gt;3.9181e-13&lt;/td&gt;
-&lt;td&gt;顯著&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">WeiCheng Liou</dc:creator><pubDate>Wed, 21 Oct 2015 14:00:00 +0800</pubDate><guid>tag:WeiChengLiou.github.io,2015-10-21:blog/blog/2015/10/21/ivstSNA_stat/</guid><category>台灣公司關係圖</category></item><item><title>新創企業的貴人-投資公司</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/</link><description>&lt;p&gt;本文為作者與中央研究院資訊所何建民老師、台灣大學會計系王泰昌教授合作指導研究計畫的一部分。
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gilbert's Data Lab</title><link>http://WeiChengLiou.github.io/blog/</link><description>Data drives thinking, thinking transforms data.</description><atom:link href="/feeds/weicheng-liou.rss.xml" rel="self"></atom:link><lastBuildDate>Thu, 22 Oct 2015 14:00:00 +0800</lastBuildDate><item><title>是否存在優秀的投資公司</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/22/ivstSNA_keycom/</link><description>&lt;p&gt;這篇文章將就成功次數較多之投資公司進行近一步探討。
+我們將以興櫃市場為主，分就以下層面進行研究：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;興櫃轉上市櫃機率&lt;/li&gt;
+&lt;li&gt;考慮績效條件後機率變化&lt;/li&gt;
+&lt;li&gt;某些特定主要群體公司（兆豐金、開發金）是否有明顯優勢？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;興櫃轉上市櫃機率&lt;/h2&gt;
+&lt;p&gt;興櫃市場於 2002 年成立，
+目前櫃買中心要求新上櫃公司須在興櫃登錄六個月以上，
+讓投資大眾有更多機會認識新上櫃公司。&lt;/p&gt;
+&lt;p&gt;扣除直接上市、同年度登錄興櫃與上櫃公司後，
+目前興櫃公司轉上櫃機率為&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">WeiCheng Liou</dc:creator><pubDate>Thu, 22 Oct 2015 14:00:00 +0800</pubDate><guid>tag:WeiChengLiou.github.io,2015-10-22:blog/blog/2015/10/22/ivstSNA_keycom/</guid><category>台灣公司關係圖</category></item><item><title>投資公司投資成效檢定</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/21/ivstSNA_stat/</link><description>&lt;p&gt;這篇文章是作為前篇文章的補充，提供統計檢定結果給有興趣深入了解的人。
+主要藉著單一母體比例假設檢定，逐年檢定我們關心的項目是否明顯大於或小於 50%。
+圓圈為樣本平均，綠色棒為 99% 信賴區間，虛線為虛無假設的目標值。&lt;/p&gt;
+&lt;h2&gt;新上市櫃公司中法人董監比例是否偏高？&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrIvstRatio.New.png" /&gt;&lt;/p&gt;
+&lt;p&gt;除了 2000 年以外，幾乎皆明顯高於五成。&lt;/p&gt;
+&lt;h2&gt;興櫃公司中法人董監比例是否偏高？&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrIvstRatio.Reg.png" /&gt;&lt;/p&gt;
+&lt;p&gt;每年均明顯高於五成，且樣本平均高於新上市櫃公司的法人董監比例。&lt;/p&gt;
+&lt;h2&gt;新上市櫃公司中主要群體比例是否偏高？&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrpRatio.New.png" /&gt;&lt;/p&gt;
+&lt;p&gt;2002 年以前樣本平均大多高於五成，且 1998 年時明顯高於五成。
+而 2003 年以後樣本平均逐年下降， 十二年的資料裡有六年明顯低於五成。
+IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
+&lt;h2&gt;興櫃公司中主要群體比例是否偏高？&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrpRatio.Reg.png" /&gt;&lt;/p&gt;
+&lt;p&gt;2008 年以前主要群體比例並不明顯低於五成，
+但 2011 年以後明顯低於五成，
+表示近年來主要群體在興櫃市場的投資意願不足。&lt;/p&gt;
+&lt;h2&gt;有法人代表的新上市櫃公司中主要群體比例&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrp2Ivst.New.png" /&gt;&lt;/p&gt;
+&lt;p&gt;2002 年以前主要群體比例明顯較高，
+但 2003 年以後並無顯著差異。&lt;/p&gt;
+&lt;h2&gt;有法人代表的興櫃公司中主要群體比例&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrp2Ivst.Reg.png" /&gt;&lt;/p&gt;
+&lt;p&gt;2009 年以前八年的資料中，有五年明顯高於五成。
+2010 年以後變得較不顯著，但 2014 年明顯低於五成。&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">WeiCheng Liou</dc:creator><pubDate>Wed, 21 Oct 2015 14:00:00 +0800</pubDate><guid>tag:WeiChengLiou.github.io,2015-10-21:blog/blog/2015/10/21/ivstSNA_stat/</guid><category>台灣公司關係圖</category></item><item><title>新創企業的貴人-投資公司</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/</link><description>&lt;p&gt;本文為作者與中央研究院資訊所何建民老師、台灣大學會計系王泰昌教授合作指導研究計畫的一部分。
 主要討論新上市櫃公司的法人股東角色，法人股東主要有以下幾種：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;國外法人&lt;/li&gt;
@@ -134,24 +76,25 @@
 &lt;p&gt;而新上市櫃公司的產業分佈如下：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/indNewList.png" /&gt;&lt;/p&gt;
 &lt;p&gt;主要以電子相關產業為主。&lt;/p&gt;
-&lt;h2&gt;法人董監事是否存在優勢？&lt;/h2&gt;
+&lt;h2&gt;新上市櫃與興櫃公司的法人董監比例是否偏高？&lt;/h2&gt;
 &lt;p&gt;根據每年新上市櫃公司與興櫃公司的法人董監事資訊，
 我們想了解新上市櫃公司的法人董監事比重是否明顯較高。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/InstRatio.png" /&gt;&lt;/p&gt;
 &lt;p&gt;由圖中可見平均約有七成四左右的新上市櫃公司有法人董監事，
 在興櫃公司之間其比率更高。
-故對於有志於在臺灣上市櫃的新創企業而言，
-法人股東還是可以為公司帶來些許優勢。&lt;/p&gt;
-&lt;h2&gt;主要群體的法人董監事是否存在優勢？&lt;/h2&gt;
-&lt;p&gt;那麼主要群體的法人董監事是否有優勢呢？
+對於有意願在臺灣掛牌上市的新創企業而言，
+法人股東多少可以為公司帶來些幫助。&lt;/p&gt;
+&lt;h2&gt;主要群體的法人董監比例是否偏高？&lt;/h2&gt;
+&lt;p&gt;那麼在新上市櫃與興櫃公司裡，
+主要群體的法人董監比例是否偏高呢？
 這點可以觀察新上市櫃公司在上市櫃當年，是否身處主要群體之內：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_files/MaxGrpRatio.png" /&gt;&lt;/p&gt;
 &lt;p&gt;由圖中可以看到在新上市櫃公司當中，
 身處主要群體的公司佔整體比重平均低於五成。
 2002 年之前還曾在五成以上，但這比率逐年降至三成以下。
-由此可見是否有主要群體的法人董監事參與，
-這件事似乎並不會為公司帶來優勢。&lt;/p&gt;
-&lt;p&gt;而從歷年興櫃公司法人董監事觀察亦知，
+由此可見是否有主要群體的法人董監參與，
+這件事似乎並沒有明顯差異。&lt;/p&gt;
+&lt;p&gt;而從歷年興櫃公司法人董監比例觀察亦知，
 身處主要群體的興櫃公司比重平均也不超過五成，
 而且這比重也正逐年下降當中。&lt;/p&gt;
 &lt;p&gt;相較於主要群體成員佔所有公司比重持續超過八成而言，
