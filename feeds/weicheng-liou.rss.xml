@@ -8,27 +8,27 @@
 所以這邊試著逐年檢定觀察，也可了解比例變化的趨勢。
 圓圈為樣本平均，綠色棒為 99% 信賴區間，虛線為虛無假設的目標值。&lt;/p&gt;
 &lt;h2&gt;新上市櫃公司中法人董監比例是否偏高？&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrIvstRatio.New.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrIvstRatio.New.png" /&gt;&lt;/p&gt;
 &lt;p&gt;除了 2000 年以外，幾乎皆明顯高於五成。&lt;/p&gt;
 &lt;h2&gt;興櫃公司中法人董監比例是否偏高？&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrIvstRatio.Reg.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrIvstRatio.Reg.png" /&gt;&lt;/p&gt;
 &lt;p&gt;每年均明顯高於五成，且樣本平均高於新上市櫃公司的法人董監比例。&lt;/p&gt;
 &lt;h2&gt;新上市櫃公司中主要群體比例是否偏高？&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrMaxGrpRatio.New.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrpRatio.New.png" /&gt;&lt;/p&gt;
 &lt;p&gt;2002 年以前樣本平均大多高於五成，且 1998 年時明顯高於五成。
 而 2003 年以後樣本平均逐年下降， 十二年的資料裡有六年明顯低於五成。
 IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
 &lt;h2&gt;興櫃公司中主要群體比例是否偏高？&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrMaxGrpRatio.Reg.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrpRatio.Reg.png" /&gt;&lt;/p&gt;
 &lt;p&gt;2008 年以前主要群體比例並不明顯低於五成，
 但 2011 年以後明顯低於五成，
 表示近年來主要群體在興櫃市場的投資意願不足。&lt;/p&gt;
 &lt;h2&gt;有法人代表的新上市櫃公司中主要群體比例&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrMaxGrp2Ivst.New.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrp2Ivst.New.png" /&gt;&lt;/p&gt;
 &lt;p&gt;2002 年以前主要群體比例明顯較高，
 但 2003 年以後並無顯著差異。&lt;/p&gt;
 &lt;h2&gt;有法人代表的興櫃公司中主要群體比例&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrMaxGrp2Ivst.Reg.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrp2Ivst.Reg.png" /&gt;&lt;/p&gt;
 &lt;p&gt;2009 年以前八年的資料中，有五年明顯高於五成。
 2010 年以後變得較不顯著，但 2014 年明顯低於五成。&lt;/p&gt;
 &lt;p&gt;對資料有以上初步了解後，
@@ -117,40 +117,67 @@ IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;雖然得到了以上結果，
 但該模型應用在實際的 IPO 預測仍有一段距離。
-因為該模型的 $R^2$ 值為 0.0411，
+因為該模型的 &lt;span class="math"&gt;\(R^2\)&lt;/span&gt; 值為 0.0411，
 不高的解釋程度告訴我們除了以上變數之外，
 應該還有其他重要因子待我們去挖掘出來，
-這點還有待後續努力。&lt;/p&gt;&lt;script type= "text/javascript"&gt;
-    if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-        var mathjaxscript = document.createElement('script');
-        mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-        mathjaxscript.type = 'text/javascript';
-        mathjaxscript.src = 'https:' == document.location.protocol
-                ? 'https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
-                : 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-        mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-            "MathJax.Hub.Config({" +
-            "    config: ['MMLorHTML.js']," +
-            "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-            "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-            "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-            "    displayAlign: 'center'," +
-            "    displayIndent: '0em'," +
-            "    showMathMenu: true," +
-            "    tex2jax: { " +
-            "        inlineMath: [ ['$','$'] ], " +
-            "        displayMath: [ ['$$','$$'] ]," +
-            "        processEscapes: true," +
-            "        preview: 'TeX'," +
-            "    }, " +
-            "    'HTML-CSS': { " +
-            "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
-            "    } " +
-            "}); ";
-        (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+這點還有待後續努力。&lt;/p&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
     }
-&lt;/script&gt;
-</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">WeiCheng Liou</dc:creator><pubDate>Wed, 21 Oct 2015 14:00:00 +0800</pubDate><guid>tag:WeiChengLiou.github.io,2015-10-21:blog/blog/2015/10/21/ivstSNA_stat/</guid><category>台灣公司關係圖</category></item><item><title>新創企業的貴人-投資公司</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/</link><description>&lt;p&gt;本文為作者與中央研究院資訊所何建民老師、台灣大學會計系王泰昌教授合作指導研究計畫的一部分。
+
+    var mathjaxscript = document.createElement('script');
+    var location_protocol = (false) ? 'https' : document.location.protocol;
+    if (location_protocol !== 'http' &amp;&amp; location_protocol !== 'https') location_protocol = 'https:';
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = location_protocol + '//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">WeiCheng Liou</dc:creator><pubDate>Wed, 21 Oct 2015 14:00:00 +0800</pubDate><guid>tag:WeiChengLiou.github.io,2015-10-21:blog/blog/2015/10/21/ivstSNA_stat/</guid><category>台灣公司關係圖</category></item><item><title>新創企業的貴人-投資公司</title><link>http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/</link><description>&lt;p&gt;本文為作者與中央研究院資訊所何建民老師、台灣大學會計系王泰昌教授合作指導研究計畫的一部分。
 主要討論新上市櫃公司的法人股東角色，法人股東主要有以下幾種：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;國外法人&lt;/li&gt;
