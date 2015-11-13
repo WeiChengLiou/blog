@@ -91,6 +91,8 @@ def reads(fi):
 
 
 def chkfi(srcpath, dstpath, fi, fidic):
+    if dstpath not in fi:
+        return
     fi1 = fi.replace(dstpath, '')
     src = srcpath + fi1
 

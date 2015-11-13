@@ -53,12 +53,14 @@ CODE_DIR = 'downloads/code'
 NOTEBOOK_DIR = 'downloads/notebooks'
 
 # Theme and plug-ins.
+path0 = os.path.join(os.environ.get('HOME'), 'repos')
 path = os.path.join(os.environ.get('HOME'), 'repos/pelican')
 THEME = '%s/pelican-octopress-theme' % path
+# PLUGIN_PATH = ['%s/pelican-plugins' % path, '%s/pelican-plugins' % path0]
 PLUGIN_PATH = '%s/pelican-plugins' % path
 PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
-           'liquid_tags.literal']
+           'liquid_tags.literal', 'render_math']
 
 DISPLAY_CATEGORIES_ON_MENU = False
 
