@@ -1808,29 +1808,149 @@ jQuery(document).ready(function($) {
 所以這邊試著逐年檢定觀察，也可了解比例變化的趨勢。
 圓圈為樣本平均，綠色棒為 99% 信賴區間，虛線為虛無假設的目標值。</p>
 <h2>新上市櫃公司中法人董監比例是否偏高？</h2>
-<p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrIvstRatio.New.png" /></p>
+<p><img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrIvstRatio.New.png" /></p>
 <p>除了 2000 年以外，幾乎皆明顯高於五成。</p>
 <h2>興櫃公司中法人董監比例是否偏高？</h2>
-<p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrIvstRatio.Reg.png" /></p>
+<p><img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrIvstRatio.Reg.png" /></p>
 <p>每年均明顯高於五成，且樣本平均高於新上市櫃公司的法人董監比例。</p>
 <h2>新上市櫃公司中主要群體比例是否偏高？</h2>
-<p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrpRatio.New.png" /></p>
+<p><img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrMaxGrpRatio.New.png" /></p>
 <p>2002 年以前樣本平均大多高於五成，且 1998 年時明顯高於五成。
 而 2003 年以後樣本平均逐年下降， 十二年的資料裡有六年明顯低於五成。
 IPO 成功公司中的主要群體比例正逐年下降。</p>
 <h2>興櫃公司中主要群體比例是否偏高？</h2>
-<p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrpRatio.Reg.png" /></p>
+<p><img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrMaxGrpRatio.Reg.png" /></p>
 <p>2008 年以前主要群體比例並不明顯低於五成，
 但 2011 年以後明顯低於五成，
 表示近年來主要群體在興櫃市場的投資意願不足。</p>
 <h2>有法人代表的新上市櫃公司中主要群體比例</h2>
-<p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrp2Ivst.New.png" /></p>
+<p><img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrMaxGrp2Ivst.New.png" /></p>
 <p>2002 年以前主要群體比例明顯較高，
 但 2003 年以後並無顯著差異。</p>
 <h2>有法人代表的興櫃公司中主要群體比例</h2>
-<p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrMaxGrp2Ivst.Reg.png" /></p>
+<p><img alt="png" src="{filename}/images/ivstSNA_stat_files/ErrMaxGrp2Ivst.Reg.png" /></p>
 <p>2009 年以前八年的資料中，有五年明顯高於五成。
-2010 年以後變得較不顯著，但 2014 年明顯低於五成。</p></div>
+2010 年以後變得較不顯著，但 2014 年明顯低於五成。</p>
+<p>對資料有以上初步了解後，
+接下來我們試著應用以上結論至 IPO 預測模型試試。</p>
+<h2>應用於 IPO 模型結果</h2>
+<p>本節試著把前述結論，結合部份社會網路分析常用的中間度指標，至羅吉斯迴歸模型 (Logistic Regression Model)。
+根據參數估計結果觀察結論是否一致。</p>
+<p>解釋變數列示如下：</p>
+<ol>
+<li>regok: 財報表現是否符合上櫃標準</li>
+<li>maxgrp: 是否屬於主要群體</li>
+<li>degree: 連接數</li>
+<li>closeness: 標準化後 closeness centrality 取倒數，因為各年度網路大小不完全相同，故以標準化後數值處理。因取倒數故，數值越高者代表其重要性越高。</li>
+<li>betweeness: 標準化後 betweenness centrality。</li>
+</ol>
+<p>假設各年的資料之間彼此獨立，
+則參數估計結果如下：</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>coef</th>
+<th>std err</th>
+<th>z</th>
+<th>P&gt; &#124; z &#124;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Intercept</td>
+<td>-1.4699</td>
+<td>0.144</td>
+<td>-10.188</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td>regok</td>
+<td>0.9959</td>
+<td>0.137</td>
+<td>7.268</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td>maxgrp</td>
+<td>-0.5457</td>
+<td>0.280</td>
+<td>-1.948</td>
+<td>0.051</td>
+</tr>
+<tr>
+<td>degree</td>
+<td>-0.1784</td>
+<td>0.040</td>
+<td>-4.435</td>
+<td>0.000</td>
+</tr>
+<tr>
+<td>closeness</td>
+<td>11.9419</td>
+<td>4.510</td>
+<td>2.648</td>
+<td>0.008</td>
+</tr>
+<tr>
+<td>betweeness</td>
+<td>30.7502</td>
+<td>46.427</td>
+<td>0.662</td>
+<td>0.508</td>
+</tr>
+</tbody>
+</table>
+<p>從以上參數估計結果可知：</p>
+<ol>
+<li>財報表現因子如預期般表現顯著。</li>
+<li>主要群體因子影響並不太顯著，而且還可能有負影響。</li>
+<li>連接數因子表現顯著，但連接數越多，成功 IPO 機會越低。</li>
+<li>closeness 因子表現顯著，而且重要性越高則 IPO 機會越高。</li>
+</ol>
+<p>用白話的方式簡述以上參數估計結果就是：</p>
+<ol>
+<li>財報表現一定要合格</li>
+<li>主要團體不會比較好</li>
+<li>關係不一定要多</li>
+<li>接近團體核心比較重要</li>
+</ol>
+<p>雖然得到了以上結果，
+但該模型應用在實際的 IPO 預測仍有一段距離。
+因為該模型的 $R^2$ 值為 0.0411，
+不高的解釋程度告訴我們除了以上變數之外，
+應該還有其他重要因子待我們去挖掘出來，
+這點還有待後續努力。</p><script type= "text/javascript">
+    if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+        var mathjaxscript = document.createElement('script');
+        mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+        mathjaxscript.type = 'text/javascript';
+        mathjaxscript.src = 'https:' == document.location.protocol
+                ? 'https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
+                : 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+        mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+            "MathJax.Hub.Config({" +
+            "    config: ['MMLorHTML.js']," +
+            "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+            "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+            "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+            "    displayAlign: 'center'," +
+            "    displayIndent: '0em'," +
+            "    showMathMenu: true," +
+            "    tex2jax: { " +
+            "        inlineMath: [ ['$','$'] ], " +
+            "        displayMath: [ ['$$','$$'] ]," +
+            "        processEscapes: true," +
+            "        preview: 'TeX'," +
+            "    }, " +
+            "    'HTML-CSS': { " +
+            "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'black ! important'} }" +
+            "    } " +
+            "}); ";
+        (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+    }
+</script>
+</div>
     <footer>
 <p class="meta">
   <span class="byline author vcard">
