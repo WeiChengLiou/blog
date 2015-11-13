@@ -116,36 +116,29 @@ category: 台灣公司關係圖
 我們試圖將成功次數在五次以上者列出如下：
 
 
-投資公司 | 成功次數 | 是否為主要集團 | 主要股東或代表集團
----------|----------|----------------|--------------------
-[開發](http://company.g0v.ronny.tw/id/11147207) | 80 | Y | 開發金
-[交銀](http://company.g0v.ronny.tw/id/03720209) | 26 | Y | 兆豐金
-[臺銀](http://company.g0v.ronny.tw/id/03557311) | 11 | Y | 財政部
-[光華投資](http://company.g0v.ronny.tw/id/05008092) | 11 | Y | 國民黨
-[兆豐商銀](http://company.g0v.ronny.tw/id/03705903) | 11 | Y | 兆豐金
-[行政院開發基](http://company.g0v.ronny.tw/id/nan) | 9 | Y | 行政院
-[中盈投資](http://company.g0v.ronny.tw/id/96975508) | 9 | Y | 中鋼
-[中央投資](http://company.g0v.ronny.tw/id/03064421) | 8 | Y | 國民黨
-[中華開發創投](http://company.g0v.ronny.tw/id/nan) | 8 | Y | 開發金
-[聯電](http://company.g0v.ronny.tw/id/47217677) | 8 | Y | 聯電
-[中亞創投](http://company.g0v.ronny.tw/id/84442466) | 7 | Y | 開發金
-[Ｄ和通創投](http://company.g0v.ronny.tw/id/22522685) | 7 | Y | 台隆工業
-[中歐創投](http://company.g0v.ronny.tw/id/23226655) | 6 | Y | 開發金
-[華榮](http://company.g0v.ronny.tw/id/79460007) | 6 | Y | 華榮電線電纜
-[台元創投](http://company.g0v.ronny.tw/id/nan) | 6 | Y | 裕隆、台元紡織
-[和通創投](http://company.g0v.ronny.tw/id/86383174) | 6 | Y | 台隆工業
-[財政部](http://company.g0v.ronny.tw/id/nan) | 6 | Y | 財政部
-[中鋼](http://company.g0v.ronny.tw/id/30414175) | 5 | Y | 中鋼
-[富鼎創業投資](http://company.g0v.ronny.tw/id/nan) | 5 | Y | 信邦電、台肥、永豐證、義隆電、元富證、優群、崇越...
-[華銀](http://company.g0v.ronny.tw/id/03742301) | 5 | Y | 華南金
-[華新](http://company.g0v.ronny.tw/id/35412204) | 5 | Y | 華新麗華
-[華邦電](http://company.g0v.ronny.tw/id/22099218) | 5 | Y | 華新麗華
-[普訊創投](http://company.g0v.ronny.tw/id/23534317) | 5 | Y | 台達電、英業達、致茂、義美
-[宏電](http://company.g0v.ronny.tw/id/47230290) | 5 | Y | 宏碁
-
+投資公司 | 成功次數 | 主要股東或代表集團
+---------|----------|---------------------
+[開發](http://company.g0v.ronny.tw/id/11147207) | 57 | 開發金
+[交銀](http://company.g0v.ronny.tw/id/03720209) | 21 | 兆豐金
+[光華投資](http://company.g0v.ronny.tw/id/05008092) | 8 | 國民黨
+[中盈投資](http://company.g0v.ronny.tw/id/96975508) | 8 | 中鋼
+[行政院開發基](http://www.google.com/search?q=行政院開發基) | 8 | 行政院
+[兆豐商銀](http://company.g0v.ronny.tw/id/03705903) | 7 | 兆豐金
+[中歐創投](http://company.g0v.ronny.tw/id/23226655) | 6 | 開發金
+[Ｄ和通創投](http://company.g0v.ronny.tw/id/22522685) | 6 | 台隆工業
+[富鼎創業投資](http://company.g0v.ronny.tw/id/nan) | 6 | 信邦電、台肥、永豐證、義隆電、元富證、優群、崇越...
+[華邦電](http://company.g0v.ronny.tw/id/22099218) | 5 | 華新麗華
+[中華開發創投](http://www.google.com/search?q=中華開發創投) | 5 | 開發金
+[大同](http://company.g0v.ronny.tw/id/11026506) | 5 | 大同
+[台元創投](http://www.google.com/search?q=台元創投) | 5 | 裕隆、台元紡織
+[和通創投](http://company.g0v.ronny.tw/id/86383174) | 5 | 台隆工業
+[中鋼](http://company.g0v.ronny.tw/id/30414175) | 5 | 中鋼
+[新揚投資](http://company.g0v.ronny.tw/id/97161972) | 5 | 裕隆
+[中央投資](http://company.g0v.ronny.tw/id/03064421) | 5 | 國民黨
+[華榮](http://company.g0v.ronny.tw/id/79460007) | 5 | 華榮電線電纜
 
 看起來成功次數較多者，多與國內主要財團與銀行有關。
-但其中有趣的是，國民黨的黨營事業--中央投資與光華投資也名列前五名之內。
+但其中有趣的是，國民黨的黨營事業--中央投資與光華投資也名列當中。
 配合排行居於前位的兆豐金與開發金等集團，
 我們似乎可以想像得到：藉著過去黨國資本主義的裙帶關係與潛規則運作，
 國民黨的黨營事業似乎比一般法人機構更容易獲得投資新上市櫃公司的機會。
@@ -156,7 +149,7 @@ category: 台灣公司關係圖
 ![png]({filename}/images/ivstSNA_files/cntdicNewList_5y.png)
 
 根據過去五年成功案例統計可發現，
-開發工銀、兆豐金、國發基金與國營事業依舊維持一定的成功次數。
+開發工銀、兆豐金、國發基金依舊維持一定的成功次數。
 但如今開發工銀已非黨營事業，而兆豐金背後最大股東是財政部。
 過去黨營事業結構龐大，但隨著國民黨逐一出脫手中黨營事業 (Ex: 復華金、開發金、建華銀行等)，投資新上市櫃公司的影響力似乎也日漸式微。
 
@@ -223,9 +216,9 @@ category: 台灣公司關係圖
 3. 主要群體的興櫃公司比重正逐年下降中。
 4. 黨營事業的成功率逐年下降，但兆豐金與開發金之相關事業仍有一定影響力。
 
-對於黨營事業為何會逐年下降，這點或許與金控公司法通過與民進黨執政後要求歸還檔產生浪逐漸加大有關。
+對於黨營事業為何會逐年下降，這點或許與金控公司法通過，與民進黨執政後要求歸還黨產聲浪逐漸加大有關。
 
-文末附上國民黨出脫黨營事業簡表，供讀者參觀對照。
+最後附上國民黨出脫黨營事業簡表，供讀者參觀對照。
 
     2001: 
         - 金控法通過
