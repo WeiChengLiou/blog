@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/tai-wan-gong-si-guan-xi-tu.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2015-10-22T14:00:00+08:00</updated><entry><title>是否存在優秀的投資公司</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/22/ivstSNA_keycom/" rel="alternate"></link><updated>2015-10-22T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-22:blog/blog/2015/10/22/ivstSNA_keycom/</id><summary type="html">&lt;p&gt;這篇文章將就成功次數較多之投資公司進行近一步探討。
-我們將以興櫃市場為主，分就以下層面進行研究：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;興櫃轉上市櫃機率&lt;/li&gt;
-&lt;li&gt;考慮績效條件後機率變化&lt;/li&gt;
-&lt;li&gt;某些特定主要群體公司（兆豐金、開發金）是否有明顯優勢？&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;興櫃轉上市櫃機率&lt;/h2&gt;
-&lt;p&gt;興櫃市場於 2002 年成立，
-目前櫃買中心要求新上櫃公司須在興櫃登錄六個月以上，
-讓投資大眾有更多機會認識新上櫃公司。&lt;/p&gt;
-&lt;p&gt;扣除直接上市、同年度登錄興櫃與上櫃公司後，
-目前興櫃公司轉上櫃機率為&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>投資公司投資成效檢定</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/21/ivstSNA_stat/" rel="alternate"></link><updated>2015-10-21T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-21:blog/blog/2015/10/21/ivstSNA_stat/</id><summary type="html">&lt;p&gt;這篇文章是作為前篇文章的補充，提供統計檢定結果給有興趣深入了解的人。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/tai-wan-gong-si-guan-xi-tu.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2015-10-21T14:00:00+08:00</updated><entry><title>投資公司投資成效檢定</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/21/ivstSNA_stat/" rel="alternate"></link><updated>2015-10-21T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-21:blog/blog/2015/10/21/ivstSNA_stat/</id><summary type="html">&lt;p&gt;這篇文章是作為前篇文章的補充，提供統計檢定結果給有興趣深入了解的人。
 主要藉著單一母體比例假設檢定，逐年檢定我們關心的項目是否明顯大於或小於 50%。
+會採用逐年檢定的原因，
+因為每年的資料並不完全獨立，
+有些公司可能持有某公司好幾年後才撐到 IPO，
+如此同組 投資-被投資 公司配對樣本就會連續出現好幾年，
+所以這邊試著逐年檢定觀察，也可了解比例變化的趨勢。
 圓圈為樣本平均，綠色棒為 99% 信賴區間，虛線為虛無假設的目標值。&lt;/p&gt;
 &lt;h2&gt;新上市櫃公司中法人董監比例是否偏高？&lt;/h2&gt;
 &lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/ivstSNA_stat_files/ErrIvstRatio.New.png" /&gt;&lt;/p&gt;
@@ -445,45 +438,7 @@ IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
 但我們或許可以問的是：若我是有意在臺灣上市櫃的新創事業老闆或股東，
 這樣的網絡結構是否對我有影響？
 這問題將在下篇文章進一步探討。&lt;/p&gt;
-&lt;p&gt;本文屬 TEJ 部份權利屬於臺灣經濟新報所有。&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>從上市櫃公司看黨營事業變化</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/09/24/kmt_history/" rel="alternate"></link><updated>2015-09-24T17:23:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-09-24:blog/blog/2015/09/24/kmt_history/</id><summary type="html">&lt;p&gt;從之前的文章中，
-我們發現過去黨營事業在不少上市櫃公司擔任董監事，
-因此本篇文章即將討論黨營事業的投資變化。&lt;/p&gt;
-&lt;p&gt;下圖為黨營事業的直接持股變化&lt;/p&gt;
-&lt;p&gt;[add pic]&lt;/p&gt;
-&lt;p&gt;其中中央投資、光華投資等為國民黨完全持股的黨營事業，
-其在 2002 年以前直接投資公司家數一度位居全國前三名。&lt;/p&gt;
-&lt;p&gt;但我們接下來想問的是，
-若包含各種間接投資的話，
-黨營事業究竟會持有多少公司？
-為此我製作了持股動畫來表示黨營事業的持股變化。
-以表格方式來表達的話，
-我們可以看到核心成員、非核心成員與投資夥伴的分別。&lt;/p&gt;
-&lt;p&gt;[add table]&lt;/p&gt;
-&lt;p&gt;其中我們可以看到，在近幾年國民黨擔任董監事的公司數大幅減少，至 2007 年已沒有任何相關資訊了。但真的是這樣嗎？&lt;/p&gt;
-&lt;p&gt;從之前的文章知道，
-黨營事業依然在不少公司佔有董監事席次，
-但這些公司均非上市櫃公司，
-所以至今僅能從經濟部營利事業登記資料與國民黨的公開年報得知大略的投資內容了。
-這件事其實很可惜，不論任何政黨或政治人物，
-因其主要從事的工作影響公眾利益甚鉅，
-為降低利益衝突的可能性，
-理應公佈財產內容供大眾審閱監督。
-但若有方便的機器讀取格式，
-就能讓民間更易於發展相關應用。
-只是這點對當前政府而言，
-應該是相當不情願的吧。&lt;/p&gt;
-&lt;p&gt;&lt;a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;&lt;img
-alt="Creative Commons License" style="border-width:0"
-src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /&gt;&lt;/a&gt;&lt;br /&gt;&lt;span
-xmlns:dct="http://purl.org/dc/terms/"
-property="dct:title"&gt;Gilbert's Data Lab&lt;/span&gt; by &lt;a
-xmlns:cc="http://creativecommons.org/ns#" href="http://WeiChengLiou.github.io/"
-property="cc:attributionName" rel="cc:attributionURL"&gt;WeiCheng Liou&lt;/a&gt; is
-licensed under a &lt;a rel="license"
-href="http://creativecommons.org/licenses/by-sa/4.0/"&gt;Creative Commons
-Attribution-ShareAlike 4.0 International License&lt;/a&gt;.&lt;br /&gt;Based on a work at &lt;a
-xmlns:dct="http://purl.org/dc/terms/" href="http://WeiChengLiou.github.io/"
-rel="dct:source"&gt;http://WeiChengLiou.github.io/&lt;/a&gt;.&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>台灣公司關係圖後續計畫</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/09/01/twcom_todo/" rel="alternate"></link><updated>2014-09-01T07:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-09-01:blog/blog/2014/09/01/twcom_todo/</id><summary type="html">&lt;p&gt;在參加資料科學愛好者年會暨第十次黑客松之後，要先寫下後續計畫提醒自己盡快完成。&lt;/p&gt;
+&lt;p&gt;本文屬 TEJ 部份權利屬於臺灣經濟新報所有。&lt;/p&gt;</summary><category term="台灣公司關係圖"></category></entry><entry><title>台灣公司關係圖後續計畫</title><link href="http://WeiChengLiou.github.io/blog/blog/2014/09/01/twcom_todo/" rel="alternate"></link><updated>2014-09-01T07:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2014-09-01:blog/blog/2014/09/01/twcom_todo/</id><summary type="html">&lt;p&gt;在參加資料科學愛好者年會暨第十次黑客松之後，要先寫下後續計畫提醒自己盡快完成。&lt;/p&gt;
 &lt;p&gt;寫在開頭之前，有些感想先提一下，我是資料分析的愛好者，也是 &lt;a href="https://www.facebook.com/Tw.R.User"&gt;Taiwan R User Group&lt;/a&gt; 長期參與者。
 受到 g0v 村長感召（躺在病床上還不忘寫程式真是太讚了）而決定投入開放資料的分析研究。
 作這個一邊是興趣一邊當練功，雖然無償但我作得爽。
