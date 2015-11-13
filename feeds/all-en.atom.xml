@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2015-10-21T14:00:00+08:00</updated><entry><title>投資公司投資成效檢定</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/21/ivstSNA_stat/" rel="alternate"></link><updated>2015-10-21T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-21:blog/blog/2015/10/21/ivstSNA_stat/</id><summary type="html">&lt;p&gt;這篇文章是作為前篇文章的補充，提供統計檢定結果給有興趣深入了解的人。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/all-en.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2015-10-21T14:00:00+08:00</updated><entry><title>投資公司投資成效檢定</title><link href="http://WeiChengLiou.github.io/blog/blog/2015/10/21/ivstSNA_stat/" rel="alternate"></link><updated>2015-10-21T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2015-10-21:blog/blog/2015/10/21/ivstSNA_stat/</id><summary type="html">&lt;p&gt;這篇文章是作為&lt;a href="http://WeiChengLiou.github.io/blog/blog/2015/10/08/ivstSNA/"&gt;前篇文章&lt;/a&gt;的補充，提供統計檢定結果給有興趣深入了解的人。
 主要藉著單一母體比例假設檢定，逐年檢定我們關心的項目是否明顯大於或小於 50%。
 會採用逐年檢定的原因，
 因為每年的資料並不完全獨立，
@@ -38,7 +38,7 @@ IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
 &lt;li&gt;國內投資/創投公司&lt;/li&gt;
 &lt;li&gt;金融業&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;根據前文我們了解臺灣的企業投資網絡中，
+&lt;p&gt;根據&lt;a href="http://WeiChengLiou.github.io/blog/blog/2015/10/08/twcom_tej/"&gt;前文&lt;/a&gt;我們了解臺灣的企業投資網絡中，
 存在一個由各大財團、金融業、黨營事業等合成的主要群體。
 既然在長期下持續維持此結構，
 那麼有志於在臺灣上市櫃的企業應如何尋找創投資金？&lt;/p&gt;
