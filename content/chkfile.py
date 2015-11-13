@@ -10,6 +10,29 @@ import re
 from pdb import set_trace
 
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
+
+def pbold(s):
+    return bcolors.OKBLUE + s + bcolors.ENDC
+
+
+def pwarn(s):
+    return bcolors.WARNING + s + bcolors.ENDC
+
+
+begint = datetime.fromordinal(datetime.now().toordinal() - 1)
+srcpath = '/home/gilbert/repos/rating/result/'
+
+
 def gett(fi):
     try:
         return time.ctime(os.path.getmtime(fi))
@@ -17,12 +40,10 @@ def gett(fi):
         return 0
 
 
-srcpath = '/home/gilbert/repos/rating/result/'
-
-
 def watch(fis, dstpaths):
-    chk = lambda mainfi, srcpath, dstpath, fidic: [
-        chkfi(srcpath, dstpath, fi, fidic) for fi in reads(mainfi)]
+    def chk(mainfi, srcpath, dstpath, fidic):
+        print bcolors.HEADER, mainfi, bcolors.ENDC
+        [chkfi(srcpath, dstpath, fi, fidic) for fi in reads(mainfi)]
 
     t0 = {fi: gett(fi) for fi in fis}
     fidics = {}
@@ -72,26 +93,29 @@ def reads(fi):
 def chkfi(srcpath, dstpath, fi, fidic):
     fi1 = fi.replace(dstpath, '')
     src = srcpath + fi1
+
+    if not os.path.exists(src):
+        print pwarn('WARNING: {0} not exists!'.format(src))
+        return
+
+    t0 = fidic.get(src)
     t1 = gett(src)
-
-    if not exists(fi):
-        cp(src, dstpath)
-        fidic[src] = t1
-
-    if src not in fidic:
-        fidic[src] = gett(fi)
-        # fidic[src] = t1
-    if fidic[src] != t1:
-        cp(src, dstpath)
+    if t0 != t1:
+        cp(src, dstpath, t1)
         fidic[src] = t1
 
 
-def cp(src, dstpath):
+def cp(src, dstpath, t1):
     try:
+        t1 = datetime.strptime(t1, '%a %b %d %H:%M:%S %Y')
         os.system('cp %s %s' % (src, dstpath))
-        print src, 'copied'
+        src1 = src.replace(srcpath, '')
+        if t1 >= begint:
+            print pbold('COPY: {0:40} {1}'.format(src1, t1))
+        else:
+            print ('COPY: {0:40} {1}'.format(src1, t1))
     except:
-        print 'ERROR COPY:', src
+        print 'ERROR COPY:', src1
         print_exc()
         set_trace()
 
