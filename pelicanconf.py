@@ -41,9 +41,11 @@ LINKS = (('Taiwan R User Group', 'http://www.meetup.com/Taiwan-R/'),
          ('Taipei.py', 'http://taipei.python.org.tw/'),)
 
 # Social widget.
-#SOCIAL = (('Twitter', 'https://twitter.com/GilbertLiou'),
-#          ('Linkedin', 'http://tw.linkedin.com/pub/wei-cheng-liou/57/526/348/'),
-#          )
+SOCIAL = (
+    ('Facebook', 'https://www.facebook.com/gilbert.liou'),
+#     ('Twitter', 'https://twitter.com/GilbertLiou'),
+#     ('Linkedin', 'http://tw.linkedin.com/pub/wei-cheng-liou/57/526/348/'),
+          )
 
 DEFAULT_PAGINATION = 10
 
@@ -76,17 +78,17 @@ else:
     EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
 
 # Sharing
-TWITTER_USER = 'WeichengLiou'
 GOOGLE_PLUS_USER = '+LiouGilbert'
 GOOGLE_PLUS_ONE = True
 GOOGLE_PLUS_HIDDEN = False
 FACEBOOK_LIKE = True
-TWITTER_TWEET_BUTTON = True
-TWITTER_LATEST_TWEETS = True
-TWITTER_FOLLOW_BUTTON = True
-TWITTER_TWEET_COUNT = 3
-TWITTER_SHOW_REPLIES = 'true'
-TWITTER_SHOW_FOLLOWER_COUNT = 'true'
+# TWITTER_USER = 'WeichengLiou'
+# TWITTER_TWEET_BUTTON = True
+# TWITTER_LATEST_TWEETS = True
+# TWITTER_FOLLOW_BUTTON = True
+# TWITTER_TWEET_COUNT = 3
+# TWITTER_SHOW_REPLIES = 'true'
+# TWITTER_SHOW_FOLLOWER_COUNT = 'true'
 
 # RSS/Atom feeds
 FEED_DOMAIN = SITEURL
