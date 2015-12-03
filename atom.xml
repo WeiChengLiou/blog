@@ -59,48 +59,50 @@ IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Intercept&lt;/td&gt;
-&lt;td&gt;-1.4699&lt;/td&gt;
-&lt;td&gt;0.144&lt;/td&gt;
-&lt;td&gt;-10.188&lt;/td&gt;
+&lt;td&gt;-2.1524&lt;/td&gt;
+&lt;td&gt;0.184&lt;/td&gt;
+&lt;td&gt;-11.712&lt;/td&gt;
 &lt;td&gt;0.000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;regok&lt;/td&gt;
-&lt;td&gt;0.9959&lt;/td&gt;
-&lt;td&gt;0.137&lt;/td&gt;
-&lt;td&gt;7.268&lt;/td&gt;
+&lt;td&gt;1.7325&lt;/td&gt;
+&lt;td&gt;0.178&lt;/td&gt;
+&lt;td&gt;9.745&lt;/td&gt;
 &lt;td&gt;0.000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;maxgrp&lt;/td&gt;
-&lt;td&gt;-0.5457&lt;/td&gt;
-&lt;td&gt;0.280&lt;/td&gt;
-&lt;td&gt;-1.948&lt;/td&gt;
-&lt;td&gt;0.051&lt;/td&gt;
+&lt;td&gt;-0.4713&lt;/td&gt;
+&lt;td&gt;0.283&lt;/td&gt;
+&lt;td&gt;-1.666&lt;/td&gt;
+&lt;td&gt;0.096&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;degree&lt;/td&gt;
-&lt;td&gt;-0.1784&lt;/td&gt;
-&lt;td&gt;0.040&lt;/td&gt;
-&lt;td&gt;-4.435&lt;/td&gt;
+&lt;td&gt;-0.1725&lt;/td&gt;
+&lt;td&gt;0.041&lt;/td&gt;
+&lt;td&gt;-4.212&lt;/td&gt;
 &lt;td&gt;0.000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;closeness&lt;/td&gt;
-&lt;td&gt;11.9419&lt;/td&gt;
-&lt;td&gt;4.510&lt;/td&gt;
-&lt;td&gt;2.648&lt;/td&gt;
-&lt;td&gt;0.008&lt;/td&gt;
+&lt;td&gt;10.5927&lt;/td&gt;
+&lt;td&gt;4.535&lt;/td&gt;
+&lt;td&gt;2.336&lt;/td&gt;
+&lt;td&gt;0.019&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;betweeness&lt;/td&gt;
-&lt;td&gt;30.7502&lt;/td&gt;
-&lt;td&gt;46.427&lt;/td&gt;
-&lt;td&gt;0.662&lt;/td&gt;
-&lt;td&gt;0.508&lt;/td&gt;
+&lt;td&gt;36.7377&lt;/td&gt;
+&lt;td&gt;46.502&lt;/td&gt;
+&lt;td&gt;0.790&lt;/td&gt;
+&lt;td&gt;0.430&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;number of observations: 2149&lt;/p&gt;
+&lt;p&gt;&lt;span class="math"&gt;\(R^2\)&lt;/span&gt;: 0.0704&lt;/p&gt;
 &lt;p&gt;從以上參數估計結果可知：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;財報表現因子如預期般表現顯著。&lt;/li&gt;
@@ -117,7 +119,7 @@ IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;雖然得到了以上結果，
 但該模型應用在實際的 IPO 預測仍有一段距離。
-因為該模型的 &lt;span class="math"&gt;\(R^2\)&lt;/span&gt; 值為 0.0411，
+因為該模型的 &lt;span class="math"&gt;\(R^2\)&lt;/span&gt; 值為 0.0704，
 不高的解釋程度告訴我們除了以上變數之外，
 應該還有其他重要因子待我們去挖掘出來，
 這點還有待後續努力。&lt;/p&gt;
@@ -416,7 +418,15 @@ IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
 &lt;li&gt;主要群體的興櫃公司比重正逐年下降中。&lt;/li&gt;
 &lt;li&gt;黨營事業的成功率逐年下降，但兆豐金與開發金之相關事業仍有一定影響力。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;對於黨營事業為何會逐年下降，這點或許與金控公司法通過，與民進黨執政後要求歸還黨產聲浪逐漸加大有關。&lt;/p&gt;
+&lt;h3&gt;後記&lt;/h3&gt;
+&lt;p&gt;對於黨營事業投資數為何會逐年下降，這點過去已有不少文章討論。
+筆者認為主因不脫於民進黨執政後，
+官員與社會要求歸還黨產聲浪逐漸加大有關。&lt;/p&gt;
+&lt;p&gt;另外以筆者過去身處金融業之經驗為例，
+金控公司法通過後，使得國民黨藉此陸續整併旗下投資事業，
+而後復華金與開發金又轉移股權，
+所以至今控制的公司數不像過去那樣多，
+但以現今經濟部商業司資料來看，其實力依舊不可小覷。&lt;/p&gt;
 &lt;p&gt;最後附上國民黨出脫黨營事業簡表，供讀者參觀對照。&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;2001: 
     - 金控法通過
@@ -482,8 +492,9 @@ IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
 但主要群體的連結數 (edge) 比重雖略有下降，但整體約略維持在九成以上水準。表示九成以上的投資關係發生在主要群體之內，比較如下圖：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/yrRatio1.png" /&gt;&lt;/p&gt;
 &lt;p&gt;根據不同來源資料，我們可以作各企業的平均連結數比較。
-如下圖可見，整體而言平均連結數約在 2.4 ~ 2.6 之間，
-與長期投資比較有關。&lt;/p&gt;
+如下圖可見，整體而言平均長期投資數約在 2 ~ 3 之間，
+平均董監公司家數約在 2 以下，
+與經驗直覺相符。&lt;/p&gt;
 &lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/avgdeg.source.png" /&gt;&lt;/p&gt;
 &lt;p&gt;隨著資本市場逐年發展，
 在上市櫃公司與集團投資公司數逐年增加的情況下，
@@ -503,7 +514,7 @@ IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
 &lt;p&gt;為了更清楚每年度投資前十名公司的變化，
 我們試著以 Heat Map 方式來觀察：&lt;/p&gt;
 &lt;p&gt;&lt;img alt="png" src="http://WeiChengLiou.github.io/blog/images/twcom_tej_files/out_deg1.mat.Board.png" /&gt;&lt;/p&gt;
-&lt;p&gt;能在這 18 年中持續居於前十名的公司，主要都是政府、國營事業與大型財團。
+&lt;p&gt;能在這 19 年中持續居於前十名的公司，主要都是政府、國營事業與大型財團。
 在該圖中可看到隨著時代逐漸降低影響力的企業集團，如：和通創投、黨營事業、東森集團等。
 另一方面亦可看到逐漸增加影響力的企業集團，即同屬旺中集團旗下的新紀元投資與中嘉網路。&lt;/p&gt;
 &lt;p&gt;若改從長期投資的資訊切入，觀察每年前十名的變化，我們又能獲得什麼資訊？&lt;/p&gt;
@@ -512,7 +523,7 @@ IPO 成功公司中的主要群體比例正逐年下降。&lt;/p&gt;
 &lt;p&gt;長期而言大部分公司投資數在一百家公司以內，
 但開發工銀的投資數多數時候均傲視群雄，
 一度更曾達到四百間公司以上，但往後投資數卻逐年減少。&lt;/p&gt;
-&lt;p&gt;另一個有趣的地方是，除了開發金之外，
+&lt;p&gt;另一個有趣的地方是，不僅只開發金，
 投資數超過 150 的多半為金融業，
 這點與金融業的自身的行業特性有關。&lt;/p&gt;
 &lt;p&gt;2011 年以後多出不少間財團轉投資成立的創業投資公司。
