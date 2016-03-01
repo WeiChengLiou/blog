@@ -3,6 +3,7 @@
 <style>
 </style>
 <head>
+<title> 黨營事業關係圖 </title>
 <script language="javascript">
 function init() {
     document.frm.ArrorColor[0].checked=true
@@ -171,7 +172,7 @@ function linkArc(d) {
         d.target.y;
 };
 
-var data = d3.json("kmt.json", function(error, graph){
+var data = d3.json("/downloads/data/html/kmt.json", function(error, graph){
     draw(graph, validate());
 });
 

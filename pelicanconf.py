@@ -96,3 +96,6 @@ FEED_ATOM = 'atom.xml'
 
 # Search
 SEARCH_BOX = True
+
+# READERS
+READERS = {'html': None}
