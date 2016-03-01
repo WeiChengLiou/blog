@@ -172,7 +172,7 @@ function linkArc(d) {
         d.target.y;
 };
 
-var data = d3.json("/downloads/data/html/kmt.far.json", function(error, graph){
+var data = d3.json("https://raw.githubusercontent.com/WeiChengLiou/blog/master/content/downloads/data/html/kmt.far.json", function(error, graph){
     draw(graph, validate());
 });
 
