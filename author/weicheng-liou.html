@@ -1796,6 +1796,39 @@ jQuery(document).ready(function($) {
   		<article>
 <header>
       <h1 class="entry-title">
+        <a href="http://WeiChengLiou.github.io/blog/blog/2016/01/06/UbuntuInstall/">Ubuntu 安裝設定</a>
+      </h1>
+      <p class="meta"><time datetime="2016-01-06T14:00:00+08:00" pubdate> 1月 06, 2016</time></p>
+</header>
+
+  <div class="entry-content"><p>最近為了安裝 CUDA，重灌了好幾次，
+這邊先紀錄一下重新安裝套件步驟。</p>
+<h2>更新套件、安裝常用套件</h2>
+<div class="highlight"><pre>&gt;&gt; sudo apt-get update
+&gt;&gt; sudo apt-get upgrade -y
+&gt;&gt; sudo apt-get install tmux git openssh-server vim
+</pre></div>
+
+
+<h2>NVIDIA 驅動程式</h2>
+<p>(NVIDIA 系列圖形加速卡適用)</p>
+<p>先用指令找出顯示卡適合的驅動程式，若要使用 CUDA 就得安裝 NVIDIA 驅動程式。
+CUDA 7.0 以上需要 NVIDIA 352.XX 驅動程式，
+如果查詢後沒出現的話，就是顯卡不支援了。</p>
+<div class="highlight"><pre>&gt;&gt; ubuntu-drivers devices
+</pre></div>
+
+
+<p>假設這邊選擇 nvidia-352，</p>
+<div class="highlight"><pre>&gt;&gt; sudo apt-get purge xserver-xorg-video-nouveau
+&gt;&gt; sudo apt-get ...</pre></div></div>
+  <footer>
+    <a rel="full-article" href="http://WeiChengLiou.github.io/blog/blog/2016/01/06/UbuntuInstall/">Read On &crarr;</a>
+  </footer>
+  		</article>
+  		<article>
+<header>
+      <h1 class="entry-title">
         <a href="http://WeiChengLiou.github.io/blog/blog/2015/10/21/ivstSNA_stat/">投資公司投資成效檢定</a>
       </h1>
       <p class="meta"><time datetime="2015-10-21T14:00:00+08:00" pubdate>10月 21, 2015</time></p>
@@ -2046,7 +2079,7 @@ logy.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf">中研院社會所李宗榮�
 <h3>黨營事業成員</h3>
 <p>國民黨的黨營關係事業成員，以中央投資為核心，層層向外投資。
 在不考慮是否有絕對控制權的情況下，可建構出企業網路生態圖如下：</p>
-<p><a href="http://weichengliou.github.io/blog/downloads/data/html/kmt.html">另開新頁</a></p>
+<p><a href="http://WeiChengLiou.github.io/blog/blog/2014/08/09/kmtnew/downloads/data/html/kmt.html">另開新頁</a></p>
 <p><img alt="png" src="http://WeiChengLiou.github.io/blog/images/kmt_files/kmt_7_1.png" /></p>
 <p>在本圖中，藍色點代表具絕對控制權之企業，暗紅色點為關係企業，而紫色點為其他共同投資者。<br>
 在連結的圖中，綠色點代表具絕對控制權之企業，橙色點為關係企業，而藍色點為其他共同投資者，越粗的線代表席次比重越高。</p>
@@ -2076,26 +2109,6 @@ logy.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf">中研院社會所李宗榮�
     <a rel="full-article" href="http://WeiChengLiou.github.io/blog/blog/2014/08/07/buildblog/">Read On &crarr;</a>
   </footer>
   		</article>
-  		<article>
-<header>
-      <h1 class="entry-title">
-        <a href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/samename/">如何分辨同名同姓</a>
-      </h1>
-      <p class="meta"><time datetime="2014-08-06T23:45:00+08:00" pubdate> 8月 06, 2014</time></p>
-</header>
-
-  <div class="entry-content"><h2>如何辨別同名同姓的董監事？</h2>
-<p>本文將說明在 <a href="http://gcis.nat.g0v.tw/">台灣公司關係圖</a> 的董監事資料中存在同名同姓的問題。董監事名單不像公司一樣有統一編號可供查詢，
-所以在比對不同公司董監事資料時，不可避免地會遇到同名同姓的問題。本文根據法人代表資料並結合不同公司間的相同董監事名單，協助分類同名同姓者。並以此分類結果作為尋找
-家族企業的基準。這篇文章僅為學術研究，模型正確性尚無有效評估方法，故分類結果僅供參考，不代表任何立場。</p>
-<p>以下將先描述同名同姓可能的問題及影響，接下來作分類規則說明，最後是初步分析分類結果。</p>
-<h2>同名同姓有多少？</h2>
-<p>關於同名同姓者這件事，應該要先從董監事姓名大排行談起。以下為最常出現的董監事姓名前 25 名：</p>
-<table><tr><td>姓名</td><td>個數</td></tr><tr><td>陳淑芬</td><td>284</td></tr><tr><td>陳建宏</td><td>270</td></tr><tr><td>陳俊宏</td><td>246</td></tr><tr><td>陳美玲</td><td>243</td></tr><tr><td>林淑惠</td><td>240</td></tr><tr><td>陳怡君</td><td>239</td></tr><tr><td>陳淑惠</td><td>238</td></tr><tr><td>陳淑貞</td><td>237</td></tr><tr><td>陳美惠</td><td>230</td></tr><tr><td>陳麗華</td><td>214</td></tr><tr><td>陳淑娟</td><td>203</td></tr><tr><td>林志明</td><td>195 ...</td></tr></table></div>
-  <footer>
-    <a rel="full-article" href="http://WeiChengLiou.github.io/blog/blog/2014/08/06/samename/">Read On &crarr;</a>
-  </footer>
-  		</article>
 <div class="pagination">
     <a class="prev" href="http://WeiChengLiou.github.io/blog/author/weicheng-liou2.html">&larr; Older</a>
 
@@ -2105,6 +2118,9 @@ logy.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf">中研院社會所李宗榮�
   <section>
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
+      <li class="post">
+          <a href="http://WeiChengLiou.github.io/blog/blog/2016/01/06/UbuntuInstall/">Ubuntu 安裝設定</a>
+      </li>
       <li class="post">
           <a href="http://WeiChengLiou.github.io/blog/blog/2015/10/21/ivstSNA_stat/">投資公司投資成效檢定</a>
       </li>
@@ -2117,9 +2133,6 @@ logy.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf">中研院社會所李宗榮�
       <li class="post">
           <a href="http://WeiChengLiou.github.io/blog/blog/2014/09/01/twcom_todo/">台灣公司關係圖後續計畫</a>
       </li>
-      <li class="post">
-          <a href="http://WeiChengLiou.github.io/blog/blog/2014/08/29/grouping/">集團間研究</a>
-      </li>
     </ul>
   </section>
   <section>
@@ -2129,13 +2142,14 @@ logy.ntu.edu.tw/ntusocial/journal/ts-13/1-4all.pdf">中研院社會所李宗榮�
         <li><a href="http://WeiChengLiou.github.io/blog/category/misc.html">misc</a></li>
         <li><a href="http://WeiChengLiou.github.io/blog/category/python.html">python</a></li>
         <li><a href="http://WeiChengLiou.github.io/blog/category/tai-wan-gong-si-guan-xi-tu.html">台灣公司關係圖</a></li>
+        <li><a href="http://WeiChengLiou.github.io/blog/category/ubuntu.html">Ubuntu</a></li>
     </ul>
   </section>
  
 
   <section>
   <h1>Tags</h1>
-    <a href="http://WeiChengLiou.github.io/blog/tag/python.html">python</a>,    <a href="http://WeiChengLiou.github.io/blog/tag/pelican.html">pelican</a>,    <a href="http://WeiChengLiou.github.io/blog/tag/tai-wan-gong-si-guan-xi-tu.html">台灣公司關係圖</a>  </section>
+    <a href="http://WeiChengLiou.github.io/blog/tag/python.html">python</a>,    <a href="http://WeiChengLiou.github.io/blog/tag/pelican.html">pelican</a>,    <a href="http://WeiChengLiou.github.io/blog/tag/tai-wan-gong-si-guan-xi-tu.html">台灣公司關係圖</a>,    <a href="http://WeiChengLiou.github.io/blog/tag/ubuntu.html">Ubuntu</a>  </section>
 
 
     <section>

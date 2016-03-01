@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Gilbert's Data Lab</title><link href="http://WeiChengLiou.github.io/blog/" rel="alternate"></link><link href="/feeds/ubuntu.atom.xml" rel="self"></link><id>http://WeiChengLiou.github.io/blog/</id><updated>2016-01-06T14:00:00+08:00</updated><entry><title>Ubuntu 安裝設定</title><link href="http://WeiChengLiou.github.io/blog/blog/2016/01/06/UbuntuInstall/" rel="alternate"></link><updated>2016-01-06T14:00:00+08:00</updated><author><name>WeiCheng Liou</name></author><id>tag:WeiChengLiou.github.io,2016-01-06:blog/blog/2016/01/06/UbuntuInstall/</id><summary type="html">&lt;p&gt;最近為了安裝 CUDA，重灌了好幾次，
+這邊先紀錄一下重新安裝套件步驟。&lt;/p&gt;
+&lt;h2&gt;更新套件、安裝常用套件&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo apt-get update
+&amp;gt;&amp;gt; sudo apt-get upgrade -y
+&amp;gt;&amp;gt; sudo apt-get install tmux git openssh-server vim
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;NVIDIA 驅動程式&lt;/h2&gt;
+&lt;p&gt;(NVIDIA 系列圖形加速卡適用)&lt;/p&gt;
+&lt;p&gt;先用指令找出顯示卡適合的驅動程式，若要使用 CUDA 就得安裝 NVIDIA 驅動程式。
+CUDA 7.0 以上需要 NVIDIA 352.XX 驅動程式，
+如果查詢後沒出現的話，就是顯卡不支援了。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; ubuntu-drivers devices
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;假設這邊選擇 nvidia-352，&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo apt-get purge xserver-xorg-video-nouveau
+&amp;gt;&amp;gt; sudo apt-get install nvidia-352
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;CUDA&lt;/h2&gt;
+&lt;p&gt;(NVIDIA 系列圖形加速卡適用)&lt;/p&gt;
+&lt;p&gt;先用指令找出顯示卡適合的驅動程式，若要使用 CUDA 就得安裝 NVIDIA 驅動程式。
+先去這網頁下載 CUDA 的 deb 檔。 (http://developer.nvidia.com/cuda-downloads)&lt;/p&gt;
+&lt;p&gt;根據網頁指示，下載後依序鍵入以下指令：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo dpkg -i cuda-repo-ubuntu1504_7.5-18_amd64.deb &amp;lt;-- 此處換成對應的檔案名稱
+&amp;gt;&amp;gt; sudo apt-get update
+&amp;gt;&amp;gt; sudo apt-get install cuda
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;CUDA 檔案有點大，下載與安裝要花點時間。&lt;/p&gt;
+&lt;h2&gt;cuDNN&lt;/h2&gt;
+&lt;p&gt;(NVIDIA 系列圖形加速卡適用)&lt;/p&gt;
+&lt;p&gt;這邊簡述帶過，
+去 NVIDIA 官網找 cuDNN 套件（需註冊），
+下載完解壓縮後，
+把兩個資料夾檔案分別丟到&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo cp lib/*.* /usr/local/cuda/lib64/
+&amp;gt;&amp;gt; sudo cp include/cudnn.h /usr/local/cuda/include/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Python 相關套件&lt;/h2&gt;
+&lt;h3&gt;Pre-install&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo apt-get install build-essential python-dev gfortran g++
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;OpenBlas&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo apt-get install libopenblas-dev
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Python 相關套件&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo apt-get install python-setuptools
+&amp;gt;&amp;gt; sudo easy_install pip
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Scipy, Numpy, Cython&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo pip install scipy numpy cython
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Matplotlib, seaborn&lt;/h3&gt;
+&lt;p&gt;matplotlib 直接用 pip 安裝會有問題，
+先安裝 freetype, libpng 套件後再安裝一次。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo apt-get install libpng12-dev libjpeg8-dev libfreetype6-dev
+&amp;gt;&amp;gt; sudo pip install matplotlib seaborn
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;Pandas&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo pip install pandas
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h3&gt;IPython&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&amp;gt;&amp;gt; sudo pip install ipython[all]
+&lt;/pre&gt;&lt;/div&gt;</summary><category term="Ubuntu"></category></entry></feed>
